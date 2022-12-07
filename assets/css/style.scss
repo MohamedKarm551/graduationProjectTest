@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+@import "helpers/core";
+
+//libraries
+@import "libraries/line";
+@import "libraries/normalize";
+@import "libraries/bootstrap";
+@import "libraries/swipper";
+
+
+
+//layouts
+@import "layouts/header";
+@import "layouts/nav";
+@import "layouts/footer";
+
+//widgets
+@import "widgets/page-loader";  
+
+//components
+@import "components/buttons";
+@import "components/check";
+@import "components/own-modal";
+@import "components/loader";
+@import "components/form";
+
+//pages
+@import "pages/home";
+@import "pages/login";
+@import "pages/paths";
+@import "pages/contact";
+//global
+@import "global/animations";
+@import "global/classes";
+@import "global/mynor";

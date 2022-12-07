@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #010103 !important;
+}
+.heading {
+  padding: 50px 30px;
+  margin: 20px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+.heading span {
+  color: var(--min-color);
+  text-transform: uppercase;
+}
+.btn {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 9px 30px;
+  font-size: 17px;
+  color: #fff;
+  background: #2196f3;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.btn:hover {
+  letter-spacing: 2px;
+}
+/* .soft {
+  margin: 160px auto;
+} */
+.menu {
+  margin: 10% 0;
+}
+.menu .head-text {
+  color: #fff;
+  text-align: center;
+  margin: 20px auto;
+  line-height: 1.9;
+}
+.menu .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  gap: 15px;
+  padding: 0 20px;
+}
+.menu .box-container .box {
+  padding: 50px;
+  text-align: center;
+  border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+.menu .box-container .box img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.menu .box-container .box h3 {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.menu .box-container .box .price {
+  color: #fff;
+  font-size: 25px;
+  padding: 5px 0;
+}
+.menu .box-container .box span {
+  font-size: 15px;
+  text-decoration: line-through;
+}
+.menu .box-container .box:hover {
+  background-color: #fff;
+}
+.menu .box-container .box:hover > * {
+  color: #13131a;
+}

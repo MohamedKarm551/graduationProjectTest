@@ -1,0 +1,55 @@
+.btn_{
+    position: relative;
+    border-radius: #{$radius};
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 0.92rem;
+    width: 100%;
+    height: 35px;
+    padding: 0.4rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-danger);
+    letter-spacing: 0.04rem;
+    text-transform: capitalize;
+    @for $i from 1 through 1 {
+        &.btn_#{$i}{
+            background: var(--color#{$i});
+            color: #fff;
+            box-shadow: #{$shadow};
+            bdi, i{
+                color: var(--color-silver);
+            }
+            i{
+                margin-left: 0.25rem;
+            }
+            &:active{
+                background: var(--color#{$i}-#{shade});
+            }
+            .light &{
+                background: var(--color-light-primary);
+                &:active{
+                    background: var(--color-light-primary-shade);
+                }
+            }
+        }
+    }
+    &.btn_dark{
+        background: var(--color-dark);
+        .light &{
+            background: var(--color-light-primary);
+            &:active{
+                background: var(--color-light-primary-shade);
+            }
+        }
+        color: #fff;
+        box-shadow: #{$shadow};
+        bdi, i{
+            color: #fff;
+        }
+        &:active{
+            //background: var(--color-dark-light);
+        }
+    }
+}

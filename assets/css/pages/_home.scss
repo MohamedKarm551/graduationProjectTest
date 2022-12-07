@@ -1,0 +1,347 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: ease all 0.5s;
+  -webkit-transition: ease all 0.5s;
+  -moz-transition: ease all 0.5s;
+  -ms-transition: ease all 0.5s;
+  -o-transition: ease all 0.5s;
+}
+
+:root {
+  --main-color: rgba(90,96,119,0.64);
+  --second-color: #2b5464;
+}
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+/* =========================== */
+
+/* Mohamed Mostafa home and landing style  */
+#home {
+  background-image: url("../media/images/landImg.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+#home .layer {
+  background-color: rgba(0, 0, 0, 0.69);
+}
+
+#home .nav-link {
+  color: black;
+  transition: color 0.5s;
+}
+#home .nav-link:hover {
+  color: #e65f78;
+  cursor: pointer;
+}
+
+.home-content p {
+  color: rgba(255, 255, 255, 0.75);
+}
+.settings-icon {
+  position: absolute;
+  top: 55%;
+  left: 0;
+  background-color: #2b2424;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.up-icon {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #e65f78;
+  z-index: 999;
+  color: #fff;
+  cursor: pointer;
+}
+#home .down-icon {
+  height: 45px;
+  width: 25px;
+  border: 2px solid #fff;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 15px;
+  animation: scroll 3s ease-in-out infinite;
+}
+#home .down-icon::after {
+  content: "";
+  width: 3px;
+  height: 10px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 10px;
+  transform: translate(-50%);
+}
+/*  */
+.pill {
+  background-color: #ffffff7d !important;
+}
+/*  */
+
+/* Mohamed Mostafa home and landing style  */
+.videoIntro {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+
+/* main-title */
+
+/* font-family: 'Amiri', serif; */
+
+.main-title {
+  margin: 20px auto;
+  position: relative;
+  padding: 20px;
+  width: fit-content;
+  border: 2px solid #000;
+  /* border-radius: 1em; */
+  /* overflow: hidden; */
+  font-size: 30px;
+  font-family: "Amiri", serif;
+  text-align: center;
+}
+
+/* .main-title:hover h2 {
+  color: #fff;
+  background-color: tomato;
+} */
+
+.main-title::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: rgba(90,96,119,0.64);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -20%;
+  z-index: -1;
+}
+
+.main-title::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: rgba(90,96,119,0.64);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -20%;
+  z-index: -1;
+}
+
+
+
+.main-title:hover::after {
+  animation: title-anim-right 0.8s linear forwards;
+  -webkit-animation: title-anim-right 0.8s linear forwards;
+  /*animation-iteration-count: 2;
+  */
+  /*animation-direction: alternate;
+  */
+}
+
+.main-title:hover::before {
+  animation: title-anim-left 0.8s linear forwards;
+  -webkit-animation: title-anim-left 0.8s linear forwards;
+  /*animation-iteration-count: 2;
+  */
+  /*animation-direction: alternate;
+      */
+}
+.onhover {
+  transform: translate(4px, -4px);
+  box-shadow: -8px 8px 0 #10162f;
+}
+/*  */
+.info-hide {
+  display: none;
+}
+/*  */
+.article-Text {
+  padding: 1%;
+  border: 2px solid #9699a8;
+  font-size: 20px;
+  font-weight: 400;
+}
+.article-Text:hover {
+  text-shadow: 0px 0 black;
+}
+.article-Text pre {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.center-ele {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+}
+.article-Text iframe {
+  margin: auto;
+  display: grid;
+  width: 50%;
+}
+/*  */
+/* start tarek css code slider */
+.swiper {
+  width: 100%;
+}
+.swiper-wrapper {
+  width: 100%;
+  height: 35em;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  width: 22em;
+  height: 90%;
+  background-color: #fff;
+  border-radius: 2em;
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+  padding: 2em 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 2em;
+}
+.swiper-slide:not(.swiper-slide-active) {
+  filter: blur(1px);
+}
+.card_image {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  border: 5px solid var(--main-color);
+  padding: 3px;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+.card_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card_content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card_title {
+  font-size: 1.5em;
+  font-weight: 500;
+  position: relative;
+  top: 0.2em;
+}
+
+.card_name {
+  color: var(--main-color);
+}
+.card_text {
+  text-align: center;
+  font-size: 1.1em;
+  margin: 1em 0;
+}
+
+.card_btn {
+  background-color: var(--main-color);
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  margin-top: 0.5em;
+  cursor: pointer;
+}
+.card_btn:hover {
+  letter-spacing: 1px;
+}
+.card_btn a {
+  color: #fff;
+}
+.card_btn a:hover {
+  color: #fff;
+}
+/*end tarek css code slider */
+/*  */
+
+.fixedTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background: rgb(90,96,119);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  filter: drop-shadow(2px 4px 6px #000);
+  -webkit-filter: drop-shadow(2px 4px 6px #000);
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.fixedTop:hover {
+  animation: pulse 1s infinite ease-in-out alternate;
+  -webkit-animation: pulse 1s infinite ease-in-out alternate;
+}
+
+.fixedTop:hover::after {
+  animation: PointMove 0.2s infinite ease;
+  -webkit-animation: PointMove 0.2s infinite ease;
+}
+
+.fixedTop::after {
+  content: "";
+  width: 10px;
+  height: 5px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 30px gold, 0 0 40px gold, 0 0 50px gold, 0 0 60px gold;
+  filter: blur(2px);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  opacity: 0;
+}
+
+
+/*  */
+
