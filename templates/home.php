@@ -7,7 +7,8 @@
             <h1>We Are Road map We Make Art. </h1>
             <p class="section-subtitle my-5">This is a road map for students of the College of Engineering, Department of Systems and Computers.
             </p>
-            <button class="btn rounded-pill pill">START WEBSITE</button>
+            <button class="btn rounded-pill pill">
+                <a href="#intro" class="start">START WEBSITE</a></button>
         </div>
         <div class="fixed-icon">
             <div class="settings-icon text-white position-fixed">
@@ -20,7 +21,7 @@
     </div>
 </section>
 
-<div class="videoIntro">
+<div class="videoIntro" id="intro">
     <iframe
             width="100%"
             height="500"
@@ -38,7 +39,7 @@
     <!-- المفروض   article-Text info-hide -->
     <div class="article-Text m-5">
         <!-- -->
-        <p><?=l_it_works_in_linking_computer_science_with_relevant;?></p>
+        <p>هو من الأقسام التي تقوم بربط علوم الحاسب بمجالات العمل المختلفة، لذلك فهو يناسب الطلاب الذين يريدون اكتشاف مهاراتهم وقدراتهم على تحليل نظم المعلومات والبيانات في أي منظمة أو شركة. فمن أشهر مجالات ووظائف هذا القسم : حسب تعريف دكتور أشرف المراكبي الرئيس السابق للقسم</p>
         <ul>
           <li>شبكات الحاسب</li>
           <li>البرمجة</li>

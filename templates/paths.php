@@ -20,37 +20,37 @@
                 <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
                 <h3>Control System</h3>
 
-                <a href="#" class="btn">view more &rarr;</a>
+                <a href="#" class="bttn">view more &rarr;</a>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/Embedded.jpg");?>" alt="" />
                 <h3>Embedded System</h3>
 
-                <a href="#" class="btn">view more &rarr;</a>
+                <a href="#" class="bttn">view more &rarr;</a>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/Electronics.jpg");?>" alt="" />
                 <h3>Electronics</h3>
 
-                <a href="#" class="btn">view more &rarr;</a>
+                <a href="#" class="bttn">view more &rarr;</a>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
                 <h3>Control System</h3>
 
-                <a href="#" class="btn">view more &rarr;</a>
+                <a href="#" class="bttn">view more &rarr;</a>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
                 <h3>Control System</h3>
 
-                <a href="#" class="btn">view more &rarr;</a>
+                <a href="#" class="bttn">view more &rarr;</a>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
                 <h3>Control System</h3>
 
-                <a href="#" class="btn">view more &rarr;</a>
+                <a href="#" class="bttn">view more &rarr;</a>
             </div>
         </div>
     </div>
@@ -76,37 +76,37 @@
                 <img src="//<?=f__r("media/images/web.jpg");?>" alt="" />
                 <h3>Web Development</h3>
 
-                <a href="#" class="btn">view more &rarr;</a>
+                <a href="#" class="bttn">view more &rarr;</a>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/android.jpg");?>" alt="" />
                 <h3>Android</h3>
 
-                <a href="#" class="btn">view more &rarr;</a>
+                <a href="#" class="bttn">view more &rarr;</a>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/network.jpg");?>" alt="" />
                 <h3>network</h3>
 
-                <a href="#" class="btn">view more &rarr;</a>
+                <a href="#" class="bttn">view more &rarr;</a>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/security.jpg");?>" alt="" />
                 <h3>cyber security</h3>
 
-                <a href="#" class="btn">view more &rarr;</a>
+                <a href="#" class="bttn">view more &rarr;</a>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/Artificial Intelligence.jpg");?>" alt="" />
                 <h3>Artificial Intelligence</h3>
 
-                <a href="#" class="btn">view more &rarr;</a>
+                <a href="#" class="bttn">view more &rarr;</a>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/data science.jpg");?>" alt="" />
                 <h3>data science</h3>
 
-                <a href="#" class="btn">view more &rarr;</a>
+                <a href="#" class="bttn">view more &rarr;</a>
             </div>
         </div>
     </div>

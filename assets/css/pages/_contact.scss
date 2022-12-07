@@ -1,6 +1,6 @@
-body{
-  background-color: #000 !important;
-}
+//body{
+//  background-color: #000 ;
+//}
 .contact {
   border: 2px solid #000;
   margin-top: calc(10% + 20px);
@@ -30,10 +30,12 @@ body{
     padding: 21% 2% 24% 0%;
   }
 .contactLinks {
-  border: 1px solid #000;
+  //border: 1px solid #000;
   display: grid;
   align-content: center;
   align-items: center;
+  gap: 2px;
+  margin: 2% 0;
   //display: none
   .ui {
     cursor: pointer;
@@ -60,63 +62,66 @@ body{
       font-weight: 700;
 
     }
-    &:hover{
-      background: #000;
-      font-size: 15px;
-      transition: auto;
-      transform: none;
-      a{
-        color: #fff;
-      }
-    }
+
     &.red{
       background-color: #DB2828;
       color: #FFFFFF;
       text-shadow: none;
       background-image: none;
     }
+    &.orange {
+      background-color: #F2711C;
+    }
+    &.yellow{
+      background-color: #FBBD08;
+    }
+    &.olive{
+      background-color: #B5CC18;
+    }
+    &.green{
+      background-color: #21BA45;
+    }
+    &.teal{
+      background-color: #00B5AD;
+    }
+    &.blue{
+      background-color: #2185D0;
+    }
+    &.violet{
+      background-color: #6435C9;
+    }
+    &.purple{
+      background-color: #A333C8;
+    }
+    &.pink{
+      background-color: #E03997;
+    }
+    &.brown{
+      background-color: #A5673F;
+    }
+    &.grey{
+      background-color: #767676;
+    }
+    &.black{
+      background-color: #1B1C1D;
+    }
+    &:hover{
+      background-color:  #000;
+      transition: auto;
+      transform: none;
+      a{
+        color: #fff;
+      }
+    }
   }
-}
+
+}}
 
 
-  .orange {
-    background-color: #F2711C;
-  }
-  .yellow{
-    background-color: #FBBD08;
-  }
-  .olive{
-    background-color: #B5CC18;
-  }
-  .green{
-    background-color: #21BA45;
-  }
-  .teal{
-    background-color: #00B5AD;
-  }
-  .blue{
-    background-color: #2185D0;
-  }
-  .violet{
-    background-color: #6435C9;
-  }
-  .purple{
-    background-color: #A333C8;
-  }
-  .pink{
-    background-color: #E03997;
-  }
-  .brown{
-    background-color: #A5673F;
-  }
-  .grey{
-    background-color: #767676;
-  }
-  .black{
-    background-color: #1B1C1D;
-  }
 
-}
+
+
+
 
 @keyframes img-icon-anim {
   0%,

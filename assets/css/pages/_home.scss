@@ -4,12 +4,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   transition: ease all 0.5s;
-  -webkit-transition: ease all 0.5s;
-  -moz-transition: ease all 0.5s;
-  -ms-transition: ease all 0.5s;
-  -o-transition: ease all 0.5s;
 }
-
+body{
+  background-color: #fff !important;
+}
 :root {
   --main-color: rgba(90,96,119,0.64);
   --second-color: #2b5464;
@@ -95,7 +93,14 @@ a {
   background-color: #ffffff7d !important;
 }
 /*  */
-
+.start{
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+  &:hover{
+    color: #fff!important;
+  }
+}
 /* Mohamed Mostafa home and landing style  */
 .videoIntro {
   display: flex;
@@ -130,7 +135,7 @@ a {
   position: absolute;
   width: 20px;
   height: 20px;
-  background: rgba(90,96,119,0.64);
+  background-color:#0A58CA;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
@@ -143,7 +148,7 @@ a {
   position: absolute;
   width: 20px;
   height: 20px;
-  background: rgba(90,96,119,0.64);
+  background-color: #0A58CA;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
@@ -155,7 +160,6 @@ a {
 
 .main-title:hover::after {
   animation: title-anim-right 0.8s linear forwards;
-  -webkit-animation: title-anim-right 0.8s linear forwards;
   /*animation-iteration-count: 2;
   */
   /*animation-direction: alternate;
@@ -164,12 +168,49 @@ a {
 
 .main-title:hover::before {
   animation: title-anim-left 0.8s linear forwards;
-  -webkit-animation: title-anim-left 0.8s linear forwards;
   /*animation-iteration-count: 2;
   */
   /*animation-direction: alternate;
       */
 }
+@keyframes title-anim-left {
+  50% {
+    left: 0%;
+    width: 20px;
+    height: 20px;
+
+  }
+  100% {
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+}
+
+@keyframes title-anim-right {
+  50% {
+    right: 0%;
+    width: 20px;
+    height: 20px;
+
+  }
+  100% {
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+}
+
 .onhover {
   transform: translate(4px, -4px);
   box-shadow: -8px 8px 0 #10162f;
