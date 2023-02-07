@@ -1,0 +1,72 @@
+///// important:: my stable canvas before Konva /////
+    /* let canv = document.querySelector("#canv");
+    if (canv && canv.getContext) {
+        let canc_width = 1000,
+            canc_height = 1000;
+        canv.width = canc_width;
+        canv.height = canc_height;
+        
+        let ctx = canv.getContext("2d");
+
+        //dimension of cell (when suqare width = height)
+        let cell_dim = 10;
+
+        //get position of cell
+        function getSquare(canv, evt) {
+            var rect = canv.getBoundingClientRect();
+            return {
+                x: 1 + (evt.clientX - rect.left) - (evt.clientX - rect.left)%10,
+                y: 1 + (evt.clientY - rect.top) - (evt.clientY - rect.top)%10
+            };
+        }
+        
+        //draw grid cells
+        function drawGrid(ctx) {
+            for (var x = 0; x <= canc_width; x += cell_dim) {
+              ctx.moveTo(x, 0);
+              ctx.lineTo(x, canc_height);
+            }
+            
+            for (var y = 0; y <= canc_height; y += cell_dim) {
+              ctx.moveTo(0, y);
+              ctx.lineTo(canc_height, y);
+            }
+            if ($('body').attr('class') === 'dark') {
+                ctx.lineWidth = 0.7;
+                ctx.strokeStyle = "#464D5C";
+            } else {
+                ctx.lineWidth = 1.3;
+                ctx.strokeStyle = "#D4D4D4";
+            }
+            ctx.stroke();
+        }
+        
+        //fill the cell when click
+        function fillSquare(ctx, x, y){
+            if ($('body').attr('class') === 'dark') {
+                ctx.fillStyle = "#5F677F";
+            } else {
+                ctx.fillStyle = "#808080";
+            }
+            ctx.fillRect(x ,y ,cell_dim - ctx.lineWidth, cell_dim - ctx.lineWidth);
+        }
+        
+        
+        drawGrid(ctx);
+        
+        canv.addEventListener('click', function(evt) {
+            let mousePos = getSquare(canv, evt);
+            fillSquare(ctx, mousePos.x, mousePos.y)
+            var imgd = ctx.getImageData(mousePos.x, mousePos.y, cell_dim, cell_dim);
+
+            //ctx.putImageData(imgd, mousePos.x+10, mousePos.y+10);
+            //ctx.putImageData(imgd, mousePos.x+20, mousePos.y+20);
+
+            //console.log(pix);
+        }, false);
+
+
+    } else{
+        //when detect error in selector or doesn't supporting canvas
+        alert('error');
+    } */

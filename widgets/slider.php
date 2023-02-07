@@ -8,6 +8,7 @@
             <div class="swiper-wrapper">
                 <div class="card swiper-slide">
                     <div class="card_image">
+
                         <img src="//<?=f__r("media/images/home-slider/Dr.Haitham.png");?>" alt="" />
                     </div>
                     <div class="card_content">
@@ -28,6 +29,7 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card_image">
+
                         <img src="//<?=f__r("media/images/home-slider/Dr.Haitham.png");?>" alt="" />
                     </div>
                     <div class="card_content">
@@ -42,6 +44,7 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card_image">
+
                         <img src="//<?=f__r("media/images/home-slider/Dr.Haitham.png");?>" alt="" />
                     </div>
                     <div class="card_content">
@@ -56,6 +59,7 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card_image">
+
                         <img src="//<?=f__r("media/images/home-slider/Dr.Haitham.png");?>" alt="" />
                     </div>
                     <div class="card_content">
@@ -70,6 +74,7 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card_image">
+
                         <img src="//<?=f__r("media/images/home-slider/Dr.Haitham.png");?>" alt="" />
                     </div>
                     <div class="card_content">

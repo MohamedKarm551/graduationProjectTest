@@ -5,6 +5,9 @@ body {
   box-sizing: border-box;
   transition: ease all 0.5s;
 }
+
+
+
 body {
   background-color: #fff !important;
 }
@@ -20,6 +23,7 @@ ul {
 a {
   text-decoration: none !important;
 }
+
 
 /* =========================== */
 
@@ -91,6 +95,7 @@ a {
   background-color: #ffffff7d !important;
 }
 /*  */
+
 .start {
   color: #000;
   font-size: 17px;
@@ -154,6 +159,8 @@ a {
   z-index: -1;
 }
 
+
+
 .main-title:hover::after {
   animation: title-anim-right 0.8s linear forwards;
   /*animation-iteration-count: 2;
@@ -174,6 +181,7 @@ a {
     left: 0%;
     width: 20px;
     height: 20px;
+
   }
   100% {
     left: 0%;
@@ -192,6 +200,7 @@ a {
     right: 0%;
     width: 20px;
     height: 20px;
+
   }
   100% {
     right: 0%;
@@ -234,6 +243,8 @@ a {
   align-content: center;
   justify-content: center;
   width: fit-content;
+
+  margin: auto;
   // margin: auto;
   background: #00000036;
   width: 90%;
@@ -338,6 +349,8 @@ a {
   bottom: 20px;
   right: 20px;
   z-index: 999;
+
+ 
   background: rgb(90, 96, 119);
   width: 50px;
   height: 50px;
@@ -382,6 +395,9 @@ a {
   -o-transition: all 0.5s;
   opacity: 0;
 }
+
+
+/*  */
 
 /* according */
 
