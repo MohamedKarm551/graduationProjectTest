@@ -1,0 +1,23 @@
+RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^graduation-project.tk/ [NC]
+#RewriteRule ^(.*)$ https://www.graduation-project.tk/$1 [L,R=301,NC]
+
+Options -Indexes
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+
+
+################## app links ######################
+RewriteRule ^([a-z0-9/-]+)$ index.php?url=$1 [QSA,L]
+
+
+
+################### force reload strip string #######################
+RewriteRule ^(.*)\.\d{10}\.(css|js|jpg|jpeg|png|svg)$ $1.$2 [L]
+
+
+################## Erorr Pages ######################
+ErrorDocument 404 /error_pgs/404.php
+ErrorDocument 403 /error_pgs/403.php

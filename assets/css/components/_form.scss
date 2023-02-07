@@ -1,0 +1,31 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    color: inherit;
+    background: #fff;
+    .dark &{
+        background: var(--color-dark-light);
+        border-color: var(--border-color-dark) !important;
+    }
+    select, input, textarea{
+        width: 100%;
+        font-size: 0.9rem;
+        position: relative;
+        &[type="file"]{
+            display: none
+        }
+        .dark &{
+            background-color: var(--color-dark);
+            color: inherit
+        }
+        &:not(.is-invalid),&:not(.is-valid){
+            border-color: var(--border-color-dark);
+        }
+    }
+
+    .form-group{
+        textarea{
+            height: 90px;
+        }
+    }
+}

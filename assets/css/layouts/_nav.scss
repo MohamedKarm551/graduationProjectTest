@@ -1,0 +1,10 @@
+.nav--wrapper{
+  .navbar-nav{
+    .nav-link{
+      &.active{
+        background-color: #fff;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+}

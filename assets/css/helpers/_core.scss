@@ -1,0 +1,30 @@
+:root{
+    --color1: #73A9AD;
+    --color1-shade: #5c878a;
+
+    --color2: #90C8AC;
+    --color3: #C4DFAA;
+    --color4: #F5F0BB;
+
+    //when light theme!
+    --color-light-primary: #849aac;
+    --color-light-primary-shade: #758999;
+
+    //when dark theme!
+    --color-dark: #223233;
+    --color-dark-light: #395456;
+    --color-silver: #F2F4F4;
+    //border colors
+    --border-color: #d4d4d4;
+    --border-color-dark: #464D5C;
+
+    --color-danger: #dc3545;
+}
+
+$border: 1px solid var(--border-color);
+
+$duration: 250ms;
+$transition: all $duration ease;
+
+$radius: 0.3rem;
+$shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
