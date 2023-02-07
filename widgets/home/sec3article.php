@@ -160,17 +160,14 @@
         <!-- according terms -->
         <div class="row justify-content-center">
             <div class="col-md-7 col-lg-6 col-xl-5">
-                <div id="accordion" class="myaccordion w-100">
-                    <div class=" cardAccord">
+                <div id="accordion" class=" accordion myaccordion w-100">
+                    <div class=" cardAccord accordion-item">
                         <div class="card-header p-0" id="headingOne">
-                            <button class="d-flex px-4 py-3 align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                <div class="headingAccord  d-flex align-items-center">
+                            <button class="d-flex px-4 py-3 align-items-center justify-content-between btn btn-link collapsed accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <span class="headingAccord  d-flex align-items-center">
                                     <h3 class="mb-0"><span> 01</span> <span>Your first academic year</span></h3>
-                                </div>
-                                <div class="icon d-flex align-items-center justify-content-center">
-                                    <!-- <i class="fa" aria-hidden="true"></i> -->
-                                    <i class="las la-angle-down"></i>
-                                </div>
+                                </span>
+
                             </button>
                         </div>
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" style="">
@@ -214,16 +211,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" cardAccord">
+                    <div class=" cardAccord accordion-item">
                         <div class="card-header p-0" id="headingTwo">
-                            <button class="d-flex px-4 py-3 align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <div class="headingAccord  d-flex align-items-center">
+                            <button class="d-flex px-4 py-3 align-items-center justify-content-between btn btn-link collapsed accordion-button" data-toggle="collapse" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <span class="headingAccord  d-flex align-items-center">
                                     <h3 class="mb-0"><span> 02</span> <span>The second academic year</span></h3>
-                                </div>
-                                <div class="icon d-flex align-items-center justify-content-center">
-                                    <i class="las la-angle-down"></i>
-                                    <!-- <i class="fa" aria-hidden="true"></i> -->
-                                </div>
+                                </span>
+
                             </button>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -266,16 +260,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" cardAccord">
+                    <div class=" cardAccord accordion-item">
                         <div class="card-header p-0" id="headingThree">
-                            <button class="d-flex px-4 py-3 align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <div class="headingAccord  d-flex align-items-center">
+                            <button class="d-flex px-4 py-3 align-items-center justify-content-between btn btn-link collapsed accordion-button" data-toggle="collapse" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <span class="headingAccord  d-flex align-items-center">
                                     <h3 class="mb-0"><span> 03</span> <span>Third academic year</span></h3>
-                                </div>
-                                <div class="icon d-flex align-items-center justify-content-center">
-                                    <i class="las la-angle-down"></i>
-                                    <!-- <i class="fa" aria-hidden="true"></i> -->
-                                </div>
+                                </span>
+
                             </button>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -321,16 +312,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="cardAccord">
+                    <div class="cardAccord accordion-item">
                         <div class="card-header p-0" id="headingFour">
-                            <button class="d-flex px-4 py-3 align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <button class="d-flex px-4 py-3 align-items-center justify-content-between btn btn-link collapsed accordion-button" data-toggle="collapse" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 <div class="headingAccord  d-flex align-items-center">
                                     <h3 class="mb-0"><span> 04</span> <span>Fourth academic year</span></h3>
                                 </div>
-                                <div class="icon d-flex align-items-center justify-content-center">
-                                    <i class="las la-angle-down"></i>
-                                    <!-- <i class="fa" aria-hidden="true"></i> -->
-                                </div>
+
                             </button>
                         </div>
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
