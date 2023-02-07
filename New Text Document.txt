@@ -1,0 +1,4 @@
+gulp/node_modules/
+dist/
+.idea/
+test.php

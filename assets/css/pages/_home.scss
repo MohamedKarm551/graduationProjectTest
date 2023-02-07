@@ -5,14 +5,16 @@ body {
   box-sizing: border-box;
   transition: ease all 0.5s;
 }
-body{
+
+
+
+body {
   background-color: #fff !important;
 }
 :root {
-  --main-color: rgba(90,96,119,0.64);
+  --main-color: rgba(90, 96, 119, 0.64);
   --second-color: #2b5464;
 }
-
 
 ul {
   list-style: none;
@@ -93,12 +95,13 @@ a {
   background-color: #ffffff7d !important;
 }
 /*  */
-.start{
+
+.start {
   color: #000;
   font-size: 17px;
   font-weight: 500;
-  &:hover{
-    color: #fff!important;
+  &:hover {
+    color: #fff !important;
   }
 }
 /* Mohamed Mostafa home and landing style  */
@@ -135,7 +138,7 @@ a {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color:#0A58CA;
+  background-color: #0a58ca;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
@@ -148,7 +151,7 @@ a {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #0A58CA;
+  background-color: #0a58ca;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
@@ -225,6 +228,7 @@ a {
   border: 2px solid #9699a8;
   font-size: 20px;
   font-weight: 400;
+  box-shadow: 7px -7px 3px #1c2938;
 }
 .article-Text:hover {
   text-shadow: 0px 0 black;
@@ -239,7 +243,14 @@ a {
   align-content: center;
   justify-content: center;
   width: fit-content;
+
   margin: auto;
+  // margin: auto;
+  background: #00000036;
+  width: 90%;
+  margin: 1% auto;
+  font-size: 20px;
+  box-shadow: 10px 5px 5px #1c2938;
 }
 .article-Text iframe {
   margin: auto;
@@ -338,7 +349,9 @@ a {
   bottom: 20px;
   right: 20px;
   z-index: 999;
-  background: rgb(90,96,119);
+
+ 
+  background: rgb(90, 96, 119);
   width: 50px;
   height: 50px;
   display: flex;
@@ -386,3 +399,208 @@ a {
 
 /*  */
 
+/* according */
+
+.myaccordion {
+  margin: 0 auto;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.myaccordion .cardAccord,
+.myaccordion .cardAccord:last-child .card-header {
+  border: none !important;
+  background: transparent !important;
+}
+
+.myaccordion .card-header {
+  border: none;
+  background: transparent;
+}
+.myaccordion .card-header .headingAccord {
+  position: relative !important;
+  font-weight: 300 !important;
+  z-index: 0 !important;
+}
+.myaccordion .card-header .headingAccord h3 {
+  font-size: 16px !important;
+  margin-bottom: 0 !important;
+  text-align: left !important;
+  color: #fff !important;
+}
+.myaccordion .termNumClass {
+  text-align: center;
+  background: #dad2ca;
+  color: #000;
+  width: 90%;
+  margin: auto;
+}
+.myaccordion .fa {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.myaccordion .btn {
+  width: 100%;
+  font-weight: normal;
+  color: #000;
+  padding: 0;
+  letter-spacing: 0;
+  font-size: 18px;
+  border-radius: 0 !important;
+  border: none;
+  position: relative;
+  background: #1c2938;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 7px 24px -19px rgba(0, 0, 0, 0.32);
+}
+.myaccordion .btn h3 {
+  text-align: left !important;
+  color: #fff !important;
+}
+.myaccordion .btn h3 span {
+  display: block !important;
+}
+.myaccordion .btn h3 span:first-child {
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+}
+.myaccordion .btn .icon {
+  z-index: 0;
+}
+.myaccordion .btn .icon i {
+  font-size: 20px !important;
+  color: #fff !important;
+}
+.myaccordion .btn-link {
+  text-decoration: none !important;
+}
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+  text-decoration: none;
+  filter: brightness(1.2);
+}
+
+[data-toggle="collapse"] .fa:before {
+  content: "\f3d8";
+  font-family: "Ionicons";
+  font-style: normal;
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f3d0";
+  font-family: "Ionicons";
+  font-style: normal;
+}
+
+button[aria-expanded="true"] {
+  color: #fff !important;
+  font-weight: bold;
+  background: #1c2938 !important;
+  border-color: #1c2938 !important;
+  box-shadow: 0px 7px 24px -19px rgba(0, 0, 0, 0.5) !important;
+  transition: 0.3s;
+}
+@media (prefers-reduced-motion: reduce) {
+  button[aria-expanded="true"] {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+}
+button[aria-expanded="true"] .fa {
+  color: #38ade0 !important;
+}
+
+button[aria-expanded="false"] {
+  background-color: #fff;
+}
+
+.card-body {
+  background: #253447;
+  -webkit-box-shadow: 0px 7px 24px -19px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 7px 24px -19px rgba(0, 0, 0, 0.22);
+  box-shadow: 0px 7px 24px -19px rgba(0, 0, 0, 0.22);
+}
+@media (max-width: 767.98px) {
+  .card-body .img {
+    height: 200px;
+    margin-bottom: 20px;
+  }
+}
+.card-body p {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+.card-body ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+.card-body ul li {
+  list-style: none;
+  border-bottom: 1px solid #1c2938;
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
+}
+.card-body ul li:hover {
+  filter: brightness(1.3);
+}
+.card-body ul li:first-child {
+  border-top: none;
+}
+.card-body ul li:last-child {
+  border-bottom: none;
+}
+.card-body ul li a {
+  padding: 15px 30px;
+}
+.card-body ul li a p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+}
+.card-body ul li a p span {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  margin-right: 10px;
+}
+.card-body ul li a .icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #38ade0;
+  margin-top: -5px;
+}
+// shapes before videos
+
+.shape {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border: 1px solid;
+  background: #fff;
+
+  position: relative;
+  box-shadow: 0 0 30px var(--main-color);
+  margin: auto;
+}
+
+@media (max-width: 320px) {
+  .shape {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.shape p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.shape span {
+  font-size: 51px;
+  color: var(--second-color);
+  font-weight: bold;
+}

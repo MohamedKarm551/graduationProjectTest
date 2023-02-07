@@ -8,11 +8,12 @@
             <div class="swiper-wrapper">
                 <div class="card swiper-slide">
                     <div class="card_image">
-                        <img src="//<?=f__r("media/images/home-slider/download.png");?>" alt="" />
+
+                        <img src="//<?=f__r("media/images/home-slider/Dr.Haitham.png");?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Haitham Elmarakby</span>
-                        <span class="card_name">resercher</span>
+                        <span class="card_name">researcher</span>
                         <span class="card_text"
 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
@@ -28,11 +29,12 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card_image">
-                        <img src="//<?=f__r("media/images/home-slider/photo1.jpeg");?>" alt="" />
+
+                        <img src="//<?=f__r("media/images/home-slider/Dr.Haitham.png");?>" alt="" />
                     </div>
                     <div class="card_content">
-                        <span class="card_title">Dr.Hamo karam</span>
-                        <span class="card_name">lol</span>
+                        <span class="card_title">Dr.karam</span>
+                        <span class="card_name">researcher</span>
                         <span class="card_text"
 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
@@ -42,11 +44,12 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card_image">
-                        <img src="//<?=f__r("media/images/home-slider/photo2.jpeg");?>" alt="" />
+
+                        <img src="//<?=f__r("media/images/home-slider/Dr.Haitham.png");?>" alt="" />
                     </div>
                     <div class="card_content">
-                        <span class="card_title">Dr.Haitham Elmarakby</span>
-                        <span class="card_name">resercher</span>
+                        <span class="card_title">Dr.Abdo</span>
+                        <span class="card_name">researcher</span>
                         <span class="card_text"
 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
@@ -56,11 +59,12 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card_image">
-                        <img src="//<?=f__r("media/images/home-slider/photo3.jpeg");?>" alt="" />
+
+                        <img src="//<?=f__r("media/images/home-slider/Dr.Haitham.png");?>" alt="" />
                     </div>
                     <div class="card_content">
-                        <span class="card_title">Dr.Haitham Elmarakby</span>
-                        <span class="card_name">resercher</span>
+                        <span class="card_title">Dr.Tarek</span>
+                        <span class="card_name">researcher</span>
                         <span class="card_text"
 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
@@ -70,11 +74,12 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card_image">
-                        <img src="//<?=f__r("media/images/home-slider/photo3.jpeg");?>" alt="" />
+
+                        <img src="//<?=f__r("media/images/home-slider/Dr.Haitham.png");?>" alt="" />
                     </div>
                     <div class="card_content">
-                        <span class="card_title">Dr.Haitham Elmarakby</span>
-                        <span class="card_name">resercher</span>
+                        <span class="card_title">Dr.Hossam</span>
+                        <span class="card_name">researcher</span>
                         <span class="card_text"
 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
