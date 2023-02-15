@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,900;1,100;1,300&display=swap");
 *,
 body {
   margin: 0;
@@ -6,16 +7,18 @@ body {
   transition: ease all 0.5s;
 }
 
-
-
 body {
   background-color: #fff !important;
 }
 :root {
-  --main-color: rgba(90, 96, 119, 0.64);
+  // --main-color: rgba(90, 96, 119, 0.64);
+  --main-color: rgba(28, 41, 56, 1); // #1c2938;
   --second-color: #2b5464;
 }
-
+::selection {
+  background: var(--main-color);
+  color: #fff;
+}
 ul {
   list-style: none;
 }
@@ -23,7 +26,6 @@ ul {
 a {
   text-decoration: none !important;
 }
-
 
 /* =========================== */
 
@@ -138,7 +140,8 @@ a {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #0a58ca;
+  // background-color: #0a58ca;
+  background-color: var(--main-color);
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
@@ -151,15 +154,13 @@ a {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #0a58ca;
+  background-color: var(--main-color);
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
   left: -20%;
   z-index: -1;
 }
-
-
 
 .main-title:hover::after {
   animation: title-anim-right 0.8s linear forwards;
@@ -181,17 +182,12 @@ a {
     left: 0%;
     width: 20px;
     height: 20px;
-
   }
   100% {
     left: 0%;
     width: 100%;
     height: 100%;
     border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
   }
 }
 
@@ -200,23 +196,27 @@ a {
     right: 0%;
     width: 20px;
     height: 20px;
-
   }
   100% {
     right: 0%;
     width: 100%;
     height: 100%;
     border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
   }
 }
 
 .onhover {
   transform: translate(4px, -4px);
+  border-radius: 10px;
   box-shadow: -8px 8px 0 #10162f;
+  // box-shadow: -8px 8px 0 #0d5fd99c;
+  transition: 0.8s ease;
+}
+.onhover:hover {
+  color: #fff;
+  // box-shadow: -8px 8px 0 #0d5fd99c;
+  box-shadow: -8px 8px 0 #0d5fd9;
+  cursor: none;
 }
 /*  */
 .info-hide {
@@ -226,9 +226,12 @@ a {
 .article-Text {
   padding: 1%;
   border: 2px solid #9699a8;
+  background-color: #efefef;
   font-size: 20px;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
-  box-shadow: 7px -7px 3px #1c2938;
+  // box-shadow: 7px -7px 3px #1c2938;
+  box-shadow: -8px 8px 0 #10162f;
 }
 .article-Text:hover {
   text-shadow: 0px 0 black;
@@ -237,27 +240,83 @@ a {
   font-weight: bold;
   font-family: sans-serif;
 }
-
-.center-ele {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  width: fit-content;
-
+.styleFirstUl {
+  text-align: right;
   margin: auto;
-  // margin: auto;
-  background: #00000036;
-  width: 90%;
-  margin: 1% auto;
-  font-size: 20px;
+  width: fit-content;
+}
+.center-ele {
+  align-content: center;
+  // background: #00000036;
+  background: #efefef;
   box-shadow: 10px 5px 5px #1c2938;
+  display: flex;
+  font-family: system-ui;
+  font-size: 20px;
+  justify-content: center;
+  margin: 15px auto;
+  padding: 5px;
+  // width: 90%;
+  width: fit-content;
+}
+.center-ele:hover {
+  background-color: #1c2938;
+  box-shadow: 10px 5px 5px #000;
+  color: #fff;
+  border-radius: 10px;
 }
 .article-Text iframe {
-  margin: auto;
   display: grid;
+  margin: auto;
   width: 50%;
 }
+ul.departmentName {
+  // background: #efefef;
+  margin: auto;
+  text-align: left;
+}
+ul.departmentName li {
+  border-radius: 15px;
+  border: 0.5px solid;
+  font-family: "Raleway", sans-serif;
+  margin: 2px 0;
+  padding: 5px;
+  transition: all 0.2s ease-out;
+}
+ul.departmentName li:hover {
+  background-color: #1c2938;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 1%;
+}
+ul.departmentName li:nth-child(1):hover {
+  margin-right: 1%;
+}
+.departmentName li:nth-child(1) {
+  text-align: right;
+}
+
 /*  */
+.fields {
+}
+.fields li {
+  font-family: "Raleway", sans-serif;
+  transition: 0.2s ease-out;
+  padding: 1px;
+  margin: 1px;
+  border: 0.1px solid transparent;
+  border-radius: 10px;
+}
+.fields li:nth-child(odd) {
+  background-color: #8080805e;
+}
+.fields li:hover {
+  background: gray;
+  border-left: 5px solid #ccc;
+  cursor: pointer;
+}
+//
 /* start tarek css code slider */
 .swiper {
   width: 100%;
@@ -270,16 +329,16 @@ a {
 }
 
 .card {
-  width: 22em;
-  height: 90%;
+  align-items: center;
   background-color: #fff;
   border-radius: 2em;
   box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
-  padding: 2em 1em;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  height: 90%;
   padding: 0 2em;
+  padding: 2em 1em;
+  width: 22em;
 }
 .swiper-slide:not(.swiper-slide-active) {
   filter: blur(1px);
@@ -350,7 +409,6 @@ a {
   right: 20px;
   z-index: 999;
 
- 
   background: rgb(90, 96, 119);
   width: 50px;
   height: 50px;
@@ -360,22 +418,15 @@ a {
   border-radius: 50%;
   cursor: pointer;
   filter: drop-shadow(2px 4px 6px #000);
-  -webkit-filter: drop-shadow(2px 4px 6px #000);
   transition: all 1s;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -ms-transition: all 1s;
-  -o-transition: all 1s;
 }
 
 .fixedTop:hover {
   animation: pulse 1s infinite ease-in-out alternate;
-  -webkit-animation: pulse 1s infinite ease-in-out alternate;
 }
 
 .fixedTop:hover::after {
   animation: PointMove 0.2s infinite ease;
-  -webkit-animation: PointMove 0.2s infinite ease;
 }
 
 .fixedTop::after {
@@ -389,18 +440,15 @@ a {
   box-shadow: 0 0 30px gold, 0 0 40px gold, 0 0 50px gold, 0 0 60px gold;
   filter: blur(2px);
   transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
   opacity: 0;
 }
 
-
 /*  */
 
-/* according */
-
+/* according in article */
+.mtb {
+  margin: 10px 0;
+}
 .myaccordion {
   margin: 0 auto;
   border-radius: 0;
@@ -582,7 +630,13 @@ button[aria-expanded="false"] {
   box-shadow: 0 0 30px var(--main-color);
   margin: auto;
 }
-
+.shape:hover {
+  box-shadow: 0 0 100px var(--main-color);
+  border-color: #fff;
+}
+.shape:hover span {
+  color: #1068e9;
+}
 @media (max-width: 320px) {
   .shape {
     width: 200px;
