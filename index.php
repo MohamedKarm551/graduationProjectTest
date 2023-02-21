@@ -2,12 +2,15 @@
 ob_start();
 require_once("inc.php");
 
-$url=$_GET["url"]??"";
-if($url=h__u($url)) {
-    $cat = $url[0]??"";
-    $sub = $url[1]??"";
+$url = $_GET["url"] ?? "";
+if ($url = h__u($url)) {
+    $cat = $url[0] ?? "";
+    $sub = $url[1] ?? "";
     //handle the redirect to 404 page
-    if($cat === "404"){require_once(__CONT__."/404.php");exit;}
+    if ($cat === "404") {
+        require_once(__CONT__ . "/404.php");
+        exit;
+    }
     require_once(__ROOT__ . "/templates/head.php");
     /*$critical_cats = ["projects","clients","employees","settings"];
     if(in_array($cat,$critical_cats)){
@@ -21,17 +24,20 @@ if($url=h__u($url)) {
             }
         }
     }*/
-    switch($cat){
+    switch ($cat) {
         case "paths":
             require_once(__ROOT__ . "/templates/paths.php");
-        break;
+            break;
         case "contact":
             require_once(__ROOT__ . "/templates/contact.php");
             break;
+        case "quality":
+            require_once(__ROOT__ . "/controller/quality.php");
+            break;
         default:
-            if(h__v($cat)) r__("/404");
+            if (h__v($cat)) r__("/404");
             require_once(__CONT__ . "/home.php");
-        break;
+            break;
     }
     require_once(__ROOT__ . "/templates/foot.php");
 } else {
