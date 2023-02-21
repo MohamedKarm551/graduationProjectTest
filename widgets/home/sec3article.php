@@ -40,7 +40,7 @@
                             فمن أشهر مجالات ووظائف هذا القسم : حسب تعريف دكتور أشرف المراكبي الرئيس السابق للقسم
                         </p>
 
-                        <ul>
+                        <ul class="styleFirstUl">
                             <li>شبكات الحاسب</li>
                             <li>البرمجة</li>
                             <li>التحكم الآلي</li>
@@ -82,14 +82,17 @@
             القسم يهتم بتعليم الأساسيات وهو معتمد على التعلم الذاتي self study
         </h2> -->
         <br />
-        <h3 class="center-ele">من أسماء القسم</h3>
-        <ul>
+        <!-- <h3 class="center-ele">من أسماء القسم</h3> -->
+        <h3 class="title-section">من أسماء القسم</h3>
+        <ul class="departmentName">
             <li>قسم الحاسبات والنظم المدمجة</li>
             <li>Electrical Engineering and Computer science (EECS)</li>
             <li>Electrical System and Computer science (ESCS)</li>
         </ul>
-        <h3 class="center-ele">من مجالات العمل</h3>
-        <ul>
+        <!-- <h3 class="center-ele">من مجالات العمل</h3> -->
+        <h3 class="title-section">من مجالات العمل</h3>
+
+        <ul class="fields">
             <li><?= l_software_development; ?></li>
             <li><?= l_embedded_system; ?></li>
             <li><?= l_web_developer; ?></li>
@@ -117,48 +120,27 @@
         <div class="shape">
             <p><span>Help</span> explainer <br>videos</p>
         </div>
-        <p class="center-ele">فيديو تعريفي بالقسم من رئيس القسم السابق</p>
+        <!-- <p class="center-ele">فيديو تعريفي بالقسم من رئيس القسم السابق</p> -->
+        <h3 class="title-section">فيديو تعريفي بالقسم من رئيس القسم السابق </h3>
+
         <br />
         <iframe width="560" height="315" src="https://www.youtube.com/embed/FQ9XigMfnG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <hr />
-        <p class="center-ele">فيديو تعريفي بالقسم من طالب سابق</p>
+        <!-- <p class="center-ele">فيديو تعريفي بالقسم من طالب سابق</p> -->
+        <h3 class="title-section">فيديو تعريفي بالقسم من طالب سابق </h3>
+
         <br />
         <iframe width="560" height="315" src="https://www.youtube.com/embed/JAVKXLhRGiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <!--  -->
         <br />
-        <!-- 
-                        1:
-                        1-1:
-                        (الكترونيات ، رياضة متجهات ، طرق برمجة ، نظرية الدوائر الكهربية ،
-                                                أجهزة قياس )
-                        1-2:
-                        (خوارزميات ، دوائر إلكترونية ، دوائر توافقية ، رياضة ، مجالات
-                                                كهرومغناطيسية)
-                        ========
-                        2:
-                        2-1:(هندسة نظم وإشارات ، رياضة تحويلات ، برمجة شيئية ، دوائر متكاملة ، الآت تعاقبية )
 
-                        2-2:(تحكم آلي ، دوائر منطقية ، تحليل عددي ، الآت كهربية )
-                        ========
-                        3:
-                        3-1:
-                        (أنظمة انتقالية و آليات ، نظم اتصالات ، تحكم آلي ، نظرية طوابير ، مشغلات دقيقة )
-                        3-2:
-                        (نظم تشغيل ، قواعد بيانات ، قوى كهربية، مجسات ، هندسة إدارة )
-                        ========
-                        4:
-                        4-1:(بنية حاسب ، شبكات وبرمجياتها، التصميم والتصنيع بالحاسب ، مترجمات ، مقرر اختياري برمجة متقدمة أو أمن شبكات )
-
-
-                        4-2:
-                        (أنظمة مدمجة ، أنظمة ذكية ، نظم موائمة ، هندسة برمجة )
-                        
-                     -->
-        <p class="center-ele">
+        <!-- <p class="center-ele">
             وهذه هي المواد المهمة التي ستقابلها في أعوام دراستك في القسم :
-        </p>
-        <!-- according terms -->
-        <div class="row justify-content-center">
+        </p> -->
+        <h3 class="title-section"> وهذه هي المواد المهمة التي ستقابلها في أعوام دراستك في القسم
+        </h3>
+        <!-- according terms (Section materials) -->
+        <div class="row justify-content-center mtb">
             <div class="col-md-7 col-lg-6 col-xl-5">
                 <div id="accordion" class=" accordion myaccordion w-100">
                     <div class=" cardAccord accordion-item">
@@ -418,6 +400,34 @@
             <button class="btn btn-warning m-2">4.2rd:</button>
             (أنظمة مدمجة ، أنظمة ذكية ، نظم موائمة ، هندسة برمجة )
         </p> -->
+        <!-- 
+                        1:
+                        1-1:
+                        (الكترونيات ، رياضة متجهات ، طرق برمجة ، نظرية الدوائر الكهربية ،
+                                                أجهزة قياس )
+                        1-2:
+                        (خوارزميات ، دوائر إلكترونية ، دوائر توافقية ، رياضة ، مجالات
+                                                كهرومغناطيسية)
+                        ========
+                        2:
+                        2-1:(هندسة نظم وإشارات ، رياضة تحويلات ، برمجة شيئية ، دوائر متكاملة ، الآت تعاقبية )
+
+                        2-2:(تحكم آلي ، دوائر منطقية ، تحليل عددي ، الآت كهربية )
+                        ========
+                        3:
+                        3-1:
+                        (أنظمة انتقالية و آليات ، نظم اتصالات ، تحكم آلي ، نظرية طوابير ، مشغلات دقيقة )
+                        3-2:
+                        (نظم تشغيل ، قواعد بيانات ، قوى كهربية، مجسات ، هندسة إدارة )
+                        ========
+                        4:
+                        4-1:(بنية حاسب ، شبكات وبرمجياتها، التصميم والتصنيع بالحاسب ، مترجمات ، مقرر اختياري برمجة متقدمة أو أمن شبكات )
+
+
+                        4-2:
+                        (أنظمة مدمجة ، أنظمة ذكية ، نظم موائمة ، هندسة برمجة )
+                        
+                     -->
         <hr />
     </div>
 </div>
