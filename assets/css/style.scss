@@ -8,18 +8,13 @@
 @import "libraries/bootstrap";
 @import "libraries/swipper";
 
-
-
-
-
 //layouts
 @import "layouts/header";
 @import "layouts/nav";
 @import "layouts/footer";
 
 //widgets
-@import "widgets/page-loader";  
-
+@import "widgets/page-loader";
 
 //components
 @import "components/buttons";
@@ -30,12 +25,13 @@
 
 @import "components/test";
 
-
 //pages
 @import "pages/home";
 @import "pages/login";
 @import "pages/paths";
 @import "pages/contact";
+@import "pages/path";
+@import "pages/quality";
 //global
 @import "global/animations";
 @import "global/classes";

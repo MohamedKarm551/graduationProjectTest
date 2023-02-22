@@ -83,14 +83,18 @@
         </h2> -->
         <br />
         <!-- <h3 class="center-ele">من أسماء القسم</h3> -->
-        <h3 class="title-section">من أسماء القسم</h3>
+        <!-- <h3 class="title-section">من أسماء القسم</h3> -->
+        <button class="btn-style"> من أسماء القسم</button>
+
         <ul class="departmentName">
             <li>قسم الحاسبات والنظم المدمجة</li>
             <li>Electrical Engineering and Computer science (EECS)</li>
             <li>Electrical System and Computer science (ESCS)</li>
         </ul>
         <!-- <h3 class="center-ele">من مجالات العمل</h3> -->
-        <h3 class="title-section">من مجالات العمل</h3>
+        <!-- <h3 class="title-section">من مجالات العمل</h3> -->
+        <button class="btn-style">من مجالات العمل </button>
+
 
         <ul class="fields">
             <li><?= l_software_development; ?></li>
@@ -121,13 +125,15 @@
             <p><span>Help</span> explainer <br>videos</p>
         </div>
         <!-- <p class="center-ele">فيديو تعريفي بالقسم من رئيس القسم السابق</p> -->
-        <h3 class="title-section">فيديو تعريفي بالقسم من رئيس القسم السابق </h3>
+        <!-- <h3 class="title-section">فيديو تعريفي بالقسم من رئيس القسم السابق </h3> -->
+        <button class="btn-style">فيديو تعريفي بالقسم من رئيس القسم السابق </button>
 
         <br />
         <iframe width="560" height="315" src="https://www.youtube.com/embed/FQ9XigMfnG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <hr />
         <!-- <p class="center-ele">فيديو تعريفي بالقسم من طالب سابق</p> -->
-        <h3 class="title-section">فيديو تعريفي بالقسم من طالب سابق </h3>
+        <!-- <h3 class="title-section">فيديو تعريفي بالقسم من طالب سابق </h3> -->
+        <button class="btn-style">فيديو تعريفي بالقسم من طالب سابق </button>
 
         <br />
         <iframe width="560" height="315" src="https://www.youtube.com/embed/JAVKXLhRGiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -137,8 +143,10 @@
         <!-- <p class="center-ele">
             وهذه هي المواد المهمة التي ستقابلها في أعوام دراستك في القسم :
         </p> -->
-        <h3 class="title-section"> وهذه هي المواد المهمة التي ستقابلها في أعوام دراستك في القسم
-        </h3>
+        <!-- <h3 class="title-section"> وهذه هي المواد المهمة التي ستقابلها في أعوام دراستك في القسم
+        </h3> -->
+        <button class="btn-style"> وهذه هي المواد المهمة التي ستقابلها في أعوام دراستك في القسم</button>
+
         <!-- according terms (Section materials) -->
         <div class="row justify-content-center mtb">
             <div class="col-md-7 col-lg-6 col-xl-5">
@@ -317,7 +325,10 @@
                                                 <li> شبكات وبرمجياتها </li>
                                                 <li> التصميم والتصنيع بالحاسب </li>
                                                 <li> مترجمات </li>
-                                                <li> مقرر اختياري برمجة متقدمة أو أمن شبكات </li>
+                                                <li> مقرر اختياري:
+                                                    برمجة متقدمة أو
+                                                    <br> أمن الشبكات
+                                                </li>
                                             </ul>
 
 
@@ -335,6 +346,7 @@
                                                 <li> أنظمة ذكية </li>
                                                 <li> نظم موائمة </li>
                                                 <li> هندسة برمجة </li>
+                                                <li> نظم اتصالات رقمية </li>
 
                                             </ul>
 

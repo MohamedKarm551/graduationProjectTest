@@ -28,6 +28,9 @@ if ($url = h__u($url)) {
         case "paths":
             require_once(__ROOT__ . "/templates/paths.php");
             break;
+        case "path":
+            require_once(__ROOT__ . "/controller/path.php");
+            break;
         case "contact":
             require_once(__ROOT__ . "/templates/contact.php");
             break;
