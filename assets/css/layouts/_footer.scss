@@ -1,5 +1,16 @@
 footer{
-
+  background-color: #777;
+  p{
+    font-size: 18px;
+  }
+}
+.foot{
+  background-color: #1c2938;
+  color: #fff;
+  &:hover{
+    background-color: #3f546c;
+    color: #fff;
+  }
 }
 .Copyright{
   background-color: black;
