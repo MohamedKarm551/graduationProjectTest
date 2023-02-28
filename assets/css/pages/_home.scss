@@ -619,17 +619,17 @@ ul.departmentName li:nth-child(1):hover {
   align-items: center;
 }
 
-.card {
+.card{
   align-items: center;
   background-color: #fff;
   border-radius: 2em;
   box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-  height: 90%;
+  height: 75%;
   padding: 0 2em;
   padding: 2em 1em;
-  width: 22em;
+  width: 25em;
 }
 .swiper-slide:not(.swiper-slide-active) {
   filter: blur(1px);
@@ -640,7 +640,7 @@ ul.departmentName li:nth-child(1):hover {
   border-radius: 50%;
   border: 5px solid var(--main-color);
   padding: 3px;
-  margin-bottom: 2em;
+  // margin-bottom: 2em;
   margin-top: 1em;
 }
 .card_image img {
@@ -659,6 +659,8 @@ ul.departmentName li:nth-child(1):hover {
   font-weight: 500;
   position: relative;
   top: 0.2em;
+  margin: 20px;
+  letter-spacing: 1.5px;
 }
 
 .card_name {
@@ -677,13 +679,16 @@ ul.departmentName li:nth-child(1):hover {
   text-transform: uppercase;
   font-weight: 600;
   border: none;
-  padding: 0.5em;
+  // padding: 0.5em;
+  padding: 7px 30px 7px 30px;
   border-radius: 0.5em;
-  margin-top: 0.5em;
+  margin-top: 1.5em;
   cursor: pointer;
 }
 .card_btn:hover {
-  letter-spacing: 1px;
+  // letter-spacing: 1px;
+  background-color: #3f546c;
+    color: #fff;
 }
 .card_btn a {
   color: #fff;

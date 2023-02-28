@@ -1,8 +1,28 @@
-h3 {
-  color: red;
+// .container{
+//   background-color: #777;
+//   color: #fff;
+//   margin-bottom: 100px;
+// }
+// h3 {
+//   color: red;
+//   border: 5px solid black;
+// }
+// .main-stru{
+//   background-color: #7777779d;
+//   color: black;
+// }
+// .main-stru .child-stru{
+//   border: 4px solid red;
+//   p,h3,h4{
+//     font-size: 20px;
+//   }
+// }
+.stru{
+  background-color: #478ac9;
+  color: #fff;
+  
+
 }
-<<<<<<< Updated upstream
-=======
 .main-stru{
   margin: 100px;
   display: flex;
@@ -106,7 +126,7 @@ h1 {
   margin: 0.67em 0;
 }
 .courses-section {
-  // display: flex;
+// display: flex;
   // flex-direction: row;
   // flex-wrap: wrap;
   // justify-content: flex-start;
@@ -136,6 +156,30 @@ h1 {
   // display: table-footer-group;
   // text-decoration: none;
   // background-color: transparent;
+=======
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+}
+.courses-section .courses-box {
+  width: 200px;
+  height: 200px;
+  flex-basis: 49%;
+  margin-left: 1%;
+  background-color: #f1f1f1;
+  margin-bottom: 20px;
+  text-align: right;
+  padding: 15px 5px 10px;
+}
+.courses-section .courses-box a{
+  display: table-footer-group;
+  text-decoration: none;
+  background-color: transparent;
 }
 .courses-section .courses-box a h2 {
   font-size: 14px;
@@ -203,4 +247,3 @@ h1 {
 //     width: 750px;
 // }
 // }
->>>>>>> Stashed changes
