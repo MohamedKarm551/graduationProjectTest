@@ -54,7 +54,8 @@ body {
 }
 .menu .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  // grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 15px;
   padding: 0 20px;
 }
@@ -63,16 +64,33 @@ body {
   text-align: center;
   //border: 0.1rem solid rgba(255, 255, 255, 0.3);
   border: 2px solid black;
+  border-radius: 20px;
 }
 .menu .box-container .box img {
   height: 100px;
   width: 100px;
   border-radius: 50%;
+  transition: 0.5s;
 }
+.menu .box-container .box:hover img{
+  transform: scale(1.08);
+  border: 1px solid #fff;
+
+}
+.menu .box-container .box:hover {
+background-color: var(--main-color);}
 .menu .box-container .box h3 {
   color: #000;
   font-size: 20px;
   padding: 10px 0;
+}
+.menu .box-container .box:hover h3 {
+  color: #fff;
+}
+
+
+.menu .box-container .box:hover .card_btn {
+  border: 1px solid #fff;
 }
 .menu .box-container .box .price {
   color: #fff;
@@ -85,7 +103,7 @@ body {
 }
 .menu .box-container .box:hover {
   color: #fff;
-  background: #2196f3c4;
+  background: var(--main-color);
 }
 //.menu .box-container .box:hover > * {
 //  color: #fff;

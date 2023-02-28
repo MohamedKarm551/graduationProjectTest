@@ -76,37 +76,43 @@
                 <img src="//<?=f__r("media/images/web.jpg");?>" alt="" />
                 <h3>Web Development</h3>
 
-                <a href="#" class="bttn">view more &rarr;</a>
+                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+                <button class="card_btn"><a href="#">View More</a></button>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/android.jpg");?>" alt="" />
                 <h3>Android</h3>
 
-                <a href="#" class="bttn">view more &rarr;</a>
+    <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+    <button class="card_btn"><a href="#">View More</a></button>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/network.jpg");?>" alt="" />
                 <h3>network</h3>
 
-                <a href="#" class="bttn">view more &rarr;</a>
+    <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+    <button class="card_btn"><a href="#">View More</a></button>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/security.jpg");?>" alt="" />
                 <h3>cyber security</h3>
 
-                <a href="#" class="bttn">view more &rarr;</a>
+    <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+    <button class="card_btn"><a href="#">View More</a></button>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/Artificial Intelligence.jpg");?>" alt="" />
                 <h3>Artificial Intelligence</h3>
 
-                <a href="#" class="bttn">view more &rarr;</a>
+    <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+    <button class="card_btn"><a href="#">View More</a></button>
             </div>
             <div class="box">
                 <img src="//<?=f__r("media/images/data science.jpg");?>" alt="" />
                 <h3>data science</h3>
 
-                <a href="#" class="bttn">view more &rarr;</a>
+    <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+    <button class="card_btn"><a href="#">View More</a></button>
             </div>
         </div>
     </div>
