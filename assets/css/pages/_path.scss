@@ -126,6 +126,37 @@ h1 {
   margin: 0.67em 0;
 }
 .courses-section {
+// display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  // justify-content: flex-start;
+  // align-items: center;
+  // background-color: #ffffff;
+  // padding: 10px;
+  // border-radius: 6px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 15px;
+  padding: 0 20px;
+}
+.courses-section .courses-box {
+  // width: 200px;
+  // height: 200px;
+  // flex-basis: 49%;
+  // margin-left: 1%;
+  // background-color: #f1f1f1;
+  // margin-bottom: 20px;
+  // text-align: right;
+  // padding: 15px 5px 10px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.courses-section .courses-box a{
+  // display: table-footer-group;
+  // text-decoration: none;
+  // background-color: transparent;
+=======
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
