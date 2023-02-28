@@ -683,7 +683,9 @@ ul.departmentName li:nth-child(1):hover {
   cursor: pointer;
 }
 .card_btn:hover {
-  letter-spacing: 1px;
+  // letter-spacing: 1px;
+  background-color: #3f546c;
+  color: #fff;
 }
 .card_btn a {
   color: #fff;

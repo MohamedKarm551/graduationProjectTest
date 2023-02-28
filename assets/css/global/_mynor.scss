@@ -1,84 +1,107 @@
-a, bdi, span{
-    display: inline-block;
+a,
+bdi,
+span {
+  display: inline-block;
 }
 
-html, body{
+html,
+body {
   font-size: 1rem;
-  font-family: Tahoma, Arial, 'sans-serif';
+  font-family: Tahoma, Arial, "sans-serif";
   background: var(--color-silver);
-  &.dark{
-    color: #BDD1F8;
-    .border{
+  &.dark {
+    color: #bdd1f8;
+    .border {
       border-color: var(--border-color-dark) !important;
     }
   }
 }
 
-a{
+a {
   text-decoration: none;
   color: var(--color-light-primary);
-  &:hover{
+  &:hover {
     color: var(--color-light-primary-shade);
   }
-  .dark &{
+  .dark & {
     color: var(--color1);
-    &:hover{
+    &:hover {
       color: var(--color1-shade);
     }
   }
 }
 
 input::-webkit-input-placeholder {
-  font-weight: normal
+  font-weight: normal;
 }
 
 input:-ms-input-placeholder {
-  font-weight: normal
+  font-weight: normal;
 }
 
 input::placeholder {
-  font-weight: normal
+  font-weight: normal;
 }
 
 textarea::-webkit-input-placeholder {
-  font-weight: normal
+  font-weight: normal;
 }
 
 textarea:-ms-input-placeholder {
-  font-weight: normal
+  font-weight: normal;
 }
 
 textarea::placeholder {
-  font-weight: normal
+  font-weight: normal;
 }
 
-input, button, select, textarea{
+input,
+button,
+select,
+textarea {
   background-color: #fff;
-	resize: none;
+  resize: none;
 }
 
-input:focus, button:focus, select:focus, textarea:focus{
-    outline: 0;
-    box-shadow: unset !important;
+input:focus,
+button:focus,
+select:focus,
+textarea:focus {
+  outline: 0;
+  box-shadow: unset !important;
 }
 
-select{
-    padding: 7px 13px
-}
-
-button, input, textarea{
+select {
   padding: 7px 13px;
-	border: 0
 }
 
-button, select, input[type="checkbox"], input[type="radio"], .fa-bars, a{
-    cursor: pointer
+button,
+input,
+textarea {
+  padding: 7px 13px;
+  border: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul{
-    margin: 0;
-    padding: 0;
-    li{
-        list-style: none;
-    }
+button,
+select,
+input[type="checkbox"],
+input[type="radio"],
+.fa-bars,
+a {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+  }
 }
