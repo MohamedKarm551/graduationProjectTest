@@ -1,8 +1,27 @@
 <?php defined('__secret__Constant__') or die('not found!'); ?>
-<!-- <div class="container">
-    <h3>test</h3>
-</div> -->
-<div class="stru">
+ <!-- ======= Hero Section ======= -->
+ <section id="hero" class="d-flex align-items-center">
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+      <h1>Front-end Developer</h1>
+      <h2>Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly.</h2>
+      <div class="d-flex justify-content-center justify-content-lg-start">
+        <a href="https://youtu.be/sw8aKmwbGh0" target="_blank" class="btn-get-started scrollto ">Watch Video</a>
+        <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+      </div>
+    </div>
+    <div class="col-lg-6 order-1 order-lg-2 hero-img " data-aos="zoom-in" data-aos-delay="200">
+      <img src="../assets/media/images/web.jpg" class="img-fluid animated web-img rounded-circle" alt="">
+    </div>
+  </div>
+</div>
+
+</section>
+<!-- End Hero -->
+
+<!-- <div class="stru">
 <div class="main-stru">
     <div class="stru-content">
         <div class="circule">
@@ -20,11 +39,11 @@
     <img src="../assets/media/images/web.jpg" alt="">
     </div>
 </div>
-</div>
+</div> -->
 
-<div class="roadmap-img">
+<!-- <div class="roadmap-img">
     <img src="../assets/media/images/front.png" alt="" class="center">
-</div>
+</div> -->
 
 <div class="roadmap-text">
     <h2>What is Web Design?</h2>
@@ -58,7 +77,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                                         <div class="courses-section">
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLYyqC4bNbCIfMY5CoGmiWaPi9l86qaz5B" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     برمجة المواقع | تعلم لغة الhtml من الصفر  
                                 </h2>
@@ -76,7 +95,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/watch?v=q3yFo-t1ykw" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     تعلم html بالكامل في فيديو واحد فقط | كورس html كامل للمبتدئين  
                                 </h2>
@@ -85,7 +104,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLbYb4J4nnKyTjgBBY4uGB2E5wuULgY2TV" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     تعلم HTML5  
                                 </h2>
@@ -112,7 +131,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLpJtaIgvI9k_TyR2YPYYcCM5gJ6M4BXVj" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     Learn HTML5  
                                 </h2>
@@ -148,7 +167,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLMTdZ61eBnyrnapIyOphXAkIcR5DDOGkz" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     تعلم html من الصفر حتى الاحتراف  
                                 </h2>
@@ -157,7 +176,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://harmash.com/html/html-overview/" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     دورة تعلم HTML  
                                 </h2>
@@ -190,7 +209,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                                         <div class="courses-section">
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLYyqC4bNbCIdES52srHE6xTiIgvgMkBWu" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     برمجة المواقع | سلسلة دروس لغة css  
                                 </h2>
@@ -244,7 +263,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLbYb4J4nnKyQW40KufhkNOhI8LIp2LUfv" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     تعلم CSS3  
                                 </h2>
@@ -253,7 +272,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLknwEmKsW8OsdTypb3CCjiM12pg7bXq10" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     كورس css grid كامل  
                                 </h2>
@@ -316,7 +335,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLj1d_TqM1YMY1ZOqjmwzERpNfIBH87kK0" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     تعلم Flexbox بالعربي 2020  
                                 </h2>
@@ -325,7 +344,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/watch?v=xXY83Z0R0CM" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     كورس css flexbox  
                                 </h2>
@@ -334,7 +353,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLMTdZ61eBnyoxjc9Prw0uhwgp6YZ2-_sg" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     دورة تعلم CSS من الصفر حتى الاحتراف  
                                 </h2>
@@ -370,7 +389,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLtFbQRDJ11kEry0gyNDDxTrQ_ATbOn9-t" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     دورة كاملة لتعلم CSS3  
                                 </h2>
@@ -379,7 +398,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLtFbQRDJ11kFENgYWivcxJwFKZp815zXX" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     دورة تعلم لـغة CSS  
                                 </h2>
@@ -414,7 +433,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                                         <div class="courses-section">
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLYyqC4bNbCIdvviLNbvYKfvHqszFPnUkj" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     كورس جافاسكريبت | السلسلة المتقدمة  
                                 </h2>
@@ -522,7 +541,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLknwEmKsW8OsnUAj3ThlerzPeMKk9GXXR" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     كورس javascript  من البداية الى النهاية  
                                 </h2>
@@ -531,7 +550,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLMYF6NkLrdN-YRGdm0LghElMhz-7O_DL8" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     دورة JavaScript بالعربي  
                                 </h2>
@@ -540,7 +559,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLtFbQRDJ11kEbVF23tMjl_NuTbTvff6OH" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     دورة كاملة لتعلم لغة الجافاسكربت  
                                 </h2>
@@ -549,7 +568,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLL2zWZTDFZzgU2x6Kk6w0qx5piLgMODsm" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     كورس جافاسكربت من الصفر حتى الاحتراف  
                                 </h2>
@@ -576,7 +595,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLMTdZ61eBnyp1nMM8mGRzpwuu6FNxFy0D" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     دورة تعلم JavaScript من الصفر حتى الاحتراف  
                                 </h2>
@@ -621,7 +640,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAz7_BgzvNcOaE-m_SnE4jiT" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     تطبيقات كبيرة على لغة JavaScript  
                                 </h2>
@@ -630,7 +649,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAy3siU1b04xY24ZlstofO9M" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     تعلم ECMAScript 6  
                                 </h2>
@@ -742,7 +761,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/watch?v=pYhFRLA87kk&amp;ab_channel=NourHomsi" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     تعلم رياكت بتصميم موقع كامل مع تحديث 2022  
                                 </h2>
@@ -823,7 +842,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLfDx4cQoUNObRCqeYOws_JK_CCGCmQv_l" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     دورة تعلم react.js  
                                 </h2>
@@ -841,7 +860,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PL1FWK-sgJ9el-axKTMU_1l5PEyv7tn-wk" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     ReactJS من الصفر إلى الإحتراف  
                                 </h2>
@@ -865,7 +884,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                                         <div class="courses-section">
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLfDx4cQoUNObirW0hDpThe6enh7nBK5Od" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     مشاريع vue.js  
                                 </h2>
@@ -892,7 +911,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PL1FWK-sgJ9eljz7Tm5SSUcCt5sxmwoFlC" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     VueJs 2 من الصفر إلى الإحتراف  
                                 </h2>
@@ -910,7 +929,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLXgJ7cArk9uSB0kiR1ALOOOpiwJbd93b8" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     سلسلة تعلم برمجة Vuejs  
                                 </h2>
@@ -928,7 +947,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAzDuaT7kEURZQbw9dQHepK9" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     تطبيقات عملية على Vue.js  
                                 </h2>
@@ -937,7 +956,7 @@ A web designer works on the website layout, the design that we can see. Web Desi
                             </div>
                                                     <div class="courses-box">
                                 <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAxr5AqK3Yz4DWYKVSmIFziw" target="_blank">
-                                    <h2>
+                                    <h2 class=" ">
                                     <span> AR </span> 
                                     تعلم اطار عمل Vue.js  
                                 </h2>

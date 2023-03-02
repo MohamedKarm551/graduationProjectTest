@@ -54,7 +54,7 @@
     <!-- Copyright -->
     <div class="text-center p-3 Copyright">
         © 2023 Copyright :
-        <a class="text-white" href="">Azhar - Team</a>
+        <a class="text-white" href="">Azhar - Team - All Rights Reserved</a>
     </div>
     <!-- Copyright -->
 </footer>

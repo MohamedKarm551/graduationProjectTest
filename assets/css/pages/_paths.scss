@@ -23,7 +23,7 @@ body {
   font-size: 35px;
 }
 .heading span {
-  color: #0a53be;
+  color: #2196f3;
   text-transform: uppercase;
 }
 .bttn {
@@ -78,7 +78,8 @@ body {
 
 }
 .menu .box-container .box:hover {
-background-color: var(--main-color);}
+background-color: var(--main-color);
+}
 .menu .box-container .box h3 {
   color: #000;
   font-size: 20px;
@@ -90,7 +91,9 @@ background-color: var(--main-color);}
 
 
 .menu .box-container .box:hover .card_btn {
-  border: 1px solid #fff;
+  // border: 1px solid #fff;
+  outline: 1px solid #fff;
+
 }
 .menu .box-container .box .price {
   color: #fff;

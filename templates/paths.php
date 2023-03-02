@@ -1,61 +1,5 @@
 <?php defined('__secret__Constant__') or die('not found!'); ?>
 
-<!-- Start Hardware Section  -->
-<div class="menu" id="menu">
-    <div class="container">
-        <h1 class="heading">Hard<span>ware</span></h1>
-        <p class="head-text">
-            hardware is best described as any physical component of a computer
-            system containing a circuit board, ICs, or other electronics. A
-            perfect example of hardware is the screen on which you are viewing
-            this page. Whether it be a monitor, tablet, or smartphone, it is
-            hardware. Without any hardware, your computer would not exist, and
-            software could not be used. The picture is a Logitech webcam, an
-            example of an external hardware peripheral. This hardware device
-            allows users to take videos or pictures, and transmit them over the
-            Internet.
-        </p>
-        <div class="box-container">
-            <div class="box">
-                <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
-                <h3>Control System</h3>
-
-                <a href="#" class="bttn">view more &rarr;</a>
-            </div>
-            <div class="box">
-                <img src="//<?=f__r("media/images/Embedded.jpg");?>" alt="" />
-                <h3>Embedded System</h3>
-
-                <a href="#" class="bttn">view more &rarr;</a>
-            </div>
-            <div class="box">
-                <img src="//<?=f__r("media/images/Electronics.jpg");?>" alt="" />
-                <h3>Electronics</h3>
-
-                <a href="#" class="bttn">view more &rarr;</a>
-            </div>
-            <div class="box">
-                <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
-                <h3>Control System</h3>
-
-                <a href="#" class="bttn">view more &rarr;</a>
-            </div>
-            <div class="box">
-                <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
-                <h3>Control System</h3>
-
-                <a href="#" class="bttn">view more &rarr;</a>
-            </div>
-            <div class="box">
-                <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
-                <h3>Control System</h3>
-
-                <a href="#" class="bttn">view more &rarr;</a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Hardware Section -->
 
 <!-- Start Software Section -->
 <div class="menu soft" id="menu">
@@ -74,7 +18,14 @@
         <div class="box-container">
             <div class="box">
                 <img src="//<?=f__r("media/images/web.jpg");?>" alt="" />
-                <h3>Web Development</h3>
+                <h3>Front-end</h3>
+
+                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+                <button class="card_btn"><a href="http://graduation-project.local/path" target="_blank">View More</a></button>
+            </div>
+            <div class="box">
+                <img src="//<?=f__r("media/images/web.jpg");?>" alt="" />
+                <h3>Back-end</h3>
 
                 <!-- <a href="#" class="bttn">view more &rarr;</a> -->
                 <button class="card_btn"><a href="#">View More</a></button>
@@ -118,3 +69,66 @@
     </div>
 </div>
 <!-- End Software Section -->
+
+<!-- Start Hardware Section  -->
+<div class="menu" id="menu">
+    <div class="container">
+        <h1 class="heading">Hard<span>ware</span></h1>
+        <p class="head-text">
+            hardware is best described as any physical component of a computer
+            system containing a circuit board, ICs, or other electronics. A
+            perfect example of hardware is the screen on which you are viewing
+            this page. Whether it be a monitor, tablet, or smartphone, it is
+            hardware. Without any hardware, your computer would not exist, and
+            software could not be used. The picture is a Logitech webcam, an
+            example of an external hardware peripheral. This hardware device
+            allows users to take videos or pictures, and transmit them over the
+            Internet.
+        </p>
+        <div class="box-container">
+            <div class="box">
+                <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
+                <h3>Control System</h3>
+
+                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+                <button class="card_btn"><a href="#">View More</a></button>
+            </div>
+            <div class="box">
+                <img src="//<?=f__r("media/images/Embedded.jpg");?>" alt="" />
+                <h3>Embedded System</h3>
+
+                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+                <button class="card_btn"><a href="#">View More</a></button>
+            </div>
+            <div class="box">
+                <img src="//<?=f__r("media/images/Electronics.jpg");?>" alt="" />
+                <h3>Electronics</h3>
+
+                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+                <button class="card_btn"><a href="#">View More</a></button>
+            </div>
+            <div class="box">
+                <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
+                <h3>Control System</h3>
+
+                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+                <button class="card_btn"><a href="#">View More</a></button>
+            </div>
+            <div class="box">
+                <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
+                <h3>Control System</h3>
+
+                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+                <button class="card_btn"><a href="#">View More</a></button>
+            </div>
+            <div class="box">
+                <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
+                <h3>Control System</h3>
+
+                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+                <button class="card_btn"><a href="#">View More</a></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Hardware Section -->
