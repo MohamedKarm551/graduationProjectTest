@@ -31,6 +31,9 @@ if ($url = h__u($url)) {
         case "path":
             require_once(__ROOT__ . "/controller/path.php");
             break;
+        case "videos":
+            require_once(__ROOT__ . "/controller/videos.php");
+            break;
         case "contact":
             require_once(__ROOT__ . "/templates/contact.php");
             break;
