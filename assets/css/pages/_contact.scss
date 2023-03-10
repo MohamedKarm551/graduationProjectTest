@@ -2,9 +2,11 @@
 //  background-color: #000 ;
 //}
 .contact {
-  border: 2px solid #000;
+  // border: 2px solid #000;
+  border: 2px solid rgba(199, 205, 211, 1);
   margin-top: calc(10% + 20px);
-  background-color: #ddd;
+  // background-color: #ddd;
+  background-color: #fff;
   h3 {
     padding: 10% 0 2% 0;
     display: inline-block;
@@ -113,6 +115,53 @@
         }
       }
     }
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .card-Link {
+    position: relative;
+    // border-radius: 20px;
+  }
+
+  .card-Link img {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+    // border-radius: 20px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    /* Set the background color and opacity */
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+
+    /* Add transition effects */
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+
+    /* Center the link text vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay:hover {
+    opacity: 1; /* Set the opacity to fully visible on hover */
+  }
+
+  .overlay a {
+    color: white; /* Set the link text color to white */
   }
 }
 

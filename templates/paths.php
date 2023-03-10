@@ -17,53 +17,55 @@
         </p>
         <div class="box-container">
             <div class="box">
-                <img src="//<?=f__r("media/images/web.jpg");?>" alt="" />
+                <img src="//<?= f__r("media/images/web.jpg"); ?>" alt="" />
                 <h3>Front-end</h3>
 
                 <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-                <button class="card_btn"><a href="http://graduation-project.local/path" target="_blank">View More</a></button>
+                <span class="card_btn">
+                    <a href="/path">View More</a>
+                </span>
             </div>
             <div class="box">
-                <img src="//<?=f__r("media/images/web.jpg");?>" alt="" />
+                <img src="//<?= f__r("media/images/web.jpg"); ?>" alt="" />
                 <h3>Back-end</h3>
 
                 <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-                <button class="card_btn"><a href="#">View More</a></button>
+                <span class="card_btn"><a href="/path">View More</a></span>
             </div>
             <div class="box">
-                <img src="//<?=f__r("media/images/android.jpg");?>" alt="" />
+                <img src="//<?= f__r("media/images/android.jpg"); ?>" alt="" />
                 <h3>Android</h3>
 
-    <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-    <button class="card_btn"><a href="#">View More</a></button>
+                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+                <span class="card_btn"><a href="/path">View More</a></span>
             </div>
             <div class="box">
-                <img src="//<?=f__r("media/images/network.jpg");?>" alt="" />
+                <img src="//<?= f__r("media/images/network.jpg"); ?>" alt="" />
                 <h3>network</h3>
 
-    <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-    <button class="card_btn"><a href="#">View More</a></button>
+                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+                <span class="card_btn"><a href="/path">View More</a></span>
             </div>
             <div class="box">
-                <img src="//<?=f__r("media/images/security.jpg");?>" alt="" />
+                <img src="//<?= f__r("media/images/security.jpg"); ?>" alt="" />
                 <h3>cyber security</h3>
 
-    <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-    <button class="card_btn"><a href="#">View More</a></button>
+                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+                <span class="card_btn"><a href="/path">View More</a></span>
             </div>
             <div class="box">
-                <img src="//<?=f__r("media/images/Artificial Intelligence.jpg");?>" alt="" />
+                <img src="//<?= f__r("media/images/Artificial Intelligence.jpg"); ?>" alt="" />
                 <h3>Artificial Intelligence</h3>
 
-    <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-    <button class="card_btn"><a href="#">View More</a></button>
+                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+                <span class="card_btn"><a href="/path">View More</a></span>
             </div>
             <div class="box">
-                <img src="//<?=f__r("media/images/data science.jpg");?>" alt="" />
+                <img src="//<?= f__r("media/images/data science.jpg"); ?>" alt="" />
                 <h3>data science</h3>
 
-    <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-    <button class="card_btn"><a href="#">View More</a></button>
+                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
+                <span class="card_btn"><a href="/path">View More</a></span>
             </div>
         </div>
     </div>
@@ -87,46 +89,46 @@
         </p>
         <div class="box-container">
             <div class="box">
-                <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
+                <img src="//<?= f__r("media/images/control.jpg"); ?>" alt="" />
                 <h3>Control System</h3>
 
                 <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-                <button class="card_btn"><a href="#">View More</a></button>
+                <span class="card_btn"><a href="/path">View More</a></span>
             </div>
             <div class="box">
-                <img src="//<?=f__r("media/images/Embedded.jpg");?>" alt="" />
+                <img src="//<?= f__r("media/images/Embedded.jpg"); ?>" alt="" />
                 <h3>Embedded System</h3>
 
                 <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-                <button class="card_btn"><a href="#">View More</a></button>
+                <span class="card_btn"><a href="/path">View More</a></span>
             </div>
             <div class="box">
-                <img src="//<?=f__r("media/images/Electronics.jpg");?>" alt="" />
+                <img src="//<?= f__r("media/images/Electronics.jpg"); ?>" alt="" />
                 <h3>Electronics</h3>
 
                 <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-                <button class="card_btn"><a href="#">View More</a></button>
+                <span class="card_btn"><a href="/path">View More</a></span>
             </div>
             <div class="box">
-                <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
+                <img src="//<?= f__r("media/images/control.jpg"); ?>" alt="" />
                 <h3>Control System</h3>
 
                 <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-                <button class="card_btn"><a href="#">View More</a></button>
+                <span class="card_btn"><a href="/path">View More</a></span>
             </div>
             <div class="box">
-                <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
+                <img src="//<?= f__r("media/images/control.jpg"); ?>" alt="" />
                 <h3>Control System</h3>
 
                 <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-                <button class="card_btn"><a href="#">View More</a></button>
+                <span class="card_btn"><a href="/path">View More</a></span>
             </div>
             <div class="box">
-                <img src="//<?=f__r("media/images/control.jpg");?>" alt="" />
+                <img src="//<?= f__r("media/images/control.jpg"); ?>" alt="" />
                 <h3>Control System</h3>
 
                 <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-                <button class="card_btn"><a href="#">View More</a></button>
+                <span class="card_btn"><a href="/path">View More</a></span>
             </div>
         </div>
     </div>

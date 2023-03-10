@@ -8,8 +8,7 @@
             <div class="swiper-wrapper">
                 <div class="card swiper-slide">
                     <div class="card_image">
-
-                        <img src="../assets/media/images/home-slider/elsemary.jpg" alt="">
+                        <img src="//<?= f__r("media/images/home-slider/elsemary.jpg"); ?>" alt="">
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Ali Elsemary</span>
@@ -18,21 +17,14 @@
 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
 > -->
-                        <button class="card_btn">
-                            <!-- <a
-                                    href="https://www.almasryalyoum.com/news/details/2428454"
-                                    target="_blank"
-                                        ></a -->
-                                        view more
-
-                        </button>
+                        <span class="card_btn">
+                            view more
+                        </span>
                     </div>
                 </div>
                 <div class="card swiper-slide">
                     <div class="card_image">
-
-                        <!-- <img src="//<?=f__r("media/images/home-slider/Dr.Haitham.png");?>" alt="" /> -->
-                        <img src="../assets/media/images/home-slider/nasr.jpg" alt="">
+                        <img src="//<?= f__r("media/images/home-slider/Nasr.jpg"); ?>" alt="">
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Abdulrahman Nasr</span>
@@ -41,14 +33,14 @@
 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
 > -->
-                        <button class="card_btn">View More</button>
+                        <span class="card_btn">View More</span>
                     </div>
                 </div>
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <!-- <img src="//<?=f__r("media/images/home-slider/Dr.Haitham.png");?>" alt="" /> -->
-                        <img src="../assets/media/images/home-slider/khalil.jpeg" alt="">
+                        <!-- <img src="//<?= f__r("media/images/home-slider/Dr.Haitham.png"); ?>" alt="" /> -->
+                        <img src="//<?= f__r("media/images/home-slider/khalil.jpeg"); ?>" alt="">
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Khalil Mohamed</span>
@@ -57,14 +49,14 @@
 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
 > -->
-                        <button class="card_btn">View More</button>
+                        <span class="card_btn">View More</span>
                     </div>
                 </div>
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <!-- <img src="//<?=f__r("media/images/home-slider/Dr.Haitham.png");?>" alt="" /> -->
-                        <img src="../assets/media/images/home-slider/ayousef.jpg" alt="">
+                        <img src="//<?= f__r("media/images/home-slider/ayousef.jpg"); ?>" alt="" />
+                        <!-- <img src="../assets/media/images/home-slider/ayousef.jpg" alt=""> -->
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Ahmed Yousef</span>
@@ -73,14 +65,14 @@
 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
 > -->
-                        <button class="card_btn">View More</button>
+                        <span class="card_btn">View More</span>
                     </div>
                 </div>
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <!-- <img src="//<?=f__r("media/images/home-slider/Dr.Haitham.png");?>" alt="" /> -->
-                        <img src="../assets/media/images/home-slider/marakby.jpg" alt="">
+                        <img src="//<?= f__r("media/images/home-slider/marakby.jpg"); ?>" alt="" />
+                        <!-- <img src="../assets/media/images/home-slider/marakby.jpg" alt=""> -->
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Ashraf Elmarakby</span>
@@ -89,7 +81,7 @@
 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
 > -->
-                        <button class="card_btn">View More</button>
+                        <span class="card_btn">View More</span>
                     </div>
                 </div>
             </div>

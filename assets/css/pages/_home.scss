@@ -120,7 +120,8 @@ header nav ul {
 }
 header nav ul li a {
   // color: #fff;
-  color: #2196f3;
+  // color: #2196f3;
+  color: rgba(199, 205, 211, 1);
   font-size: 13px;
   font-weight: 600;
   padding: 28px 20px;
@@ -428,13 +429,31 @@ header .form i {
   /*animation-direction: alternate;
       */
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .main-title::after {
     right: -13%;
   }
 
   .main-title::before {
     left: -15%;
+  }
+}
+@media (max-width: 400px) {
+  .main-title::after {
+    right: -10%;
+  }
+
+  .main-title::before {
+    left: -10%;
+  }
+}
+@media (max-width: 375px) {
+  .main-title::after {
+    right: -6.5%;
+  }
+
+  .main-title::before {
+    left: -9%;
   }
 }
 @keyframes title-anim-left {
@@ -559,7 +578,9 @@ header .form i {
 .article-Text iframe {
   display: grid;
   margin: auto;
-  width: 50%;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
 }
 ul.departmentName {
   // background: #efefef;
@@ -568,14 +589,18 @@ ul.departmentName {
 }
 ul.departmentName li {
   border-radius: 15px;
-  border: 0.5px solid;
+  // border: 0.5px solid;
+  border: 0.5px transparent;
   font-family: "Raleway", sans-serif;
+  background: #c7cdd3;
   margin: 2px 0;
   padding: 5px;
   transition: all 0.2s ease-out;
 }
 ul.departmentName li:hover {
-  background-color: #1c2938;
+  // background-color: #1c2938;
+  background-color: #556b78;
+  // background-color: rgba(85, 107, 120, 1);
   color: #fff;
   cursor: pointer;
   font-weight: 500;
@@ -598,14 +623,42 @@ ul.departmentName li:nth-child(1):hover {
   margin: 1px;
   border: 0.1px solid transparent;
   border-radius: 10px;
+  // added 10 march
+  background: rgba(199, 205, 211, 1);
 }
 .fields li:nth-child(odd) {
-  background-color: #8080805e;
+  // background-color: #8080805e;
+  // added 10 march
+  background-color: rgba(142, 156, 166, 1);
 }
 .fields li:hover {
-  background: gray;
+  // background: gray;
+  // added in 10 march
+  background: rgba(85, 107, 120, 1);
   border-left: 5px solid #ccc;
   cursor: pointer;
+}
+@media (max-width: 550px) {
+  .article-Text iframe {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+  }
+}
+@media (max-width: 450px) {
+  ul.departmentName li {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 4%;
+    margin: 5px 0;
+  }
+  .fields li {
+    font-size: 15px;
+  }
+  .article-Text iframe {
+    width: 200px;
+    height: 200px;
+  }
 }
 //
 /* start tarek css code slider */
@@ -934,12 +987,6 @@ button[aria-expanded="false"] {
 .shape:hover span {
   color: #1068e9;
 }
-@media (max-width: 400px) {
-  .shape {
-    width: 200px;
-    height: 200px;
-  }
-}
 
 .shape p {
   position: absolute;
@@ -954,6 +1001,32 @@ button[aria-expanded="false"] {
   font-size: 51px;
   color: var(--second-color);
   font-weight: bold;
+}
+@media (max-width: 400px) {
+  .shape {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 800px) {
+  .iframeIntro {
+    width: 90%;
+    height: 300px;
+  }
+}
+@media (max-width: 375px) {
+  .iframeIntro {
+    width: 300px;
+    height: 300px;
+  }
+  .shape {
+    width: 150px;
+    height: 150px;
+    font-size: 16px;
+  }
+  .shape span {
+    font-size: 30px;
+  }
 }
 //
 // karam  .btn-style
@@ -984,14 +1057,26 @@ button[aria-expanded="false"] {
   content: "";
   width: 100%;
   height: 100%;
-  background: #4a4a4b;
+  // background: #4a4a4b;
+  // background: #2b5e64;
+  // =======
+  background: #2b4e64;
+  // background: #3d6a7c;
+  // =======
   // background: var(--main-color);
   left: 100%;
   top: 0;
   z-index: -1;
   transition: all 0.5s;
 }
-
+// .btn-style:nth-child(odd)::after {
+//   background: #3d6a7c;
+// }
 .btn-style:hover::after {
   left: 0;
+}
+@media (max-width: 450px) {
+  .btn-style {
+    font-size: 14px;
+  }
 }
