@@ -1,0 +1,85 @@
+.Material {
+}
+.Material .accordion-button::after {
+  //   background: #f0f8ffa1;
+  background-color: #2b4e64;
+  border-radius: 2px;
+}
+
+/* Color variables */
+:root {
+  --primary-color: rgb(28, 41, 56);
+  --complement-color-1: rgb(56, 28, 41);
+  --complement-color-2: rgb(41, 56, 28);
+}
+
+/* Accordion styles */
+.Material {
+  .accordion2 {
+    border: none;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .accordion-item2 {
+    // border-bottom: solid #ccc;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .accordion-header2 {
+    // background-color: var(--primary-color);
+    // color: #fff;
+
+    background-color: rgba(28, 41, 56, 1);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .accordion-header2:hover {
+    background-color: rgba(85, 107, 120, 1);
+  }
+
+  .accordion-header2.active {
+    background-color: var(--complement-color-2);
+  }
+  .accordion-content2 {
+    display: none;
+    // padding: 10px;
+    padding: 10px;
+  }
+
+  .active {
+    display: block;
+  }
+}
+//
+.accordion-content2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.accordion-content2 li {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.accordion-content2 li:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.accordion-content2 li:hover {
+  background-color: #556b78e3;
+  color: #fff;
+}
+
+.accordion-content2 li:last-child {
+  border-bottom: none;
+}
+//
+.Department-subjects {
+  margin: 10% 0;
+}

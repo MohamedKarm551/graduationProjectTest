@@ -626,17 +626,34 @@ ul.departmentName li:nth-child(1):hover {
   // added 10 march
   background: rgba(199, 205, 211, 1);
 }
-.fields li:nth-child(odd) {
-  // background-color: #8080805e;
-  // added 10 march
-  background-color: rgba(142, 156, 166, 1);
+// .fields li:nth-child(odd) {
+//   // background-color: #8080805e;
+//   // added 10 march
+//   background-color: rgba(142, 156, 166, 1);
+// }
+// .fields li:hover {
+//   // background: gray;
+//   // added in 10 march
+//   background: rgba(85, 107, 120, 1);
+//   border-left: 5px solid #ccc;
+//   cursor: pointer;
+// }
+.fields li {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px;
 }
+.fields li:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
 .fields li:hover {
-  // background: gray;
-  // added in 10 march
-  background: rgba(85, 107, 120, 1);
-  border-left: 5px solid #ccc;
-  cursor: pointer;
+  // background-color: #e6e6e6;
+  background-color: rgba(85, 107, 120, 1);
+}
+
+.fields li:last-child {
+  border-bottom: none;
 }
 @media (max-width: 550px) {
   .article-Text iframe {

@@ -27,6 +27,7 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item  img-item active">
@@ -60,7 +61,7 @@
     <!-- <div class="overlay"></div> -->
     <div class="text">
         <h2>HELLO!
-            <br>We Are Road map We Make Art.
+            <br>We Are Road map WEBSITE
         </h2>
         <p>This is a road map for students of the College of Engineering, Department of Systems and Computers.
         </p>

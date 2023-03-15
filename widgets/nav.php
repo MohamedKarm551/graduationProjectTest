@@ -45,15 +45,17 @@ defined('__secret__Constant__') or die('not found!');
             <label for="bar">
 
                 <!-- <i class="fa-solid fa-bars"></i></i> -->
-                <img src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/null/external-bars-interface-royyan-wijaya-detailed-outline-royyan-wijaya.png" />
-
+                <a href="/"> <img src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/null/external-bars-interface-royyan-wijaya-detailed-outline-royyan-wijaya.png" />
+                </a>
             </label>
             <input type="checkbox" name="check" id="bar">
             <ul>
                 <li><a class="<?= !h__v($cat) ? "active" : ""; ?>" href="/">Home</a></li>
+                <li><a class="<?= $cat === "courses" ? "active" : ""; ?>" href="/courses">Courses</a></li>
                 <li><a class="<?= $cat === "paths" ? "active" : ""; ?>" href="/paths">Paths</a></li>
                 <li><a class="<?= $cat === "videos" ? "active" : ""; ?>" href="/videos">Videos</a></li>
-                <li><a class="<?= $cat === "quality" ? "active" : ""; ?>" href="/quality">quality</a></li>
+
+                <!-- <li><a class="<?= $cat === "quality" ? "active" : ""; ?>" href="/quality">quality</a></li> -->
                 <li><a class="<?= $cat === "contact" ? "active" : ""; ?>" href="/contact">Contact</a></li>
             </ul>
 

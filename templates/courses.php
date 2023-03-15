@@ -1,157 +1,12 @@
-<div class="container">
-    <div class="article">
-        <h2 class="main-title onhover accord">An introductory article</h2>
-    </div>
-    <!-- المفروض   article-Text info-hide -->
+<?php defined('__secret__Constant__') or die('not found!'); ?>
 
-
-    <div class="article-Text m-5">
-
-        <!-- -->
-        <div class="accordion" id="accordionPanelsStayOpenExample">
-            <div class="accordion-item text-center">
-                <h2 class="accordion-header text-center" id="panelsStayOpen-headingOne">
-                    <button class="accordion-button text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        <h5 class="text-center"> مقدمة مهمة
-                        </h5>
-                    </button>
-                </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                    <div class="accordion-body text-center">
-                        <strong>مقدمة تعريفية</strong>
-                        <br>
-                        <p> هو من الأقسام التي تقوم بربط علوم الحاسب بمجالات العمل المختلفة،
-                            لذلك فهو يناسب الطلاب الذين يريدون اكتشاف مهاراتهم وقدراتهم على تحليل نظم المعلومات والبيانات في أي منظمة أو شركة.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header text-center" id="panelsStayOpen-headingTwo">
-                    <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                        <h5> أشهر مجالات ووظائف القسم
-                        </h5>
-                    </button>
-                </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                    <div class="accordion-body text-center">
-                        <p>
-                            فمن أشهر مجالات ووظائف هذا القسم : حسب تعريف دكتور أشرف المراكبي الرئيس السابق للقسم
-                        </p>
-
-                        <ul class="styleFirstUl">
-                            <li>شبكات الحاسب</li>
-                            <li>البرمجة</li>
-                            <li>التحكم الآلي</li>
-                            <li>الهاردوير</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item text-center">
-                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                    <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                        <h5> ملحوظة مهمة
-                        </h5>
-                    </button>
-                </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                    <div class="accordion-body text-center">
-                        القسم يهتم بتعليم الأساسيات وهو معتمد على التعلم الذاتي
-                        <br>
-                        <p class="bg-danger"> self study
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- <p>
-            هو من الأقسام التي تقوم بربط علوم الحاسب بمجالات العمل المختلفة،
-            لذلك فهو يناسب الطلاب الذين يريدون اكتشاف مهاراتهم وقدراتهم على تحليل نظم المعلومات والبيانات في أي منظمة أو شركة.
-
-            فمن أشهر مجالات ووظائف هذا القسم : حسب تعريف دكتور أشرف المراكبي الرئيس السابق للقسم
-        </p>
-        <ul>
-            <li>شبكات الحاسب</li>
-            <li>البرمجة</li>
-            <li>التحكم الآلي</li>
-            <li>الهاردوير</li>
-        </ul>
-        <h2>
-            القسم يهتم بتعليم الأساسيات وهو معتمد على التعلم الذاتي self study
-        </h2> -->
-        <br />
-        <!-- <h3 class="center-ele">من أسماء القسم</h3> -->
-        <!-- <h3 class="title-section">من أسماء القسم</h3> -->
-        <button class="btn-style"> من أسماء القسم</button>
-
-        <ul class="departmentName">
-            <li>قسم الحاسبات والنظم المدمجة</li>
-            <li>Electrical Engineering and Computer science (EECS)</li>
-            <li>Electrical System and Computer science (ESCS)</li>
-        </ul>
-        <!-- <h3 class="center-ele">من مجالات العمل</h3> -->
-        <!-- <h3 class="title-section">من مجالات العمل</h3> -->
-        <button class="btn-style">من مجالات العمل </button>
-
-
-        <ul class="fields">
-            <li><?= l_software_development; ?></li>
-            <li><?= l_embedded_system; ?></li>
-            <li><?= l_web_developer; ?></li>
-            <li><?= l_mobile_android_developer; ?></li>
-            <li>Data Engineer</li>
-            <li>Algorithm Engineer</li>
-            <li>Machine Learning Engineer</li>
-            <li>Deep Learning Engineer</li>
-            <li>Computer Vision Engineer</li>
-            <li>Image Processing Engineer</li>
-            <li>Big Data Engineer</li>
-            <li>ETL Developer</li>
-            <li>Business Intelligence (BI) Developer</li>
-            <li>Network Engineer</li>
-            <li>Security Engineer</li>
-            <li>Embedded system</li>
-            <li>Digital or analog design</li>
-            <li>Electronics</li>
-            <li>Control</li>
-            <li>Software of all kinds</li>
-        </ul>
-
-
-        <hr />
-        <div class="shape">
-            <p><span>Help</span> explainer <br>videos</p>
-        </div>
-        <!-- <p class="center-ele">فيديو تعريفي بالقسم من رئيس القسم السابق</p> -->
-        <!-- <h3 class="title-section">فيديو تعريفي بالقسم من رئيس القسم السابق </h3> -->
-        <button class="btn-style">فيديو تعريفي بالقسم من رئيس القسم السابق </button>
-
-        <br />
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/FQ9XigMfnG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <hr />
-        <!-- <p class="center-ele">فيديو تعريفي بالقسم من طالب سابق</p> -->
-        <!-- <h3 class="title-section">فيديو تعريفي بالقسم من طالب سابق </h3> -->
-        <button class="btn-style">فيديو تعريفي بالقسم من طالب سابق </button>
-
-        <br />
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/JAVKXLhRGiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <!--  -->
-        <br />
-
-        <!-- <p class="center-ele">
-            وهذه هي المواد المهمة التي ستقابلها في أعوام دراستك في القسم :
-        </p> -->
-        <!-- <h3 class="title-section"> وهذه هي المواد المهمة التي ستقابلها في أعوام دراستك في القسم
-        </h3> -->
-        <button class="btn-style">
-            <a href="/courses"> اضغط هنا لمعرفة المواد المهمة التي ستقابلها في أعوام دراستك في القسم</a>
-        </button>
-
+<section class="Material">
+    <div class="container">
         <!-- according terms (Section materials) -->
-        <!-- <div class="row justify-content-center mtb">
-            <div class="col-md-7 col-lg-6 col-xl-5">
+        <button class="btn-style">
+            مواد القسم خلال الأربع سنوات </button>
+        <div class="row justify-content-center mtb article-Text">
+            <div class="col-md-7 col-lg-12 col-xl-12">
                 <div id="accordion" class=" accordion myaccordion w-100">
                     <div class=" cardAccord accordion-item">
                         <div class="card-header p-0" id="headingOne">
@@ -360,11 +215,115 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- help:
+                    https://preview.colorlib.com/theme/bac/accordion-10/
+                 -->
                 </div>
             </div>
-        </div> -->
+            <!--  -->
+        </div>
+        <!-- 
 
-        <hr />
-    </div>
-</div>
+         -->
+
+        <section class="Department-subjects">
+            <div class="main-title onhover accord"> Department subjects</div>
+            <div class="accordion2">
+                <div class="accordion-item2 ">
+                    <div class="accordion-header2">First year</div>
+                    <div class="accordion-content2">
+                        <ul>
+                            <li>The Holy Quran</li>
+                            <li>Measuring Devices</li>
+                            <li>English Language</li>
+                            <li>Electronics</li>
+                            <li>Laboratory</li>
+                            <li>Programming Methods</li>
+                            <li>Mathematics (Vectors and Matrices)</li>
+                            <li>Theory of Electrical Circuits</li>
+                            <li>Electronic Circuits</li>
+                            <li>Biography of the Prophet and the history of successors</li>
+                            <li>Algorithms and Data Structure</li>
+                            <li>Electromagnetic and Photochemical Fields</li>
+                            <li>Mathematics (Differential Equations)</li>
+                            <li>Combinational Circuits</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="accordion-item2 ">
+                    <div class="accordion-header2">Second year</div>
+                    <div class="accordion-content2">
+                        <ul>
+                            <li>The Holy Quran</li>
+                            <li>Integrated Circuits</li>
+                            <li>System Engineering &amp; Signals</li>
+                            <li>Sequential Machines</li>
+                            <li>Object-Oriented Programming</li>
+                            <li>Mathematics (Functions and Transform Functions)</li>
+                            <li>Laboratory</li>
+                            <li>Interpretation</li>
+                            <li>English Language</li>
+                            <li>Numerical Analysis</li>
+                            <li>Mathematics (Statistics and Probability)</li>
+                            <li>Logic Circuits</li>
+                            <li>Automatic Control</li>
+                            <li>Electrical Machines</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="accordion-item2 ">
+                    <div class="accordion-header2">Third year</div>
+                    <div class="accordion-content2">
+                        <ul>
+                            <li>The Holy Quran</li>
+                            <li>Communication Systems</li>
+                            <li>Mathematics (Queuing Theory and Modeling)</li>
+                            <li>Hadith</li>
+                            <li>Digital Control</li>
+                            <li>Laboratory 3</li>
+                            <li>Automata</li>
+                            <li>Microprocessors</li>
+                            <li>Operating Systems</li>
+                            <li>Electric Power Systems</li>
+                            <li>Database Management Engineering and Project Managing</li>
+                            <li>Sensors and Power Converters</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="accordion-item2 ">
+                    <div class="accordion-header2">Fourth year</div>
+                    <div class="accordion-content2">
+                        <ul>
+                            <li> Computer Networks and its Programming</li>
+                            <li>Computer Aided Design</li>
+                            <li>Laboratory 4
+                            </li>
+                            <li>Project
+                            </li>
+                            <li> Computer Architecture</li>
+                            <li>Compilers </li>
+                            <li>Elective Course 1</li>
+                            <li> Embedded Systems’ Measurements </li>
+                            <li> Interfacing Systems</li>
+                            <li> Software Engineering </li>
+                            <li> Intelligent Systems</li>
+                            <li> Elective Course 2</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+    </div> <!-- end of container-->
+
+</section>
