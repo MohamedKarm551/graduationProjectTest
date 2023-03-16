@@ -16,7 +16,16 @@ function feedback_system(status, message, timeout=true) {
     } else {
         $closefeedback.removeClass('d-none');
     }
-
-
     $feed_main_text.html(message);
+}
+
+/**
+ *
+ * @param text
+ * @returns {boolean}
+ */
+function is__valid__json(text){
+    return /^[\],:{}\s]*$/.test(text.replace(/\\["\\\/bfnrtu]/g, '@').
+    replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g, ']').
+    replace(/(?:^|:|,)(?:\s*\[)+/g, ''));
 }

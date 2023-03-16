@@ -43,6 +43,9 @@ if ($url = h__u($url)) {
         case "quality":
             require_once(__ROOT__ . "/controller/quality.php");
             break;
+        case "test-your-self":
+            require_once(__ROOT__ . "/controller/test-your-self.php");
+            break;
         default:
             if (h__v($cat)) r__("/404");
             require_once(__CONT__ . "/home.php");

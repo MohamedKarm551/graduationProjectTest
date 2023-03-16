@@ -57,6 +57,7 @@ defined('__secret__Constant__') or die('not found!');
 
                 <!-- <li><a class="<?= $cat === "quality" ? "active" : ""; ?>" href="/quality">quality</a></li> -->
                 <li><a class="<?= $cat === "contact" ? "active" : ""; ?>" href="/contact">Contact</a></li>
+                <li><a href="/test-your-self">test you self</a></li>
             </ul>
 
         </nav>

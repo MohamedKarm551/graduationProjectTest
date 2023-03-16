@@ -21,7 +21,7 @@
   },
   "description": "",
   "dependencies": {
-    "node-sass": "^7.0.1",
-    "sass": "^1.52.2"
+    "sass": "^1.52.2",
+    "vinyl-source-stream": "^2.0.0"
   }
 }
