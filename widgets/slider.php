@@ -40,7 +40,8 @@
                     <div class="card_image">
 
                         <!-- <img src="//<?= f__r("media/images/home-slider/Dr.Haitham.png"); ?>" alt="" /> -->
-                        <img src="//<?= f__r("media/images/home-slider/khalil.jpeg"); ?>" alt="">
+                        <!-- <img src="//<?= f__r("media/images/home-slider/khalil.jpeg"); ?>" alt=""> -->
+                        <img src="//<?= f__r("media/images/home-slider/khalil-2.jpg")?>" alt="">
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Khalil Mohamed</span>
