@@ -1,6 +1,6 @@
 .Material {
 }
-.Material .accordion-button::after {
+.Material .accordion-button::after:not(:first-of-type) {
   //   background: #f0f8ffa1;
   background-color: #2b4e64;
   border-radius: 2px;
@@ -15,6 +15,18 @@
 
 /* Accordion styles */
 .Material {
+  .edit-accord {
+    direction: rtl;
+  }
+  .accordionButtonEdit::after {
+    position: absolute;
+    left: 2%;
+  }
+  .accordionBodyEdit p,
+  .accordionBodyEdit .styleFirstUl {
+    font-weight: 600;
+    font-size: 1rem;
+  }
   .accordion2 {
     border: none;
     width: 100%;
