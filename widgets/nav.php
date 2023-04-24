@@ -36,7 +36,7 @@ defined('__secret__Constant__') or die('not found!');
 </nav> -->
 <header>
     <div class="container">
-        <a href="#" class="logo">
+        <a href="/" class="logo">
             <img src="//<?= f__r("media/images/azharlogo.png"); ?>" alt="logo">
         </a>
         <nav>
@@ -50,14 +50,24 @@ defined('__secret__Constant__') or die('not found!');
             </label>
             <input type="checkbox" name="check" id="bar">
             <ul>
-                <li><a class="<?= !h__v($cat) ? "active" : ""; ?>" href="/">Home</a></li>
-                <li><a class="<?= $cat === "courses" ? "active" : ""; ?>" href="/courses">Courses</a></li>
-                <li><a class="<?= $cat === "paths" ? "active" : ""; ?>" href="/paths">Paths</a></li>
+                <li><a class="<?= !h__v($cat) ? "active" : ""; ?>" href="/"><?=l_home;?></a></li>
+                <li><a class="<?= $cat === "courses" ? "active" : ""; ?>" href="/courses"><?=l_courses;?></a></li>
+                <li><a class="<?= $cat === "paths" ? "active" : ""; ?>" href="/paths"><?=l_paths;?></a></li>
                 <li><a class="<?= $cat === "videos" ? "active" : ""; ?>" href="/videos">Videos</a></li>
 
                 <!-- <li><a class="<?= $cat === "quality" ? "active" : ""; ?>" href="/quality">quality</a></li> -->
                 <li><a class="<?= $cat === "test-your-self" ? "active" : ""; ?>" href="/test-your-self">test you self</a></li>
                 <li><a class="<?= $cat === "contact" ? "active" : ""; ?>" href="/contact">Contact</a></li>
+                <li>
+                    <?php
+                    $lang = $_COOKIE["lang"] ?? "en";
+                    if($lang === "ar") { ?>
+                    <a href="/?lang=en"><?=l_english;?></a>
+                    <?php } else { ?>
+                    <a href="/?lang=ar"><?=l_arabic;?></a>
+                    <?php } ?>
+
+                </li>
             </ul>
 
         </nav>
