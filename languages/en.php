@@ -3,7 +3,7 @@ defined("__secret__Constant__") or die("no :(");
 
 
 
-
+//start home page translation
 const l_english = "english";
 const l_arabic = "arabic";
 const l_home = "home";
@@ -64,5 +64,23 @@ const l_An_introductory_video_three= "Click here to view the important courses y
 const l_Teaching_Staff= "Teaching Staff";
 
 const l_VIEW_MORE= "VIEW MORE";
+//end home page translation
 
 
+
+
+//start paths page translation
+const l_software_headline="software";
+const l_software_definition="Computer Software Engineers Develop Programs And Operating Systems For Computers. They Work With System Programmers, Analysts, And Other Engineers To Design Systems, Project Capabilities, And Determine Performance Interfaces. Computer Software Engineers Also Analyze User Needs, Provide Consultation Services To Discuss Design Elements, And Coordinate Software Installation. Designing Software Systems Requires Engineers To Consider Mathematical Models And Scientific Analysis To Project Outcomes.";
+const l_Front_end="Front-end developer";
+const l_Back_end="Back-end developer";
+const l_android_paths="Android developer";
+const l_Network_paths="Network";
+const l_cyber_security="cyber security";
+const l_Artificial_Intelligence="Artificial Intelligence";
+const l_data_science="data science";
+
+
+const l_hardware_headline="hardware";
+const l_hardware_definition="Hardware Is Best Described As Any Physical Component Of A Computer System Containing A Circuit Board, ICs, Or Other Electronics. A Perfect Example Of Hardware Is The Screen On Which You Are Viewing This Page. Whether It Be A Monitor, Tablet, Or Smartphone, It Is Hardware. Without Any Hardware, Your Computer Would Not Exist, And Software Could Not Be Used. The Picture Is A Logitech Webcam, An Example Of An External Hardware Peripheral. This Hardware Device Allows Users To Take Videos Or Pictures, And Transmit Them Over The Internet.";
+//end paths page translation
