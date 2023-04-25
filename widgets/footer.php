@@ -27,8 +27,11 @@
 
         <!-- Section: Text -->
         <section class="mb-4">
-            <p>
+            <!-- <p>
                 Community created roadmaps, articles, resources and journeys to help you choose your path and grow in your career.
+            </p> -->
+            <p>
+            <?=l_layout_text;?>
             </p>
         </section>
         <!-- Section: Text -->

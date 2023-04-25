@@ -1,6 +1,6 @@
 <div class="container">
     <div class="article">
-        <h2 class="main-title onhover accord">An introductory article</h2>
+        <h2 class="main-title onhover accord"><?=l_An_Introductory_Article;?></h2>
     </div>
     <!-- المفروض   article-Text info-hide -->
 
@@ -12,16 +12,15 @@
             <div class="accordion-item text-center">
                 <h2 class="accordion-header text-center" id="panelsStayOpen-headingOne">
                     <button class="accordion-button text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        <h5 class="text-center"> مقدمة مهمة
+                        <h5 class="text-center"> <?=l_Important_Introduction;?>
                         </h5>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                     <div class="accordion-body text-center">
-                        <strong>مقدمة تعريفية</strong>
+                        <strong><?=l_About_the_Department;?></strong>
                         <br>
-                        <p> هو من الأقسام التي تقوم بربط علوم الحاسب بمجالات العمل المختلفة،
-                            لذلك فهو يناسب الطلاب الذين يريدون اكتشاف مهاراتهم وقدراتهم على تحليل نظم المعلومات والبيانات في أي منظمة أو شركة.
+                        <p> <?=l_About_the_Department_define;?>
                         </p>
 
                     </div>
@@ -30,21 +29,21 @@
             <div class="accordion-item">
                 <h2 class="accordion-header text-center" id="panelsStayOpen-headingTwo">
                     <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                        <h5> أشهر مجالات ووظائف القسم
+                        <h5> <?=l_The_most_famous_tracks;?>
                         </h5>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                     <div class="accordion-body text-center">
                         <p>
-                            فمن أشهر مجالات ووظائف هذا القسم : حسب تعريف دكتور أشرف المراكبي الرئيس السابق للقسم
+                        <?=l_The_most_famous_tracks_define;?>
                         </p>
 
                         <ul class="styleFirstUl">
-                            <li>شبكات الحاسب</li>
-                            <li>البرمجة</li>
-                            <li>التحكم الآلي</li>
-                            <li>الهاردوير</li>
+                            <li><?=l_The_most_famous_tracks_li_one;?></li>
+                            <li><?=l_The_most_famous_tracks_li_two;?></li>
+                            <li><?=l_The_most_famous_tracks_li_three;?></li>
+                            <li><?=l_The_most_famous_tracks_li_four;?></li>
                         </ul>
                     </div>
                 </div>
@@ -52,15 +51,14 @@
             <div class="accordion-item text-center">
                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                     <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                        <h5> ملحوظة مهمة
+                        <h5> <?=l_Important_note;?>
                         </h5>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                    <div class="accordion-body text-center">
-                        القسم يهتم بتعليم الأساسيات وهو معتمد على التعلم الذاتي
+                    <div class="accordion-body text-center"><?=l_Important_note_define;?>
                         <br>
-                        <p class="bg-danger"> self study
+                        <p class="bg-danger"> <?=l_self_study;?>
                         </p>
                     </div>
                 </div>
@@ -84,16 +82,17 @@
         <br />
         <!-- <h3 class="center-ele">من أسماء القسم</h3> -->
         <!-- <h3 class="title-section">من أسماء القسم</h3> -->
-        <button class="btn-style"> من أسماء القسم</button>
+        <button class="btn-style"><?=l_Department_Names;?></button>
 
         <ul class="departmentName">
-            <li>قسم الحاسبات والنظم المدمجة</li>
-            <li>Electrical Engineering and Computer science (EECS)</li>
-            <li>Electrical System and Computer science (ESCS)</li>
+            <li><?= l_Al_Azhar_University; ?></li>
+            <li><?= l_Cairo_University; ?></li>
+            <li><?= l_Mansoura_University; ?></li>
+            <li><?= l_Zagazig_University; ?></li>
         </ul>
         <!-- <h3 class="center-ele">من مجالات العمل</h3> -->
         <!-- <h3 class="title-section">من مجالات العمل</h3> -->
-        <button class="btn-style">من مجالات العمل </button>
+        <button class="btn-style"><?= l_job_tracks; ?></button>
 
 
         <ul class="fields">
@@ -101,39 +100,36 @@
             <li><?= l_embedded_system; ?></li>
             <li><?= l_web_developer; ?></li>
             <li><?= l_mobile_android_developer; ?></li>
-            <li>Data Engineer</li>
-            <li>Algorithm Engineer</li>
-            <li>Machine Learning Engineer</li>
-            <li>Deep Learning Engineer</li>
+            <li><?= l_Data_Engineer; ?></li>
+            <li><?= l_Algorithms_Engineer; ?></li>
+            <li><?= l_Machine_Learning_Engineer; ?></li>
+            <li><?= l_Big_Data_Engineer ?></li>
             <li>Computer Vision Engineer</li>
             <li>Image Processing Engineer</li>
-            <li>Big Data Engineer</li>
             <li>ETL Developer</li>
             <li>Business Intelligence (BI) Developer</li>
-            <li>Network Engineer</li>
-            <li>Security Engineer</li>
-            <li>Embedded system</li>
-            <li>Digital or analog design</li>
-            <li>Electronics</li>
-            <li>Control</li>
-            <li>Software of all kinds</li>
+            <li><?= l_Network_Engineer; ?></li>
+            <li><?= l_Security_Engineer; ?></li>
+            <li><?= l_Digital_or_analog_design; ?></li>
+            <li><?= l_Electronics; ?></li>
+            <li><?= l_Control_Systems; ?></li>
         </ul>
 
 
         <hr />
-        <div class="shape">
+        <!-- <div class="shape">
             <p><span>Help</span> explainer <br>videos</p>
-        </div>
+        </div> -->
         <!-- <p class="center-ele">فيديو تعريفي بالقسم من رئيس القسم السابق</p> -->
         <!-- <h3 class="title-section">فيديو تعريفي بالقسم من رئيس القسم السابق </h3> -->
-        <button class="btn-style">فيديو تعريفي بالقسم من رئيس القسم السابق </button>
+        <button class="btn-style"><?= l_An_introductory_video_one; ?></button>
 
         <br />
         <iframe width="560" height="315" src="https://www.youtube.com/embed/FQ9XigMfnG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <hr />
         <!-- <p class="center-ele">فيديو تعريفي بالقسم من طالب سابق</p> -->
         <!-- <h3 class="title-section">فيديو تعريفي بالقسم من طالب سابق </h3> -->
-        <button class="btn-style">فيديو تعريفي بالقسم من طالب سابق </button>
+        <button class="btn-style"><?= l_An_introductory_video_two; ?></button>
 
         <br />
         <iframe width="560" height="315" src="https://www.youtube.com/embed/JAVKXLhRGiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -146,7 +142,7 @@
         <!-- <h3 class="title-section"> وهذه هي المواد المهمة التي ستقابلها في أعوام دراستك في القسم
         </h3> -->
         <button class="btn-style">
-            <a href="/courses"> اضغط هنا لمعرفة المواد المهمة التي ستقابلها في أعوام دراستك في القسم</a>
+            <a href="/courses"><?= l_An_introductory_video_three; ?></a>
         </button>
 
         <!-- according terms (Section materials) -->

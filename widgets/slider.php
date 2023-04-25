@@ -3,7 +3,7 @@
 
 <div class="slider">
     <div class="container">
-        <h2 class="main-title onhover accord">Teaching Staff</h2>
+        <h2 class="main-title onhover accord"><?= l_Teaching_Staff; ?></h2>
         <section class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="card swiper-slide">
@@ -18,7 +18,7 @@
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
 > -->
                         <span class="card_btn">
-                            view more
+                        <?= l_VIEW_MORE; ?>
                         </span>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
 > -->
-                        <span class="card_btn">View More</span>
+                        <span class="card_btn"><?= l_VIEW_MORE; ?></span>
                     </div>
                 </div>
                 <div class="card swiper-slide">
@@ -50,7 +50,7 @@
 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
 > -->
-                        <span class="card_btn">View More</span>
+                        <span class="card_btn"><?= l_VIEW_MORE; ?></span>
                     </div>
                 </div>
                 <div class="card swiper-slide">
@@ -66,7 +66,7 @@
 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
 > -->
-                        <span class="card_btn">View More</span>
+                        <span class="card_btn"><?= l_VIEW_MORE; ?></span>
                     </div>
                 </div>
                 <div class="card swiper-slide">
@@ -82,7 +82,7 @@
 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 ipsam impedit tenetur in, sequi impedit aut ipsum!</span
 > -->
-                        <span class="card_btn">View More</span>
+                        <span class="card_btn"><?= l_VIEW_MORE; ?></span>
                     </div>
                 </div>
             </div>

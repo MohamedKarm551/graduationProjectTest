@@ -53,11 +53,11 @@ defined('__secret__Constant__') or die('not found!');
                 <li><a class="<?= !h__v($cat) ? "active" : ""; ?>" href="/"><?=l_home;?></a></li>
                 <li><a class="<?= $cat === "courses" ? "active" : ""; ?>" href="/courses"><?=l_courses;?></a></li>
                 <li><a class="<?= $cat === "paths" ? "active" : ""; ?>" href="/paths"><?=l_paths;?></a></li>
-                <li><a class="<?= $cat === "videos" ? "active" : ""; ?>" href="/videos">Videos</a></li>
+                <li><a class="<?= $cat === "videos" ? "active" : ""; ?>" href="/videos"><?=l_videos;?></a></li>
 
                 <!-- <li><a class="<?= $cat === "quality" ? "active" : ""; ?>" href="/quality">quality</a></li> -->
-                <li><a class="<?= $cat === "test-your-self" ? "active" : ""; ?>" href="/test-your-self">test you self</a></li>
-                <li><a class="<?= $cat === "contact" ? "active" : ""; ?>" href="/contact">Contact</a></li>
+                <li><a class="<?= $cat === "test-your-self" ? "active" : ""; ?>" href="/test-your-self"><?=l_test_yourself;?></a></li>
+                <li><a class="<?= $cat === "contact" ? "active" : ""; ?>" href="/contact"><?=l_contact;?></a></li>
                 <li>
                     <?php
                     $lang = $_COOKIE["lang"] ?? "en";

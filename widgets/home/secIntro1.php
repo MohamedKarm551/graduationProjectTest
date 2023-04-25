@@ -60,10 +60,9 @@
     </div>
     <!-- <div class="overlay"></div> -->
     <div class="text">
-        <h2>HELLO!
-            <br>We Are Road map WEBSITE
+        <h2><?=l_layout_head;?>
         </h2>
-        <p>This is a road map for students of the College of Engineering, Department of Systems and Computers.
+        <p><?=l_layout_text;?>
         </p>
     </div>
 </div>
