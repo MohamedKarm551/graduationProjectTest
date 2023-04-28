@@ -130,7 +130,71 @@ const l_Program_objectives_child_four="4.Providing incentives and support for fa
 const l_Program_objectives_child_five="5.Providing technical and engineering consultations in the field of systems and computer engineering, digital transformation, information technology and security for the college, university, government agencies and the private sector.
 ";
 const l_Program_objectives_child_six="6.Actively participating in development through cooperation with community institutions and relevant parties to serve society and the environment";
+
+
+
+
+const l_Department_subjects="Department subjects";
+const l_First_year="First year";
+const l_The_Holy_Quran="The Holy Quran";
+const l_Measuring_Devices="Measuring Devices";
+const l_English_Language="English Language";
+const l_Laboratory="Laboratory";
+const l_Programming_Methods="Programming Methods";
+const l_Mathematics_Vectors_and_Matrices="Mathematics (Vectors and Matrices)";
+const l_Theory_of_Electrical_Circuits="Theory of Electrical Circuits";
+const l_Electronic_Circuits="Electronic Circuits";
+const l_Biography_of_the_Prophet="Biography of the Prophet and the history of successors";
+const l_Algorithms_and_Data_Structure="Algorithms and Data Structures";
+const l_Electromagnetic_and_Photochemical_Fields="Electromagnetic and Photochemical Fields";
+const l_Mathematics_Differential_Equations="Mathematics (Differential Equations)";
+const l_Combinational_Circuits="Combinational Circuits";
+
+
+const l_Second_year="Second year";
+const l_Integrated_Circuits="Integrated Circuits";
+const l_System_Engineering_and_Signals="System Engineering and Signals";
+const l_Sequential_Machines="Sequential Machines";
+const l_Object_Oriented_Programming="Object-Oriented Programming";
+const l_Mathematics_Functions_and_Transform_Functions="Mathematics (Functions and Transform Functions)";
+const l_Interpretation="Interpretation";
+const l_Numerical_Analysis="Numerical Analysis";
+const l_Mathematics_Statistics_and_Probability="Mathematics (Statistics and Probability)";
+const l_Logic_Circuits="Logic Circuits";
+const l_Automatic_Control="Automatic Control";
+const l_Electrical_Machines="Electrical Machines";
+
+
+const l_Third_year="Third year";
+const l_Communication_Systems="Communication Systems";
+const l_Mathematics_Queuing_Theory_and_Modeling="Mathematics (Queuing Theory and Modeling)";
+const l_Hadith="Hadith";
+const l_Digital_Control="Digital Control";
+const l_Automata="Automata";
+const l_Microprocessors="Microprocessors";
+const l_Operating_Systems="Operating Systems";
+const l_Electric_Power_Systems="Electric Power Systems";
+const l_Database_Management_Engineering_and_Project_Managing="Database Management Engineering and Project Managing";
+const l_Sensors_and_Power_Converters="Sensors and Power Converters";
+
+
+
+
+const l_Fourth_year="Fourth year";
+const l_Computer_Networks="Computer Networks";
+const l_Computer_Aided_Design="Computer Aided Design";
+const l_Project="Project";
+const l_Computer_Architecture="Computer Architecture";
+const l_Compilers="Compilers";
+const l_Elective_Course_one="Elective Course 1";
+const l_Embedded_Systems_Measurements="Embedded Systems’ Measurements";
+const l_Interfacing_Systems="Interfacing Systems";
+const l_Software_Engineering="Software Engineering";
+const l_Intelligent_Systems="Intelligent Systems";
+const l_Elective Course_two="Elective Course 2";
+
 //end courses page translation
+
 
 
 

@@ -138,4 +138,71 @@ const l_Program_objectives_child_five="5. تقديم الاستشارات الف
 ";
 const l_Program_objectives_child_six="6. المشاركة الفعالة فى التنمية من خلال التعاون مع مؤسسات المجتمع والجهات المعنية لخدمة المجتمع والبيئة.
 ";
+
+
+const l_Department_subjects="مواد القسم";
+const l_First_year="العام الأول";
+const l_The_Holy_Quran="القرآن الكريم";
+const l_Measuring_Devices="أجهوة القياس";
+const l_English_Language="اللغة الإنجليزية";
+const l_Laboratory="المعل";
+const l_Programming_Methods="طرق البرمجة";
+const l_Mathematics_Vectors_and_Matrices="الرياضيات (المتجهات والمصفوفات)";
+const l_Theory_of_Electrical_Circuits="نظرية الدوائر الكهربائية";
+const l_Electronic_Circuits="الدوائر الإلكترونية";
+const l_Biography_of_the_Prophet="السيرة النبوية وتاريخ الخلفاء";
+const l_Algorithms_and_Data_Structure="الخوارزميات وهياكل البيانات";
+const l_Electromagnetic_and_Photochemical_Fields="المجالات الكهرومغناطيسية والكيميائية الضوئية";
+const l_Mathematics_Differential_Equations="الرياضيات (المعادلات التفاضلية)";
+const l_Combinational_Circuits="الدوائر التوافقية";
+
+
+const l_Second_year="العام الثاني";
+const l_Integrated_Circuits="دوائر متكاملة";
+const l_System_Engineering_and_Signals="هندسة النظم والإشارات";
+const l_Sequential_Machines="الآلات التعاقبية";
+const l_Object_Oriented_Programming="البرمجة الشيئية";
+const l_Mathematics_Functions_and_Transform_Functions="الرياضيات (دوال وتحويلات)";
+const l_Interpretation="تفسير";
+const l_Numerical_Analysis="التحليل العددي";
+const l_Mathematics_Statistics_and_Probability="الرياضيات (الإحصاء والاحتمالات)";
+const l_Logic_Circuits="الدوائر المنطقية";
+const l_Automatic_Control="تحكم آلي";
+const l_Electrical_Machines="آلات كهربائية";
+const l_Third_year="العام الثالث";
+const l_Communication_Systems="نظم الاتصالات";
+const l_Mathematics_Queuing_Theory_and_Modeling="الرياضيات (نظرية الطوابير والنمذجة)";
+const l_Hadith="الحديث";
+const l_Digital_Control="تحكم رقمي";
+const l_Automata="";
+const l_Microprocessors="مشغلات دقيقة";
+const l_Operating_Systems="أنظمة التشغيل";
+const l_Electric_Power_Systems="أنظمة القوى الكهربائية";
+const l_Database_Management_Engineering_and_Project_Managing="هندسة إدارة قواعد البيانات وإدارة المشاريع";
+const l_Sensors_and_Power_Converters="مجسات ومحولات قدرة";
+
+
+
+
+
+const l_Fourth_year="العام الرابع";
+const l_Computer_Networks="شبكات الحاسب";
+const l_Computer_Aided_Design="تصميم وتصنيع بالحاسب";
+const l_Project="مشروع";
+const l_Computer_Architecture="بنية الحاسب";
+const l_Compilers="مترجمات";
+const l_Elective_Course_one="مقرر اختياري 1";
+const l_Embedded_Systems_Measurements="قياسات وأنظمة مدمجة";
+const l_Interfacing_Systems="نظم المواءمة";
+const l_Software_Engineering="هندسة البرمجيات";
+const l_Intelligent_Systems="أنظمة ذكية";
+const l_Elective_Course_two="مقرر اختياري 2";
+
+
+
+
+
+
+
+
 //end courses page translation

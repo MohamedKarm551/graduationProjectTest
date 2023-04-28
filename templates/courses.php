@@ -311,93 +311,91 @@
                     https://preview.colorlib.com/theme/bac/accordion-10/
                  -->
         <section class="Department-subjects">
-            <div class="main-title onhover accord"> Department subjects</div>
+            <div class="main-title onhover accord"> <?= l_Department_subjects ?></div>
             <div class="accordion2">
                 <div class="accordion-item2 ">
-                    <div class="accordion-header2">First year</div>
+                    <div class="accordion-header2"><?= l_First_year ?></div>
                     <div class="accordion-content2">
                         <ul>
-                            <li>The Holy Quran</li>
-                            <li>Measuring Devices</li>
-                            <li>English Language</li>
-                            <li>Electronics</li>
-                            <li>Laboratory</li>
-                            <li>Programming Methods</li>
-                            <li>Mathematics (Vectors and Matrices)</li>
-                            <li>Theory of Electrical Circuits</li>
-                            <li>Electronic Circuits</li>
-                            <li>Biography of the Prophet and the history of successors</li>
-                            <li>Algorithms and Data Structure</li>
-                            <li>Electromagnetic and Photochemical Fields</li>
-                            <li>Mathematics (Differential Equations)</li>
-                            <li>Combinational Circuits</li>
+                            <li><?= l_The_Holy_Quran ?></li>
+                            <li><?= l_Measuring_Devices ?></li>
+                            <li><?= l_English_Language ?></li>
+                            <li><?= l_Electronics ?></li>
+                            <li><?= l_Laboratory ?></li>
+                            <li><?= l_Programming_Methods ?></li>
+                            <li><?= l_Mathematics_Vectors_and_Matrices ?></li>
+                            <li><?= l_Theory_of_Electrical_Circuits ?></li>
+                            <li><?= l_Electronic_Circuits ?></li>
+                            <li><?= l_Biography_of_the_Prophet ?></li>
+                            <li><?= l_Algorithms_and_Data_Structure ?></li>
+                            <li><?= l_Electromagnetic_and_Photochemical_Fields ?></li>
+                            <li><?=  l_Mathematics_Differential_Equations?></li>
+                            <li><?= l_Combinational_Circuits ?></li>
                         </ul>
 
                     </div>
 
                 </div>
                 <div class="accordion-item2 ">
-                    <div class="accordion-header2">Second year</div>
+                    <div class="accordion-header2"><?=  l_Second_year?></div>
                     <div class="accordion-content2">
                         <ul>
-                            <li>The Holy Quran</li>
-                            <li>Integrated Circuits</li>
-                            <li>System Engineering &amp; Signals</li>
-                            <li>Sequential Machines</li>
-                            <li>Object-Oriented Programming</li>
-                            <li>Mathematics (Functions and Transform Functions)</li>
-                            <li>Laboratory</li>
-                            <li>Interpretation</li>
-                            <li>English Language</li>
-                            <li>Numerical Analysis</li>
-                            <li>Mathematics (Statistics and Probability)</li>
-                            <li>Logic Circuits</li>
-                            <li>Automatic Control</li>
-                            <li>Electrical Machines</li>
+                            <li><?= l_The_Holy_Quran ?></li>
+                            <li><?= l_Integrated_Circuits ?></li>
+                            <li><?= l_System_Engineering_and_Signals ?></li>
+                            <li><?= l_Sequential_Machines ?></li>
+                            <li><?= l_Object_Oriented_Programming ?></li>
+                            <li><?= l_Mathematics_Functions_and_Transform_Functions ?></li>
+                            <li><?= l_Laboratory ?></li>
+                            <li><?= l_Interpretation ?></li>
+                            <li><?= l_English_Language ?></li>
+                            <li><?= l_Numerical_Analysis ?></li>
+                            <li><?= l_Mathematics_Statistics_and_Probability ?></li>
+                            <li><?= l_Logic_Circuits ?></li>
+                            <li><?= l_Automatic_Control ?></li>
+                            <li><?= l_Electrical_Machines ?></li>
                         </ul>
 
                     </div>
 
                 </div>
                 <div class="accordion-item2 ">
-                    <div class="accordion-header2">Third year</div>
+                    <div class="accordion-header2"><?= l_Third_year ?></div>
                     <div class="accordion-content2">
                         <ul>
-                            <li>The Holy Quran</li>
-                            <li>Communication Systems</li>
-                            <li>Mathematics (Queuing Theory and Modeling)</li>
-                            <li>Hadith</li>
-                            <li>Digital Control</li>
-                            <li>Laboratory 3</li>
-                            <li>Automata</li>
-                            <li>Microprocessors</li>
-                            <li>Operating Systems</li>
-                            <li>Electric Power Systems</li>
-                            <li>Database Management Engineering and Project Managing</li>
-                            <li>Sensors and Power Converters</li>
+                            <li><?= l_The_Holy_Quran ?></li>
+                            <li><?= l_Communication_Systems ?></li>
+                            <li><?= l_Mathematics_Queuing_Theory_and_Modeling ?></li>
+                            <li><?= l_Hadith ?></li>
+                            <li><?= l_Digital_Control ?></li>
+                            <li><?= l_Laboratory ?></li>
+                            <li><?= l_Automata ?></li>
+                            <li><?= l_Microprocessors ?></li>
+                            <li><?= l_Operating_Systems ?></li>
+                            <li><?= l_Electric_Power_Systems ?></li>
+                            <li><?= l_Database_Management_Engineering_and_Project_Managing ?></li>
+                            <li><?= l_Sensors_and_Power_Converters ?></li>
                         </ul>
 
                     </div>
 
                 </div>
                 <div class="accordion-item2 ">
-                    <div class="accordion-header2">Fourth year</div>
+                    <div class="accordion-header2"><?= l_Fourth_year ?></div>
                     <div class="accordion-content2">
                         <ul>
-                            <li> Computer Networks and its Programming</li>
-                            <li>Computer Aided Design</li>
-                            <li>Laboratory 4
-                            </li>
-                            <li>Project
-                            </li>
-                            <li> Computer Architecture</li>
-                            <li>Compilers </li>
-                            <li>Elective Course 1</li>
-                            <li> Embedded Systems’ Measurements </li>
-                            <li> Interfacing Systems</li>
-                            <li> Software Engineering </li>
-                            <li> Intelligent Systems</li>
-                            <li> Elective Course 2</li>
+                            <li><?= l_Computer_Networks ?></li>
+                            <li><?= l_Computer_Aided_Design ?></li>
+                            <li><?= l_Laboratory ?></li>
+                            <li><?= l_Project ?></li>
+                            <li><?= l_Computer_Architecture ?></li>
+                            <li><?= l_Compilers ?> </li>
+                            <li><?= l_Elective_Course_one ?></li>
+                            <li> <?= l_Embedded_Systems_Measurements ?> </li>
+                            <li> <?= l_Interfacing_Systems ?></li>
+                            <li> <?= l_Software_Engineering ?> </li>
+                            <li> <?= l_Intelligent_Systems ?></li>
+                            <li> <?= l_Elective_Course_two ?></li>
                         </ul>
 
                     </div>
