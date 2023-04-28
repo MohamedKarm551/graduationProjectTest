@@ -9,14 +9,13 @@
             <div class="accordion-item">
                 <h2 class="accordion-header text-center" id="panelsStayOpen-headingOne">
                     <button class="accordion-button accordionButtonEdit text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        <h5 class="text-center">رؤية الكلية
+                        <h5 class="text-center"><?= l_college_vision ?>
                         </h5>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                     <div class="accordion-body accordionBodyEdit text-center accordionBodyEdit">
-                        <p> تسعى كلية الهندسة - جامعة الأزهر إلى أن تكون مؤسسة تعليمية وبحثية متميزة ورائدة فى التعليم الهندسى فى العالم الإسلامى ومنافسة عالمياً.
-                        </p>
+                        <p><?= l_college_vision_child ?></p>
 
                     </div>
                 </div>
@@ -24,14 +23,14 @@
             <div class="accordion-item">
                 <h2 class="accordion-header text-center" id="panelsStayOpen-headingTwo">
                     <button class="accordion-button accordionButtonEdit collapsed text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                        <h5> رؤية البرنامج
+                        <h5> <?= l_Program_vision ?>
                         </h5>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                     <div class="accordion-body  accordionBodyEdit text-center">
                         <p>
-                            يعد برنامج هندسة النظم والحاسبات - كلية الهندسة بنين بالقاهرة - جامعة الأزهر برنامجاً تعليمياً وبحثياً رائداً فى مجال هندسة النظم والحاسبات ومنافساً على المستوى المحلى والاقليمى والدولى.
+                        <?= l_Program_vision_child ?>
                         </p>
 
 
@@ -41,14 +40,14 @@
             <div class="accordion-item ">
                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                     <button class="accordion-button accordionButtonEdit collapsed text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                        <h5>رسالة الكلية
+                        <h5><?= l_College_message ?> 
                         </h5>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                     <div class="accordion-body accordionBodyEdit text-center">
                         <p>
-                            تلتزم الكلية بإعداد مهندسين متميزين قادرين على تطوير أنفسهم والمنافسة فى سوق العمل وملتزمين بالقيم الإسلامية كما تلتزم بتقديم البحوث العلمية المتميزة والمشاركة فى الحلول التطبيقية لمشاكل المجتمع
+                        <?= l_College_message_child ?>
                         </p>
                     </div>
                 </div>
@@ -56,39 +55,40 @@
             <div class="accordion-item ">
                 <h2 class="accordion-header" id="panelsStayOpen-headingFour">
                     <button class="accordion-button accordionButtonEdit collapsed text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                        <h5>رسالة البرنامج
+                        <h5><?=l_program_message  ?> 
                         </h5>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                     <div class="accordion-body accordionBodyEdit text-center">
                         <p>
-                            يلتزم برنامج هندسة النظم والحاسبات - هندسة الأزهر بنين بتخريج مهندسين طبقاً للمعايير المرجعية قادرين على المنافسة فى سوق العمل وإجراء البحوث العلمية المتميزة فى مجالات هندسة النظم والحاسبات والمشاركة فى التنمية المجتمعية فى إطار من القيم الإسلامية. </p>
+                        <?= l_program_message_child ?>
+                         </p>
                     </div>
                 </div>
             </div>
             <div class="accordion-item ">
                 <h2 class="accordion-header" id="panelsStayOpen-headingFive">
                     <button class="accordion-button  accordionButtonEdit collapsed text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-                        <h5>أهداف الـبرنـامــج
+                        <h5><?= l_Program_objectives ?>
                         </h5>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
                     <div class="accordion-body accordionBodyEdit text-center">
                         <ul class="styleFirstUl">
-                            <li>1. تعزيز وتهيئة البيئة التعليمية بقسم هندسة النظم والحاسبات لتأهيل الطلاب وتخريج مهندسين متميزين قادرين على المنافسة وتلبية احتياجات سوق العمل. </li>
-                            <li>2. تطوير المحتوى التعليمى لتقديم تعليم متميز فى مجال هندسة النظم والحاسبات للمحافظة على الوضع التنافسى للبرنامج محلياً وإقليميًا ودوليًا.</li>
-                            <li> 3. تحسين التعلم المستمر والتطوير المهنى لإتمام الدراسات العليا والمساهمة فى البحث العلمى والابتكار.</li>
-                            <li>4. تحفيز ودعم أعضاء هيئة التدريس والهيئة المعاونة لتلبية احتياجات العملية التعليمية وإجراء البحوث المتميزة فى مجال هندسة النظم والحاسبات.</li>
-                            <li>5. تقديم الاستشارات الفنية والهندسية فى مجال هندسة النظم والحاسبات والتحول الرقمى وتقنية وأمن المعلومات للكلية والجامعة والجهات الحكومية والقطاع الخاص.</li>
-                            <li>6. المشاركة الفعالة فى التنمية من خلال التعاون مع مؤسسات المجتمع والجهات المعنية لخدمة المجتمع والبيئة.</li>
+                            <li><?= l_Program_objectives_child_one ?></li>
+                            <li><?= l_Program_objectives_child_two ?></li>
+                            <li><?= l_Program_objectives_child_three ?></li>
+                            <li><?= l_Program_objectives_child_four ?></li>
+                            <li><?= l_Program_objectives_child_five ?></li>
+                            <li><?= l_Program_objectives_child_six ?></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- according terms (Section materials) -->
+        <!-- according terms (Section materials)
         <button class="btn-style">
             مواد القسم خلال الأربع سنوات </button>
         <div class="row justify-content-center mtb article-Text">
@@ -301,17 +301,15 @@
                             </div>
                         </div>
                     </div>
+
+                </div>
+            </div>
+
+        </div> -->
+
                     <!-- help:
                     https://preview.colorlib.com/theme/bac/accordion-10/
                  -->
-                </div>
-            </div>
-            <!--  -->
-        </div>
-        <!-- 
-
-         -->
-
         <section class="Department-subjects">
             <div class="main-title onhover accord"> Department subjects</div>
             <div class="accordion2">

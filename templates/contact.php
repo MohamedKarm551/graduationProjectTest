@@ -7,7 +7,7 @@
             <img src="//<?= f__r("media/images/socialicon.png"); ?>" class="socialIcon" alt="" />
 
         </div> -->
-        <button class="btn-style">Social</button>
+        <button class="btn-style"><?= l_social_heading ?></button>
 
         <!--        <div class="icons">-->
         <!--            <svg fill="#4B69B0" width="24" height="24" viewBox="0 0 24 24" class="material-design-icon__svg"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"><title>Facebook icon</title></path></svg>-->
@@ -56,51 +56,50 @@
             <div class="card-Link">
                 <img src="//<?= f__r("media/images/logo.jpg"); ?>" alt="Image 1" ;>
                 <div class="overlay">
-                    <a href="https://eng-azhar.net/" target="_blank">الموقع الالكتروني للكلية</a>
+                    <a href="https://eng-azhar.net/" target="_blank"><?= l_College_website ?></a>
                 </div>
             </div>
-
+            
             <div class="card-Link">
                 <img src="//<?= f__r("media/images/02.jpg"); ?>" alt="Image 1" ;>
                 <div class="overlay">
-                    <a href="https://lms.azhareng.com" target="_blank"> منصة التعليم الالكتروني </a>
+                    <a href="https://lms.azhareng.com" target="_blank"><?= l_E_learning_platform ?></a>
                 </div>
             </div>
             <div class="card-Link">
                 <img src="//<?= f__r("media/images/03.jpg"); ?>" alt="Image 1" ;>
                 <div class="overlay">
-                    <a href="https://eng-azhar.net/User/Unit?filter=1" target="_blank">وحدة الجودة </a>
+                    <a href="https://eng-azhar.net/User/Unit?filter=1" target="_blank"><?= l_Quality ?></a>
                 </div>
             </div>
             <div class="card-Link">
                 <img src="//<?= f__r("media/images/04.jpg"); ?>" alt="Image 1" ;>
                 <div class="overlay">
-                    <a href="https://eng-azhar.net/User/Unit?filter=3" target="_blank"> وحدة التدريب </a>
+                    <a href="https://eng-azhar.net/User/Unit?filter=3" target="_blank"><?= l_Training ?></a>
                 </div>
             </div>
             <div class="card-Link">
                 <img src="//<?= f__r("media/images/05.jpeg"); ?>" alt="Image 1" ;>
                 <div class="overlay">
-                    <a href="https://eng-azhar.net/User/Department?filter=9" target="_blank"> الموقع الالكتروني للقسم
-                    </a>
+                    <a href="https://eng-azhar.net/User/Department?filter=9" target="_blank"><?= l_Department_website ?></a>
                 </div>
             </div>
             <div class="card-Link">
                 <img src="//<?= f__r("media/images/06.png"); ?>" alt="Image 1" ;>
                 <div class="overlay">
-                    <a href="https://www.ekb.eg/ar/home" target="_blank">بنك المعرفة المصري</a>
+                    <a href="https://www.ekb.eg/ar/home" target="_blank"><?= l_The_Egyptian_Knowledge_Bank ?></a>
                 </div>
             </div>
             <div class="card-Link">
                 <img src="//<?= f__r("media/images/07.png"); ?>" alt="Image 1" ;>
                 <div class="overlay">
-                    <a href="http://eea.org.eg/" target="_blank">نقابة المهندسين</a>
+                    <a href="http://eea.org.eg/" target="_blank"><?= l_Egyptian_Engineers_Syndicate ?></a>
                 </div>
             </div>
             <div class="card-Link">
                 <img src="//<?= f__r("media/images/08.jpg"); ?>" alt="Image 1" ;>
                 <div class="overlay">
-                    <a href="https://www.facebook.com/groups/AzharEngSystemsCompDEPT" target="_blank">الجروب الرسمي على الفيس</a>
+                    <a href="https://www.facebook.com/groups/AzharEngSystemsCompDEPT" target="_blank"><?= l_The_official_group_on_Facebook ?></a>
                 </div>
             </div>
         </div>

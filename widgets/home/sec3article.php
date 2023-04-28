@@ -104,10 +104,10 @@
             <li><?= l_Algorithms_Engineer; ?></li>
             <li><?= l_Machine_Learning_Engineer; ?></li>
             <li><?= l_Big_Data_Engineer ?></li>
-            <li>Computer Vision Engineer</li>
-            <li>Image Processing Engineer</li>
-            <li>ETL Developer</li>
-            <li>Business Intelligence (BI) Developer</li>
+            <li><?= l_Computer_Vision_Engineer ?></li>
+            <li><?= l_Image_Processing_Engineer ?></li>
+            <li><?= l_ETL_Developer ?></li>
+            <li><?= l_Business_Intelligence ?></li>
             <li><?= l_Network_Engineer; ?></li>
             <li><?= l_Security_Engineer; ?></li>
             <li><?= l_Digital_or_analog_design; ?></li>
