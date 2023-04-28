@@ -116,6 +116,7 @@ const l_The_official_group_on_Facebook="الجروب الرسمي على الف�
 
 
 //start courses page translation
+const l_Vision_mission_and_goals="الرؤية والرسالة والأهداف";
 const l_college_vision="رؤية الكلية";
 const l_college_vision_child="تسعى كلية الهندسة - جامعة الأزهر إلى أن تكون مؤسسة تعليمية وبحثية متميزة ورائدة فى التعليم الهندسى فى العالم الإسلامى ومنافسة عالمياً.";
 const l_Program_vision="رؤية البرنامج";
@@ -174,7 +175,7 @@ const l_Communication_Systems="نظم الاتصالات";
 const l_Mathematics_Queuing_Theory_and_Modeling="الرياضيات (نظرية الطوابير والنمذجة)";
 const l_Hadith="الحديث";
 const l_Digital_Control="تحكم رقمي";
-const l_Automata="";
+const l_Automata="أوتوماتا";
 const l_Microprocessors="مشغلات دقيقة";
 const l_Operating_Systems="أنظمة التشغيل";
 const l_Electric_Power_Systems="أنظمة القوى الكهربائية";

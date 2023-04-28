@@ -110,6 +110,7 @@ const l_The_official_group_on_Facebook="The official group on Facebook";
 
 
 //start courses page translation
+const l_Vision_mission_and_goals="Vision, mission, and goals";
 const l_college_vision="college vision";
 const l_college_vision_child="College of Engineering - Al-Azhar University aims to be a leading and distinguished educational and research institution in engineering education in the Islamic world and globally competitive.";
 const l_Program_vision="Program vision";
@@ -191,7 +192,7 @@ const l_Embedded_Systems_Measurements="Embedded Systems’ Measurements";
 const l_Interfacing_Systems="Interfacing Systems";
 const l_Software_Engineering="Software Engineering";
 const l_Intelligent_Systems="Intelligent Systems";
-const l_Elective Course_two="Elective Course 2";
+const l_Elective_Course_two="Elective Course 2";
 
 //end courses page translation
 

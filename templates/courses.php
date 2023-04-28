@@ -3,8 +3,7 @@
 <section class="Material">
     <div class="container">
 
-        <button class="btn-style">
-            الرؤية والرسالة والأهداف</button>
+        <button class="btn-style"><?= l_Vision_mission_and_goals ?></button>
         <div class="accordion edit-accord" id="accordionPanelsStayOpenExample">
             <div class="accordion-item">
                 <h2 class="accordion-header text-center" id="panelsStayOpen-headingOne">
@@ -311,7 +310,8 @@
                     https://preview.colorlib.com/theme/bac/accordion-10/
                  -->
         <section class="Department-subjects">
-            <div class="main-title onhover accord"> <?= l_Department_subjects ?></div>
+            <!-- <div class="main-title onhover accord"> <?= l_Department_subjects ?></div> -->
+            <button class="btn-style"><?= l_Department_subjects ?></button>
             <div class="accordion2">
                 <div class="accordion-item2 ">
                     <div class="accordion-header2"><?= l_First_year ?></div>
