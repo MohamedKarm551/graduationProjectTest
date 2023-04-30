@@ -407,5 +407,9 @@
         </section>
 
     </div> <!-- end of container-->
-
+    <div class="popup-wrapper">
+  <div class="popup-content">
+    <p id="popup-text"></p>
+  </div>
+</div>
 </section>
