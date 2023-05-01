@@ -15,12 +15,10 @@
 
 /* Accordion styles */
 .Material {
-  .edit-accord {
-    direction: rtl;
-  }
+
   .accordionButtonEdit::after {
     position: absolute;
-    left: 2%;
+    right: 2%;
   }
   .accordionBodyEdit p,
   .accordionBodyEdit .styleFirstUl {

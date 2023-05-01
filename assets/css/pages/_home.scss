@@ -256,6 +256,11 @@ header .form i {
 .img-item img {
   object-fit: cover;
 }
+.carousel-control-prev,.carousel-control-next{
+  html[dir="rtl"] & {
+    transform: rotate(180deg);
+  }
+}
 /* End Landing */
 /* Mohamed Mostafa home and landing style  */
 // #home {
