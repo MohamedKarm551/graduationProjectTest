@@ -143,6 +143,21 @@
 #popup-text h2{
   font-size: 24px; margin-top: 0;
 }
+.close-icon{
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  // color: #333;
+  fill: #000;
+  width: 1.5rem;
+  height: 2rem;
+}
+.close-icon:hover {
+  // color: #000;
+  fill:red;
+}
 #popup-text span{
   font-size: 18px;
 }
@@ -159,7 +174,9 @@
   #popup-text h2 {
     font-size: 12px;
   }
-
+  .close-icon{
+    width: 1rem;
+  }
   #popup-text span {
     font-size: 11px !important;
   }

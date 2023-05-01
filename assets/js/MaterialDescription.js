@@ -162,8 +162,13 @@ for (let i = 0; i < liElements.length; i++) {
 }
 
 // Add an event listener to the popup wrapper to close the popup when the user clicks outside the popup content
-popupWrapper.addEventListener('click', function(event) {
-  if (event.target === this) {
-    popupWrapper.style.display = 'none';
-  }
-});
+// popupWrapper.addEventListener('click', function(event) {
+//   if (event.target === this) {
+//     popupWrapper.style.display = 'none';
+//   }
+// });
+
+// closePopup
+function closePopup() {
+  document.querySelector('.popup-wrapper').style.display = 'none';
+}
