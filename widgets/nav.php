@@ -62,9 +62,9 @@ defined('__secret__Constant__') or die('not found!');
                     <?php
                     $lang = $_COOKIE["lang"] ?? "en";
                     if($lang === "ar") { ?>
-                    <a href="/?lang=en"><?=l_english;?></a>
+                    <a href="/?lang=en&location=<?=$cat?'/'.$cat:'/';?>"><?=l_english;?></a>
                     <?php } else { ?>
-                    <a href="/?lang=ar"><?=l_arabic;?></a>
+                    <a href="/?lang=ar&location=<?=$cat?'/'.$cat:'/';?>"><?=l_arabic;?></a>
                     <?php } ?>
 
                 </li>
