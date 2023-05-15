@@ -63,7 +63,7 @@
             <div class="card-Link">
                 <img src="//<?= f__r("media/images/02.jpg"); ?>" alt="Image 1" ;>
                 <div class="overlay">
-                    <a href="https://lms.azhareng.com" target="_blank"><?= l_E_learning_platform ?></a>
+                    <a href="https://lms.azhareng.org" target="_blank"><?= l_E_learning_platform ?></a>
                 </div>
             </div>
             <div class="card-Link">

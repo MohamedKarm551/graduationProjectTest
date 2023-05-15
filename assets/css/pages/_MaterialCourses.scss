@@ -179,3 +179,81 @@
     font-size: 11px !important;
   }
 }
+// 15 - 5 - 2023 karam added photo slider
+// section.image-material {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+// .img-container {
+//   flex: 1 1 25%;
+//   padding: 10px;
+// }
+
+// .img-container  img {
+//   width: 100%;
+//   height: 200px;
+//   object-fit: cover;
+// }
+section.image-material {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out; 
+}
+.img-container:hover img{
+  filter: grayscale(0%);
+}
+// 
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.popup.open {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .popup {
+    padding: 20px;
+  }
+  
+  .popup img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+}

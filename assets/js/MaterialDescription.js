@@ -172,3 +172,53 @@ for (let i = 0; i < liElements.length; i++) {
 function closePopup() {
   document.querySelector('.popup-wrapper').style.display = 'none';
 }
+// ==========15- 5 - 2023 karam added photo slider ============
+// const imgContainers = document.querySelectorAll('.img-container');
+// const popup = document.querySelector('.popup');
+// const popupImg = document.querySelector('.popup img');
+
+// imgContainers.forEach(imgContainer => {
+//   imgContainer.addEventListener('click', () => {
+//     popup.classList.add('open');
+//     popupImg.src = imgContainer.querySelector('img').src;
+//   });
+// });
+
+
+// popup.addEventListener('click', () => {
+//   popup.classList.remove('open');
+// });
+const imgContainers = document.querySelectorAll('.img-container');
+const popup = document.querySelector('.popup');
+const popupImg = document.querySelector('.popup img');
+
+imgContainers.forEach(imgContainer => {
+  const img = imgContainer.querySelector('img');
+  
+  // Apply black and white filter
+  img.style.filter = 'grayscale(100%)';
+  
+  imgContainer.addEventListener('click', () => {
+    popup.classList.add('open');
+    
+    // Toggle filter on click
+    if (img.style.filter === 'grayscale(100%)') {
+      img.style.filter = 'none';
+    } else {
+      img.style.filter = 'grayscale(100%)';
+    }
+    
+    popupImg.src = img.src;
+  });
+});
+
+popup.addEventListener('click', () => {
+  popup.classList.remove('open');
+  
+  // Reset filter when popup is closed
+  imgContainers.forEach(imgContainer => {
+    const img = imgContainer.querySelector('img');
+    img.style.filter = 'grayscale(100%)';
+  });
+});
+

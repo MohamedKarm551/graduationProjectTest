@@ -58,8 +58,8 @@
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                     <div class="accordion-body text-center"><?=l_Important_note_define;?>
                         <br>
-                        <p class="bg-danger"> <?=l_self_study;?>
-                        </p>
+                       <a href="#"><p class="bg-danger"> <?=l_self_study;?>
+                        </p></a> 
                     </div>
                 </div>
             </div>
