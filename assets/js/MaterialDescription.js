@@ -172,7 +172,7 @@ for (let i = 0; i < liElements.length; i++) {
 function closePopup() {
   document.querySelector('.popup-wrapper').style.display = 'none';
 }
-// ==========15- 5 - 2023 karam added photo slider ============
+// ========== 15- 5 - 2023 karam added photo slider ============
 // const imgContainers = document.querySelectorAll('.img-container');
 // const popup = document.querySelector('.popup');
 // const popupImg = document.querySelector('.popup img');
