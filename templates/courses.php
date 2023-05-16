@@ -309,6 +309,26 @@
                     <!-- help:
                     https://preview.colorlib.com/theme/bac/accordion-10/
                  -->
+                 <button class="btn-style"><?= l_Department_subjects  ?> (images)</button>
+<section class="image-material">
+
+  <div class="img-container">
+    <img src="//<?= f__r("media/images/one.png"); ?>" alt="Image 1">
+  </div>
+  <div class="img-container">
+    <img src="//<?= f__r("media/images/two.png"); ?>" alt="Image 2">
+  </div>
+  <div class="img-container">
+    <img src="//<?= f__r("media/images/three.png"); ?>" alt="Image 3">
+  </div>
+  <div class="img-container">
+    <img src="//<?= f__r("media/images/four.png"); ?>" alt="Image 4">
+  </div>
+</section>
+<div class="popup">
+  <img src="">
+</div>
+
         <section class="Department-subjects">
             <!-- <div class="main-title onhover accord"> <?= l_Department_subjects ?></div> -->
             <button class="btn-style"><?= l_Department_subjects ?></button>

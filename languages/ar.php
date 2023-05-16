@@ -5,16 +5,19 @@ defined("__secret__Constant__") or die("no :(");
 const l_english = "الانجليزية";
 const l_arabic = "العربية";
 const l_home = "الرئيسية";
-const l_courses = "الكورسات";
+const l_courses = "المقررات";
 const l_paths = "المسارات";
 const l_videos = "الفيديوهات";
 const l_test_yourself = "اختبر نفسك";
-const l_contact = "التواصل";
+const l_contact = "روابط مساعدة";
 
 const l_layout_head = "مرحبا بكم في موقعنا";
 const l_layout_text = "هدفنا هو تقديم خارطة طريق لمجالات التكنولوجيا المختلفة ومساعدتك على تطوير مهاراتك وتحقيق أهدافك";
 
-const l_An_Introductory_Article = "             مقال تمهيدي                ";
+const l_An_Introductory_Article = " 
+
+
+تــمــــــهـــــيـــد ";
 const l_Important_Introduction= "مقدمة مهمة";
 const l_About_the_Department= "عن القسم";
 const l_About_the_Department_define= "هو من الأقسام التي تقوم بربط علوم الحاسب بمجالات العمل المختلفة، لذلك فهو يناسب الطلاب الذين يريدون اكتشاف مهاراتهم وقدراتهم على تحليل نظم المعلومات والبيانات في أي منظمة أو شركة.";
@@ -41,21 +44,20 @@ const l_software_development = "تطوير البرمجيات";
 const l_embedded_system = "الأنظمة المدمجة";
 const l_web_developer = "تطوير المواقع";
 // const l_it_works_in_linking_computer_science_with_relevant = "هو من الأقسام التي تقوم بربط علوم الحاسب بمجالات العمل المختلفة، لذلك فهو يناسب الطلاب الذين يريدون اكتشاف مهاراتهم وقدراتهم على تحليل نظم المعلومات والبيانات في أي منظمة أو شركة. فمن أشهر مجالات ووظائف هذا القسم : حسب تعريف دكتور أشرف المراكبي الرئيس السابق للقسم";
-const l_mobile_android_developer = "مطور موبايل (أندرويد)";
-const l_Data_Engineer = "مهندس بيانات";
-const l_Algorithms_Engineer = "مهندس خوارزميات";
-const l_Machine_Learning_Engineer = "هندسة التعلم الآلي";
-const l_Big_Data_Engineer = "مهندس البيانات الضخمة";
-const l_Computer_Vision_Engineer = "مهندس رؤية الحاسوب";
-const l_Image_Processing_Engineer = "مهندس معالجة الصور";
-const l_ETL_Developer = "مطور ETL";
+const l_mobile_android_developer = "مطور  تطبيقات الهواتف الذكية ";
+const l_Data_Engineer = "تحليل  البيانات";
+const l_Algorithms_Engineer = " الخوارزميات و حل المشكلات";
+const l_Machine_Learning_Engineer = "  الأنظمة الذكية  ";
+const l_Big_Data_Engineer = " البيانات الضخمة";
+const l_Computer_Vision_Engineer = " رؤية الحاسوب";
+const l_Image_Processing_Engineer = " معالجة الصور";
+const l_ETL_Developer = " مطور ETL  استخراج البيانات وتحويلها وتحميلها ";
 const l_Business_Intelligence = "مطور BI (Business Intelligence)";
-const l_Network_Engineer = "مهندس شبكات";
-const l_Security_Engineer = "مهندس أمن";
+const l_Network_Engineer = " الشبكات";
+const l_Security_Engineer = "أمن المعلومات ";
 const l_Digital_or_analog_design = "تصميم رقمي أو تناظري";
 const l_Electronics = "الإلكترونيات";
-const l_Control_Systems = "أنظمة التحكم";
-
+const l_Control_Systems ="أنظمةالتحكم";
 
 
 
@@ -100,7 +102,7 @@ const l_hardware_definition="أفضل وصف للأجهزة هو أي مكون �
 
 
 //start social page translation
-const l_social_heading= "وسائل التواصل الإجتماعي";
+const l_social_heading= "روابط مفيدة للطالب";
 const l_College_website="الموقع الالكتروني للكلية";
 const l_E_learning_platform=" منصة التعليم الالكتروني ";
 const l_Quality="وحدة الجودة ";
