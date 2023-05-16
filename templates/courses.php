@@ -327,6 +327,7 @@
   </div>
 </section>
 <div class="popup">
+  <button class="close-btn" onclick="closePop()">&times;</button>
   <img src="">
 </div>
         <section class="Department-subjects">

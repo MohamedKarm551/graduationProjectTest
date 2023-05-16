@@ -57,8 +57,7 @@ const l_Network_Engineer = " الشبكات";
 const l_Security_Engineer = "أمن المعلومات ";
 const l_Digital_or_analog_design = "تصميم رقمي أو تناظري";
 const l_Electronics = "الإلكترونيات";
-const l_Control_Systems = "أنظمة التحكم";
-
+const l_Control_Systems ="أنظمةالتحكم";
 
 
 
@@ -103,7 +102,7 @@ const l_hardware_definition="أفضل وصف للأجهزة هو أي مكون �
 
 
 //start social page translation
-const l_social_heading= "روابط مفيدة للطالب";
+const l_social_heading= "وسائل التواصل الإجتماعي";
 const l_College_website="الموقع الالكتروني للكلية";
 const l_E_learning_platform=" منصة التعليم الالكتروني ";
 const l_Quality="وحدة الجودة ";

@@ -191,6 +191,7 @@ function closePopup() {
 const imgContainers = document.querySelectorAll('.img-container');
 const popup = document.querySelector('.popup');
 const popupImg = document.querySelector('.popup img');
+const closeBtn = document.querySelector('.popup .close-btn');
 
 imgContainers.forEach(imgContainer => {
   const img = imgContainer.querySelector('img');
@@ -212,13 +213,7 @@ imgContainers.forEach(imgContainer => {
   });
 });
 
-popup.addEventListener('click', () => {
-  popup.classList.remove('open');
-  
-  // Reset filter when popup is closed
-  imgContainers.forEach(imgContainer => {
-    const img = imgContainer.querySelector('img');
-    img.style.filter = 'grayscale(100%)';
-  });
-});
+function closePop() {
+  document.querySelector('.popup').classList.remove("open");
+}
 
