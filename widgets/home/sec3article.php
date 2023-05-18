@@ -35,9 +35,9 @@
                 </h2>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                     <div class="accordion-body text-center">
-                        <p>
+                        <!-- <p>
                         <?=l_The_most_famous_tracks_define;?>
-                        </p>
+                        </p> -->
 
                         <ul class="styleFirstUl">
                             <li><?=l_The_most_famous_tracks_li_one;?></li>

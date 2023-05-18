@@ -21,7 +21,8 @@
     right: 2%;
   }
   .accordionBodyEdit p,
-  .accordionBodyEdit .styleFirstUl {
+  .accordionBodyEdit .styleFirstUl  {
+    text-align: left;
     font-weight: 600;
     font-size: 1rem;
   }
@@ -219,11 +220,13 @@ section.image-material {
   height: 100%;
   object-fit: cover;
   filter: grayscale(100%);
-  transition: filter 0.3s ease-in-out; 
+  transition: transform 0.5s ease;
 }
 .img-container:hover img{
+  transform: scale(1.1);
   filter: grayscale(0%);
 }
+
 // 
 .popup {
   position: fixed;
@@ -235,7 +238,7 @@ section.image-material {
   display: none;
   align-items: center;
   justify-content: center;
-  z-index: 1000;
+  z-index: 10000;
 }
 
 .popup img {
@@ -246,7 +249,7 @@ section.image-material {
 .popup .close-btn {
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 5%;
   font-size: 30px;
   color: white;
   background-color: transparent;

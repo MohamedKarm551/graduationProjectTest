@@ -19,7 +19,9 @@ const l_layout_text = "Our goal is to provide a roadmap for different technology
 const l_An_Introductory_Article = "An Introductory Article";
 const l_Important_Introduction= "Important Introduction";
 const l_About_the_Department= "About the Department";
-const l_About_the_Department_define= "It is one of the departments that link computer science to different fields of work, so it is suitable for students who want to discover their skills and abilities to analyze information systems and data in any organization or company.";
+const l_About_the_Department_define= "It is one of the departments that link computer science to different fields of work, so it is suitable for students who want to discover their skills and abilities to analyze information systems and data in any organization or company.
+A B.Sc. degree in Systems and Computer Engineering is designed for students who seek careers as engineers in industry, military, consulting firms, and private and governmental agencies. This degree is also appropriate for students who plan to be researchers or who intend to pursue an advanced degree in engineering. A typical program curriculum incorporates analytical tools, creative thought, and a diversity of skills as well as the state of the art of the profession.
+";
 const l_The_most_famous_tracks= "The most famous tracks and jobs of the department";
 const l_The_most_famous_tracks_define= "According to the definition of Dr. Ashraf Al-Marakbi, the former head of the department : ";
 const l_The_most_famous_tracks_li_one = "- Computer Networks";

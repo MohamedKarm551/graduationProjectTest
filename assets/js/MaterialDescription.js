@@ -197,17 +197,17 @@ imgContainers.forEach(imgContainer => {
   const img = imgContainer.querySelector('img');
   
   // Apply black and white filter
-  img.style.filter = 'grayscale(100%)';
+  // img.style.filter = 'grayscale(100%)';
   
   imgContainer.addEventListener('click', () => {
     popup.classList.add('open');
     
     // Toggle filter on click
-    if (img.style.filter === 'grayscale(100%)') {
-      img.style.filter = 'none';
-    } else {
-      img.style.filter = 'grayscale(100%)';
-    }
+    // if (img.style.filter === 'grayscale(100%)') {
+    //   img.style.filter = 'none';
+    // } else {
+    //   img.style.filter = 'grayscale(100%)';
+    // }
     
     popupImg.src = img.src;
   });
