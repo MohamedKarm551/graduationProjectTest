@@ -89,6 +89,14 @@ const l_data_science="data science";
 
 const l_hardware_headline="hardware";
 const l_hardware_definition="Hardware Is Best Described As Any Physical Component Of A Computer System Containing A Circuit Board, ICs, Or Other Electronics. A Perfect Example Of Hardware Is The Screen On Which You Are Viewing This Page. Whether It Be A Monitor, Tablet, Or Smartphone, It Is Hardware. Without Any Hardware, Your Computer Would Not Exist, And Software Could Not Be Used. The Picture Is A Logitech Webcam, An Example Of An External Hardware Peripheral. This Hardware Device Allows Users To Take Videos Or Pictures, And Transmit Them Over The Internet.";
+
+
+const l_Network_headline="Network";
+const l_Network_definition="A network engineer is a technical professional who works on designing, installing, operating, and maintaining computer networks, ensuring their safety and optimal performance. Engineers work in the field of information and communication technology, using different equipment and software to improve network performance and ensure its availability and security. They also work to solve problems that arise in networks and provide the necessary technical support to users.";
+
+const l_Control_headline = "Control";
+const l_Control_definition = "A control engineer is a specialized engineer who designs and develops industrial control and automation systems, which are used to monitor and control industrial processes, machinery, and robots.";
+
 //end paths page translation
 
 
