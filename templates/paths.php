@@ -1,62 +1,30 @@
 <?php defined('__secret__Constant__') or die('not found!'); ?>
 
 
+
 <!-- Start Software Section -->
 <div class="menu soft" id="menu">
     <div class="container">
-        <h1 class="heading">
-            <!-- Soft<span>ware</span> -->
-            <?=l_software_headline;?>
-        </h1>
-        <p class="head-text">
-        <?=l_software_definition;?>
-        </p>
+        <?php
+        $tracks = get__track();
+        foreach ($tracks as $track) { ?>
+            <h1 class="heading"><?=$track["name"];?></h1>
+            <p class="head-text"><?=$track["brief"];?></p>
+        <?php } ?>
         <div class="box-container">
-            <div class="box">
-                <img src="//<?= f__r("media/images/web.jpg"); ?>" alt="" />
-                <h3><?= l_Front_end; ?></h3>
-
-                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-                <span class="card_btn">
-                    <a href="/path"><?= l_VIEW_MORE; ?></a>
-                </span>
-            </div>
-            <div class="box">
-                <img src="//<?= f__r("media/images/web.jpg"); ?>" alt="" />
-                <h3><?= l_Back_end; ?></h3>
-
-                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-                <span class="card_btn"><a href="/path"><?= l_VIEW_MORE; ?></a></span>
-            </div>
-            <div class="box">
-                <img src="//<?= f__r("media/images/android.jpg"); ?>" alt="" />
-                <h3><?=l_android_paths;?></h3>
-
-                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-                <span class="card_btn"><a href="/path"><?= l_VIEW_MORE; ?></a></span>
-            </div>
-         
-            <div class="box">
-                <img src="//<?= f__r("media/images/security.jpg"); ?>" alt="" />
-                <h3><?= l_cyber_security; ?></h3>
-
-                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-                <span class="card_btn"><a href="/path"><?= l_VIEW_MORE; ?></a></span>
-            </div>
-            <div class="box">
-                <img src="//<?= f__r("media/images/Artificial Intelligence.jpg"); ?>" alt="" />
-                <h3><?= l_Artificial_Intelligence; ?></h3>
-
-                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-                <span class="card_btn"><a href="/path"><?= l_VIEW_MORE; ?></a></span>
-            </div>
-            <div class="box">
-                <img src="//<?= f__r("media/images/data science.jpg"); ?>" alt="" />
-                <h3><?= l_data_science; ?></h3>
-
-                <!-- <a href="#" class="bttn">view more &rarr;</a> -->
-                <span class="card_btn"><a href="/path"><?= l_VIEW_MORE; ?></a></span>
-            </div>
+            <?php
+            foreach ($tracks as $track) {
+                $where = "track_id = '".$track["track_id"]."'";
+                $paths = get__path($where);
+                foreach ($paths as $path) { ?>
+                    <div class="box">
+                        <img src="//<?= f__r("media/images/".$path["img_path"]); ?>" alt="" />
+                        <h3><?=$path["title"]?></h3>
+                        <span class="card_btn">
+                            <a href="/path"><?= l_VIEW_MORE; ?></a>
+                        </span>
+                    </div>
+                <?php } } ?>
         </div>
     </div>
 </div>

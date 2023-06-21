@@ -46,4 +46,16 @@ function h__v($value): bool
     return (bool)strlen($value);
 }
 
+function get__track(): bool|array
+{
+    global $DB;
+    return $DB->fetch("track");
+}
+
+
+function get__path($where): bool|array
+{
+    global $DB;
+    return $DB->fetch("path",where:$where);
+}
 

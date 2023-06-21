@@ -1,11 +1,12 @@
 <?php
 const localhost = 'localhost';
-if ($_SERVER["REMOTE_ADDR"]=="127.0.0.1") {
+$remoted_addr = $_SERVER["REMOTE_ADDR"];
+if ($_SERVER["REMOTE_ADDR"]=="127.0.0.1" || $remoted_addr=="::1") {
     define("db_user", 'root');
     define("db_pass", '1122');
-    define("db_name", '');
+    define("db_name", 'graduation');
 } else {
-    define("db_user", 'abdo_root');
+    define("db_user", '');
     define("db_pass", '');
     define("db_name", '');
 }
