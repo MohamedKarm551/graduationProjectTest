@@ -58,4 +58,13 @@ function get__path($where): bool|array
     global $DB;
     return $DB->fetch("path",where:$where);
 }
-
+function get__topic($where): bool|array
+{
+    global $DB;
+    return $DB->fetch("topic",where:$where);
+}
+function get__course($where): bool|array
+{
+    global $DB;
+    return $DB->fetch("course",where:$where);
+}

@@ -19,7 +19,7 @@
                             <img src="//<?= f__r("media/images/".$path["img_path"]); ?>" alt="" />
                             <h3><?=$path["title"]?></h3>
                             <span class="card_btn">
-                            <a href="/path"><?= l_VIEW_MORE; ?></a>
+                            <a href="/path/<?=$path['path_id'];?>"><?= l_VIEW_MORE; ?></a>
                         </span>
                         </div>
                     <?php } ?>
