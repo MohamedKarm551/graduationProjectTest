@@ -203,6 +203,7 @@ const l_Interfacing_Systems="Interfacing Systems";
 const l_Software_Engineering="Software Engineering";
 const l_Intelligent_Systems="Intelligent Systems";
 const l_Elective_Course_two="Elective Course 2";
+const l_frontend = "Front-End Developer";
 
 //end courses page translation
 

@@ -207,7 +207,7 @@ const l_Software_Engineering="هندسة البرمجيات";
 const l_Intelligent_Systems="أنظمة ذكية";
 const l_Elective_Course_two="مقرر اختياري 2";
 
-
+const l_frontend = "مبرمج واجهة أماميه";
 
 
 
