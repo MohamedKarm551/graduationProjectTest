@@ -14,7 +14,7 @@ $topics= get__topic("path_id='".$sub."'");
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
                 <h1><?=defined($path["title"]) ? constant($path["title"]) : $path["title"];?></h1>
-                <h2><?=$path["description"]?></h2>
+                <p class="hero-description"><?=$path["description"]?></p>
                 <div class="d-flex justify-content-center justify-content-lg-start">
                     <a href="<?=$path["url"]?>" target="_blank" class="btn-get-started scrollto ">Watch Video</a>
                 </div>
