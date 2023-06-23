@@ -29,10 +29,10 @@ const l_The_most_famous_tracks_define= "حسب تعريف دكتور أشرف ا
 const l_The_most_famous_tracks_li_one = "- شبكات الحاسب";
 const l_The_most_famous_tracks_li_two = "- البرمجة";
 const l_The_most_famous_tracks_li_three = "- التحكم الآلي";
-const l_The_most_famous_tracks_li_four = "- الهاردوير";
+const l_The_most_famous_tracks_li_four = "- تصميم الحاسبات والأنظمة المدمجة ";
 
 const l_Important_note = "ملحوظة مهمة";
-const l_Important_note_define = "القسم يهتم بتعليم الأساسيات وهو معتمد على التعلم الذاتي";
+const l_Important_note_define = "يهتم القسم بتدريس الأساسيات ويعتمد على";
 const l_self_study = "التعلم الذاتي";
 
 const l_Department_Names = "أسماء القسم";
@@ -67,7 +67,7 @@ const l_Control_Systems ="أنظمةالتحكم";
 
 const l_An_introductory_video_one= "فيديو تعريفي بالقسم من رئيس القسم السابق";
 const l_An_introductory_video_two= "فيديو تعريفي بالقسم من طالب سابق";
-const l_An_introductory_video_three= "اضغط هنا لمعرفة المواد المهمة التي ستتعلمها في أعوام دراستك في القسم";
+const l_An_introductory_video_three= "اضغط هنا لمعرفة المقررات الدراسية بالقسم";
 const l_Teaching_Staff= "أعضاء هيئة التدريس";
 
 const l_VIEW_MORE= "عرض المزيد";
@@ -149,12 +149,12 @@ const l_Program_objectives_child_six="6. المشاركة الفعالة فى ا
 ";
 
 
-const l_Department_subjects="مواد القسم";
-const l_First_year="العام الأول";
+const l_Department_subjects="الخطة الدراسية";
+const l_First_year=" الفرقة الأولي";
 const l_The_Holy_Quran="القرآن الكريم";
 const l_Measuring_Devices="أجهزة القياس";
 const l_English_Language="اللغة الإنجليزية";
-const l_Laboratory="المعمل";
+const l_Laboratory="الإختبارات";
 const l_Programming_Methods="طرق البرمجة";
 const l_Mathematics_Vectors_and_Matrices="الرياضيات (المتجهات والمصفوفات)";
 const l_Theory_of_Electrical_Circuits="نظرية الدوائر الكهربائية";
@@ -166,7 +166,7 @@ const l_Mathematics_Differential_Equations="الرياضيات (المعادلا
 const l_Combinational_Circuits="الدوائر التوافقية";
 
 
-const l_Second_year="العام الثاني";
+const l_Second_year="الفرقة الثانية";
 const l_Integrated_Circuits="دوائر متكاملة";
 const l_System_Engineering_and_Signals="هندسة النظم والإشارات";
 const l_Sequential_Machines="الآلات التعاقبية";
@@ -178,7 +178,9 @@ const l_Mathematics_Statistics_and_Probability="الرياضيات (الإحصا
 const l_Logic_Circuits="الدوائر المنطقية";
 const l_Automatic_Control="تحكم آلي";
 const l_Electrical_Machines="آلات كهربائية";
-const l_Third_year="العام الثالث";
+
+
+const l_Third_year="الفرقة الثالثة";
 const l_Communication_Systems="نظم الاتصالات";
 const l_Mathematics_Queuing_Theory_and_Modeling="الرياضيات (نظرية الطوابير والنمذجة)";
 const l_Hadith="الحديث";
@@ -194,7 +196,7 @@ const l_Sensors_and_Power_Converters="مجسات ومحولات قدرة";
 
 
 
-const l_Fourth_year="العام الرابع";
+const l_Fourth_year="الفرقة الرابعة";
 const l_Computer_Networks="شبكات الحاسب";
 const l_Computer_Aided_Design="تصميم وتصنيع بالحاسب";
 const l_Project="مشروع";

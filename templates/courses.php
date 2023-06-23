@@ -309,7 +309,7 @@
                     <!-- help:
                     https://preview.colorlib.com/theme/bac/accordion-10/
                  -->
-                 <button class="btn-style"><?= l_Department_subjects  ?> (images)</button>
+                 <button class="btn-style"><?= l_Department_subjects  ?></button>
 
                  <section class="image-material">
 
@@ -338,20 +338,20 @@
                     <div class="accordion-header2"><?= l_First_year ?></div>
                     <div class="accordion-content2">
                         <ul>
-                            <li><?= l_The_Holy_Quran ?></li>
-                            <li><?= l_Measuring_Devices ?></li>
-                            <li><?= l_English_Language ?></li>
-                            <li><?= l_Electronics ?></li>
-                            <li><?= l_Laboratory ?></li>
-                            <li><?= l_Programming_Methods ?></li>
-                            <li><?= l_Mathematics_Vectors_and_Matrices ?></li>
-                            <li><?= l_Theory_of_Electrical_Circuits ?></li>
-                            <li><?= l_Electronic_Circuits ?></li>
-                            <li><?= l_Biography_of_the_Prophet ?></li>
-                            <li><?= l_Algorithms_and_Data_Structure ?></li>
-                            <li><?= l_Electromagnetic_and_Photochemical_Fields ?></li>
-                            <li><?=  l_Mathematics_Differential_Equations?></li>
-                            <li><?= l_Combinational_Circuits ?></li>
+                        <li><?= l_The_Holy_Quran ?></li>
+                        <li><?= l_Measuring_Devices ?></li>
+                        <li><?= l_English_Language ?></li>
+                        <li><?= l_Electronics ?></li>
+                        <li><?= l_Laboratory ?></li>
+                        <li><?= l_Programming_Methods ?></li>
+                        <li><?= l_Mathematics_Vectors_and_Matrices ?></li>
+                        <li><?= l_Theory_of_Electrical_Circuits ?></li>
+                        <li><?= l_Electronic_Circuits ?></li>
+                        <li><?= l_Biography_of_the_Prophet ?></li>
+                        <li><?= l_Algorithms_and_Data_Structure ?></li>
+                        <li><?= l_Electromagnetic_and_Photochemical_Fields ?></li>
+                        <li><?=  l_Mathematics_Differential_Equations?></li>
+                        <li><?= l_Combinational_Circuits ?></li>
                         </ul>
 
                     </div>
@@ -361,20 +361,22 @@
                     <div class="accordion-header2"><?=  l_Second_year?></div>
                     <div class="accordion-content2">
                         <ul>
-                            <li><?= l_The_Holy_Quran ?></li>
-                            <li><?= l_Integrated_Circuits ?></li>
-                            <li><?= l_System_Engineering_and_Signals ?></li>
-                            <li><?= l_Sequential_Machines ?></li>
-                            <li><?= l_Object_Oriented_Programming ?></li>
-                            <li><?= l_Mathematics_Functions_and_Transform_Functions ?></li>
-                            <li><?= l_Laboratory ?></li>
-                            <li><?= l_Interpretation ?></li>
-                            <li><?= l_English_Language ?></li>
-                            <li><?= l_Numerical_Analysis ?></li>
-                            <li><?= l_Mathematics_Statistics_and_Probability ?></li>
-                            <li><?= l_Logic_Circuits ?></li>
-                            <li><?= l_Automatic_Control ?></li>
-                            <li><?= l_Electrical_Machines ?></li>
+                        <li><?= l_The_Holy_Quran ?></li>
+                        <li><?= l_Integrated_Circuits ?></li>
+                        <li><?= l_System_Engineering_and_Signals ?></li>
+                        <li><?= l_Sequential_Machines ?></li>
+                        <li><?= l_Object_Oriented_Programming ?></li>
+                        <li><?= l_Mathematics_Functions_and_Transform_Functions ?></li>
+                        <li><?= l_Laboratory ?></li>
+                        <li><?= l_Interpretation ?></li>
+                        <li><?= l_English_Language ?></li>
+                        <li><?= l_Numerical_Analysis ?></li>
+                        <li><?= l_Mathematics_Statistics_and_Probability ?></li>
+                        <li><?= l_Logic_Circuits ?></li>
+                        <li><?= l_Automatic_Control ?></li>
+                        <li><?= l_Electrical_Machines ?></li>
+                            
+                            
                         </ul>
 
                     </div>

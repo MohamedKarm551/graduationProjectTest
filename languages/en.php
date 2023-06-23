@@ -30,7 +30,7 @@ const l_The_most_famous_tracks_li_three = "- Automatic Control";
 const l_The_most_famous_tracks_li_four = "- Hardware";
 
 const l_Important_note = "Important note";
-const l_Important_note_define = "The department is concerned with teaching the basics and is based on self-learning";
+const l_Important_note_define = "The department is concerned with teaching the basics and is based on";
 const l_self_study = "self study";
 const l_Department_Names = "Department Names";
 const l_Al_Azhar_University = "Systems and Computers Engineering - Al-Azhar University";
@@ -66,7 +66,7 @@ const l_Control_Systems = "Control Systems";
 
 const l_An_introductory_video_one= "An introductory video about the department from the former head of the department";
 const l_An_introductory_video_two= "An introductory video about the department from a former student";
-const l_An_introductory_video_three= "Click here to view the important courses you will learn in the department";
+const l_An_introductory_video_three= "Click here to see the courses in the department";
 const l_Teaching_Staff= "Teaching Staff";
 
 const l_VIEW_MORE= "VIEW MORE";
@@ -140,12 +140,12 @@ const l_Program_objectives_child_four="4.Providing incentives and support for fa
 ";
 const l_Program_objectives_child_five="5.Providing technical and engineering consultations in the field of systems and computer engineering, digital transformation, information technology and security for the college, university, government agencies and the private sector.
 ";
-const l_Program_objectives_child_six="6.Actively participating in development through cooperation with community institutions and relevant parties to serve society and the environment";
+const l_Program_objectives_child_six="6.Actively participating in development through cooperation with community institutions and relevant parties to serve society and the environment";
 
 
 
 
-const l_Department_subjects="Department subjects";
+const l_Department_subjects="Department Roadmap";
 const l_First_year="First year";
 const l_The_Holy_Quran="The Holy Quran";
 const l_Measuring_Devices="Measuring Devices";

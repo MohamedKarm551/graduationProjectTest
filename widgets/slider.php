@@ -157,8 +157,96 @@
                         <img src="//<?= f__r("media/images/home-slider/sharkawy.jpg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
-                        <span class="card_title">Dr.AbdelFattah El Sharkawi</span>
+                        <span class="card_title">Dr.AbdelFattah ElSharkawi</span>
                         <span class="card_name">sharkawi_eg@yahoo.com</span>
+                        <span class="card_btn"><?= l_VIEW_MORE; ?></span>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card_image">
+
+                        <img src="//<?= f__r("media/images/home-slider/ali-halawa.jpg"); ?>" alt="" />
+                    </div>
+                    <div class="card_content">
+                        <span class="card_title">Dr.Ali Halawa</span>
+                        <span class="card_name">aahalawa@azhar.edu.eg</span>
+                        <span class="card_btn"><?= l_VIEW_MORE; ?></span>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card_image">
+
+                        <img src="//<?= f__r("media/images/home-slider/atef.png"); ?>" alt="" />
+                    </div>
+                    <div class="card_content">
+                        <span class="card_title">Dr.Mohamed Atef</span>
+                        <span class="card_name">mohamed-elnabwy.2014@azhar.edu.eg</span>
+                        <span class="card_btn"><?= l_VIEW_MORE; ?></span>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card_image">
+
+                        <img src="//<?= f__r("media/images/home-slider/kolkila.jpg"); ?>" alt="" />
+                    </div>
+                    <div class="card_content">
+                        <span class="card_title">Dr.Ahmed Abdelaziz</span>
+                        <span class="card_name">ahmedkolkila@gmail.com</span>
+                        <span class="card_btn"><?= l_VIEW_MORE; ?></span>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card_image">
+
+                        <img src="//<?= f__r("media/images/home-slider/nagdy.jpeg"); ?>" alt="" />
+                    </div>
+                    <div class="card_content">
+                        <span class="card_title">Dr.Nagdy Mahmoud</span>
+                        <span class="card_name">nagdy@azhar.edu.eg</span>
+                        <span class="card_btn"><?= l_VIEW_MORE; ?></span>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card_image">
+
+                        <img src="//<?= f__r("media/images/home-slider/refay.png"); ?>" alt="" />
+                    </div>
+                    <div class="card_content">
+                        <span class="card_title">Dr.Fawzy Elrefaey</span>
+                        <span class="card_name">dr_Fawzy22@azhar.edu.eg</span>
+                        <span class="card_btn"><?= l_VIEW_MORE; ?></span>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card_image">
+
+                        <img src="//<?= f__r("media/images/home-slider/shokry.jpeg"); ?>" alt="" />
+                    </div>
+                    <div class="card_content">
+                        <span class="card_title">Eng.Ahmed Shokry</span>
+                        <span class="card_name">a.shokry@azhar.edu.eg</span>
+                        <span class="card_btn"><?= l_VIEW_MORE; ?></span>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card_image">
+
+                        <img src="//<?= f__r("media/images/home-slider/ryan.jpeg"); ?>" alt="" />
+                    </div>
+                    <div class="card_content">
+                        <span class="card_title">Eng.Mohamed Rayan</span>
+                        <span class="card_name">Mohamed.ryan@azhar.edu.eg</span>
+                        <span class="card_btn"><?= l_VIEW_MORE; ?></span>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card_image">
+
+                        <img src="//<?= f__r("media/images/home-slider/abdulrahman-halawa.jpeg"); ?>" alt="" />
+                    </div>
+                    <div class="card_content">
+                        <span class="card_title">Eng.Abdulrahman Halawa</span>
+                        <span class="card_name">ahalawa@azhar.edu.eg</span>
                         <span class="card_btn"><?= l_VIEW_MORE; ?></span>
                     </div>
                 </div>

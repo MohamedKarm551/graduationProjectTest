@@ -57,8 +57,8 @@
                 </h2>
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                     <div class="accordion-body text-center"><?=l_Important_note_define;?>
-                        <br>
-                        <a href="/paths"><p class="bg-danger"> <?=l_self_study;?>
+                        
+                        <a href="/paths"><p class="text-primary"> <?=l_self_study;?>
                 </p></a>
                     </div>
                 </div>
