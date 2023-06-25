@@ -118,9 +118,9 @@ background: black;
 
 // DB
 .ai-container {
-  max-width: 800px;
+  // max-width: 800px;
   margin: 0 auto;
-  text-align: left;
+  // text-align: left;
 }
 
 .ai-title {
@@ -137,7 +137,7 @@ background: black;
 }
 // 
 .embedded-container {
-  max-width: 800px;
+  // max-width: 800px;
   margin: 0 auto;
   text-align: justify;
 }
@@ -181,14 +181,15 @@ background: black;
 }
 
 .engineer-roadmap-list {
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin: 0 20px;
+  padding: 0 20px 10px 20px;
   font-size: 16px;
   line-height: 1.5;
+
 }
 // 
 .flutter-container {
-  max-width: 800px;
+  // max-width: 800px;
   margin: 0 auto;
   text-align: justify;
   padding: 20px;
@@ -214,7 +215,7 @@ background: black;
 }
 
 .roadmap-title {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: bold;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -250,7 +251,7 @@ background: black;
   
   .flutter-title,
   .dart-title {
-    font-size: 24px;
+    font-size: 22px;
   }
   
   .flutter-description,
@@ -269,7 +270,7 @@ background: black;
 }
 // 
 .backend-container {
-  max-width: 800px;
+  // max-width: 800px;
   margin: 0 auto;
   text-align: justify;
   padding: 20px;
@@ -293,6 +294,8 @@ background: black;
   font-weight: bold;
   margin-top: 40px;
   margin-bottom: 20px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .backend-list {
@@ -313,7 +316,7 @@ background: black;
   
   .backend-title,
   .backend-subtitle {
-    font-size: 24px;
+    font-size: 22px;
   }
   
   .backend-description,
@@ -324,7 +327,7 @@ background: black;
 }
 // 
 .cyber-container {
-  max-width: 800px;
+  // max-width: 800px;
   margin: 0 auto;
   text-align: justify;
   padding: 20px;
@@ -348,6 +351,8 @@ background: black;
   font-weight: bold;
   margin-top: 40px;
   margin-bottom: 20px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .cyber-list {
@@ -368,7 +373,7 @@ background: black;
   
   .cyber-title,
   .cyber-subtitle {
-    font-size: 24px;
+    font-size: 22px;
   }
   
   .cyber-description,
@@ -380,7 +385,7 @@ background: black;
 // 
 
 .network-container {
-  max-width: 800px;
+  // max-width: 800px;
   margin: 0 auto;
   text-align: justify;
   padding: 20px;
@@ -404,6 +409,8 @@ background: black;
   font-weight: bold;
   margin-top: 40px;
   margin-bottom: 20px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .network-list {
@@ -430,7 +437,7 @@ background: black;
   
   .network-title,
   .network-subtitle {
-    font-size: 24px;
+    font-size: 22px;
   }
   
   .network-description,
@@ -443,7 +450,7 @@ background: black;
 
 // 
 .iot-container {
-  max-width: 800px;
+  // max-width: 800px;
   margin: 0 auto;
   text-align: justify;
   padding: 20px;
@@ -467,6 +474,8 @@ background: black;
   font-weight: bold;
   margin-top: 40px;
   margin-bottom: 20px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .iot-list {
@@ -488,7 +497,7 @@ background: black;
   
   .iot-title,
   .iot-subtitle {
-    font-size: 24px;
+    font-size: 22px;
   }
   
   .iot-description,
@@ -499,7 +508,7 @@ background: black;
 }
 // Data science
 .data-container {
-  max-width: 800px;
+  // max-width: 800px;
   margin: 0 auto;
   text-align: justify;
   padding: 20px;
@@ -524,6 +533,8 @@ background: black;
   font-weight: bold;
   margin-top: 40px;
   margin-bottom: 20px;
+  margin: 0 20px;
+padding: 0 20px 10px 20px;
 }
 
 .data-list {
@@ -531,6 +542,8 @@ background: black;
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.5;
+  margin: 0 20px;
+padding: 0 20px 10px 20px;
 }
 
 .data-list li {
@@ -544,7 +557,7 @@ background: black;
   
   .data-title,
   .data-subtitle {
-    font-size: 24px;
+    font-size: 22px;
   }
   
   .data-description,

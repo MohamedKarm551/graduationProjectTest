@@ -232,7 +232,9 @@
   border-radius: 20px;
 }
 .roadmap-text{
-  margin: 130px 0px 0px 30px;
+margin: 130px 0px 0px 30px;
+// text-align: left !important;
+// direction: ltr !important;
 }
 .roadmap-text h2{
   padding: 20px;
