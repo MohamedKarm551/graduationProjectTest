@@ -115,3 +115,441 @@ background-color: var(--main-color);
 background: black;
   color: #fff;
 }
+
+// DB
+.ai-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.ai-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.ai-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+// 
+.embedded-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.embedded-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.embedded-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.embedded-components {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.embedded-list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.engineer-roadmap-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.engineer-roadmap-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.engineer-roadmap-list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+// 
+.flutter-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 20px;
+}
+
+.flutter-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.flutter-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.flutter-definitions {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.roadmap-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.dart-title,
+.flutter-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.dart-description,
+.flutter-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.dart-list,
+.flutter-list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 600px) {
+  .flutter-container {
+    padding: 10px;
+  }
+  
+  .flutter-title,
+  .dart-title {
+    font-size: 24px;
+  }
+  
+  .flutter-description,
+  .dart-description,
+  .flutter-definitions {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  
+  .dart-list,
+  .flutter-list {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
+}
+// 
+.backend-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 20px;
+}
+
+.backend-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.backend-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.backend-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.backend-list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.backend-list li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .backend-container {
+    padding: 10px;
+  }
+  
+  .backend-title,
+  .backend-subtitle {
+    font-size: 24px;
+  }
+  
+  .backend-description,
+  .backend-list {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
+// 
+.cyber-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 20px;
+}
+
+.cyber-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.cyber-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.cyber-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.cyber-list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cyber-list li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .cyber-container {
+    padding: 10px;
+  }
+  
+  .cyber-title,
+  .cyber-subtitle {
+    font-size: 24px;
+  }
+  
+  .cyber-description,
+  .cyber-list {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
+// 
+
+.network-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 20px;
+}
+
+.network-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.network-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.network-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.network-list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.network-list li {
+  margin-bottom: 10px;
+}
+
+.network-requirements {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .network-container {
+    padding: 10px;
+  }
+  
+  .network-title,
+  .network-subtitle {
+    font-size: 24px;
+  }
+  
+  .network-description,
+  .network-list,
+  .network-requirements {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
+
+// 
+.iot-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 20px;
+}
+
+.iot-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.iot-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.iot-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.iot-list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  
+}
+
+.iot-list li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .iot-container {
+    padding: 10px;
+  }
+  
+  .iot-title,
+  .iot-subtitle {
+    font-size: 24px;
+  }
+  
+  .iot-description,
+  .iot-list {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
+// Data science
+.data-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 20px;
+}
+
+.data-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-left: 60px;
+}
+
+.data-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.data-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.data-list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.data-list li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .data-container {
+    padding: 10px;
+  }
+  
+  .data-title,
+  .data-subtitle {
+    font-size: 24px;
+  }
+  
+  .data-description,
+  .data-list {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}

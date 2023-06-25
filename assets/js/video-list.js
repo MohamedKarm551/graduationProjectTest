@@ -1,22 +1,22 @@
 let allVideos = [
   {
-    name: "Computer Monitor Shape",
-    src: "new",
+    name: "DR-Khaled",
+    src: "DR-KHALED",
     id: "vid_1",
   },
   {
-    name: "Button Hover Effect",
-    src: "HAARPER - PUKE",
+    name: "DR-Khalil",
+    src: "DR-KHALIL",
     id: "vid_2",
   },
   {
-    name: "Confirm Password using Html CSS & js",
-    src: "Confirm Password using Html CSS & js",
+    name: "DR-ASHRAF",
+    src: "DR-ASHRAF",
     id: "vid_3",
   },
   {
-    name: "Creative Card Hover Effect",
-    src: "Creative Card Hover Effect ",
+    name: "DR-SAYED",
+    src: "DR-SAYED",
     id: "vid_4",
   },
   {
