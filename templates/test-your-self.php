@@ -1,7 +1,7 @@
 <?php
 defined("__secret__Constant__") or die('No Such File!'); ?>
 
-<div class="test--your--self " style="margin-top: 10%;">
+<div class="test--your--self " style="margin-top: 6%;">
     <div class="d-flex justify-content-center p-5 border border-4 cdf" dir="rtl">
         <div id="wiz1" class="wizz-sty">
             <h3> هل لديك خبرة في العمل مع قواعد البيانات؟</h3>
