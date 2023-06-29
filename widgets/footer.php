@@ -45,7 +45,7 @@
                 <div class="">
                     <div class="btn-group ">
                         <a href="https://roadmap.sh/"   target="_blank" class="btn foot">Roadmaps</a>
-                        <!-- <a href="#" class="btn foot">Guids</a>-->
+                        <a href="https://github.com/practical-tutorials/project-based-learning?fbclid=IwAR0-8IPVDjMmuLHj9UM02guI7M81H-qELEm-FZztQC9JeE5Y2zW-BdiUls0"  target="_blank" class="btn foot">Guids</a>
                         <a href="https://www.youtube.com/watch?v=TQvOmwcY0r0" class="btn foot">About</a> 
                         <a href="https://www.youtube.com/@sce2024"  target="_blank" class="btn foot">Youtube</a>
                     </div>

@@ -125,7 +125,7 @@ header nav ul li a {
   font-size: 13px;
   font-weight: 600;
   padding: 28px 20px;
-  text-transform: uppercase;
+   text-transform: uppercase;
   display: block;
   text-decoration: none;
   transition: 0.3s;
@@ -596,7 +596,8 @@ ul.departmentName li {
   border-radius: 15px;
   // border: 0.5px solid;
   border: 0.5px transparent;
-  font-family: "Raleway", sans-serif;
+  // font-family: "Raleway", sans-serif;
+  font-weight: 300;
   background: #c7cdd3;
   margin: 2px 0;
   padding: 5px;
@@ -622,7 +623,7 @@ ul.departmentName li:hover {
 .fields {
 }
 .fields li {
-  font-family: "Raleway", sans-serif;
+  // font-family: "Raleway", sans-serif;
   transition: 0.2s ease-out;
   padding: 1px;
   margin: 1px;
@@ -1124,7 +1125,8 @@ button[aria-expanded="false"] {
   background-color: var(--main-color);
   //   background: #ff2020;
   //   font-family: "Josefin Sans", sans-serif;
-  text-transform: uppercase;
+  // text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.03em;
