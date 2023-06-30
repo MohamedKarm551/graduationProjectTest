@@ -12,7 +12,7 @@ defined('__secret__Constant__') or die('not found!');
         </a>
         <nav>
             <label for="bar">
-                <a href="/"> <img src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/null/external-bars-interface-royyan-wijaya-detailed-outline-royyan-wijaya.png" />
+                <a > <img src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/null/external-bars-interface-royyan-wijaya-detailed-outline-royyan-wijaya.png" />
                 </a>
             </label>
             <input type="checkbox" name="check" id="bar">

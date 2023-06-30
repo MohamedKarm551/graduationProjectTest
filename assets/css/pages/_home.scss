@@ -609,8 +609,8 @@ ul.departmentName li:hover {
   // background-color: rgba(85, 107, 120, 1);
   color: #fff;
   cursor: pointer;
-  font-weight: 500;
-  margin-left: 1%;
+  // font-weight: 500;
+  margin-left: .4%;
 }
 // ul.departmentName li:nth-child(1):hover {
 //   margin-right: 1%;
@@ -618,6 +618,13 @@ ul.departmentName li:hover {
 // .departmentName li:nth-child(1) {
 //   text-align: right;
 // }
+.departmentName a {
+  text-decoration: none;
+  color: #000;
+}
+.departmentName a:hover{
+  color: #fff;
+}
 
 /*  */
 .fields {
@@ -1129,7 +1136,7 @@ button[aria-expanded="false"] {
   text-transform: capitalize;
   font-size: 16px;
   font-weight: 600;
-  letter-spacing: 0.03em;
+  letter-spacing: 1px;
   color: white;
   padding: 30px 28px;
   border: 0;
