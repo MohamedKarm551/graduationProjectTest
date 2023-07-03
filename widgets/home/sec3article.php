@@ -85,10 +85,16 @@
         <button class="btn-style"><?=l_Department_Names;?></button>
 
         <ul class="departmentName">
-            <li><a href="https://eng-azhar.net/User/Department?filter=9"><?= l_Al_Azhar_University; ?></a> </li>
-            <li><a href="https://cu.edu.eg/ar/CU-Faculty-Profile-1.html"><?= l_Cairo_University; ?></a>  </li>
-            <li><a href="https://csifac.mans.edu.eg/"><?= l_Mansoura_University; ?></a> </li>
+            <li><a href="https://eng-azhar.net/User/Department?filter=9" target="_blank"><?= l_Al_Azhar_University; ?></a> </li>
+            <li><a href="https://cu.edu.eg/ar/CU-Faculty-Profile-1.html" target="_blank"><?= l_Cairo_University; ?></a>  </li>
+            <li><a href="https://csifac.mans.edu.eg/" target="_blank"><?= l_Mansoura_University; ?></a> </li>
             <li><a href="http://www.eng.zu.edu.eg/faculty/sector_info?d=1563" target="_blank"><?= l_Zagazig_University; ?></a> </li>
+            <li><a href="https://eng.asu.edu.eg/ar/departments/CSE" target="_blank"><?= l_Ean_shams_University; ?></a> </li>
+            <li><a href="https://eng.alexu.edu.eg/index.php/departments/computer" target="_blank"><?= l_ALEXANDRIA_University; ?></a> </li>
+            <li><a href="https://eng.tanta.edu.eg/Automated_Control/Default.aspx" target="_blank"><?= l_Tanta_University; ?></a> </li>
+            <li><a href="engh.helwan.edu.eg/?p=11626" target="_blank"><?= l_Helwan_University; ?></a> </li>
+            <li><a href="https://mu.menofia.edu.eg/FEE/SCE/Home/ar" target="_blank"><?= l_Menoufia_University; ?></a> </li>
+            <li><a href="https://departments.minia.edu.eg//Home/GetDepartmentProfile/140" target="_blank"><?= l_Minia_University; ?></a> </li>
         </ul>
         <!-- <h3 class="center-ele">من مجالات العمل</h3> -->
         <!-- <h3 class="title-section">من مجالات العمل</h3> -->

@@ -32,11 +32,18 @@ const l_The_most_famous_tracks_li_four = "- Hardware";
 const l_Important_note = "Important note";
 const l_Important_note_define = "The department is concerned with teaching the basics and is based on";
 const l_self_study = "self study";
+//Department Names
 const l_Department_Names = "Department Names";
 const l_Al_Azhar_University = "Systems and Computers Engineering - Al-Azhar University";
 const l_Cairo_University = "Computers Engineering - Cairo University";
 const l_Mansoura_University = "Control systems and Computers Engineering - Mansoura University";
 const l_Zagazig_University = "Systems and Computers Engineering - Zagazig University";
+const l_Ean_shams_University ="Computer and Systems Engineering, Ain Shams University";
+const  l_ALEXANDRIA_University ="Computer and Systems Engineering ALEXANDRIA UNIVERSITY";
+const  l_Tanta_University ="Computer and Automatic Control Engineering";
+const  l_Helwan_University ="Computer and Systems Engineering, Helwan University";
+const  l_Menoufia_University ="Engineering and Computer Science, Menoufia University";
+const  l_Minia_University ="Computer and Systems Engineering, Minia University";
 
 
 
