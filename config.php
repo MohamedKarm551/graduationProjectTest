@@ -6,6 +6,7 @@ const __secret__Constant__ = true;
 
 const __SITE_NAME__ = "graduation";
 const __ROOT__ = __DIR__;
+const __WIDGETS__ = __ROOT__."/widgets/";
 //const __DIST__ = "/dist";
 
 if(isset($_GET["lang"]) && isset($_GET["location"])) {
