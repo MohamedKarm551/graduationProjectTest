@@ -29,20 +29,45 @@ $(()=>{
 
     $(document).on("click", "[data-caller='open--tab']", function() {
         let $this = $(this),
-            to_close =$this.attr("data-to-close"),
+            $to_close = $(document).find(".to--close"),
             to_open = $this.attr("data-to-open"),
             $to_open = $(document).find("#"+to_open),
             around_tab = $this.hasClass("around--tab")||"";
-        if(is__valid__json(to_close)){ //to detect if multi to close
-            to_close = JSON.parse(to_close)
-            for(const element in to_close) $("#"+to_close[element]).addClass("d-none")
-        } else {
-            let $to_close = $(document).find("#"+to_close);
-            $to_close.addClass("d-none")
-        }
+        $to_close.addClass("d-none")
         $to_open.removeClass("d-none")
         !around_tab&&!$this.hasClass("active")&&$this.addClass("active").siblings().removeClass("active");
     })
+
+    $(document).on("change", "#paths", function() {
+        let value = $("#paths").find(":selected").val(),
+            data = JSON.stringify({
+                "value": value,
+            }),
+            form_data = new FormData(),
+            feed;
+        form_data.append("action", JSON.stringify("get-questions"));
+        form_data.append("data", data);
+
+
+        $.ajax({
+            type: "POST",
+            url: "/ajax/aj.php",
+            data: form_data,
+            cache: false,
+            contentType: false,
+            processData: false,
+            beforeSend:() => {
+
+            },
+            success: (f) => {
+                feed = JSON.parse(f);
+            },
+            complete: () => {
+                let html = feed.html
+                $("#questions--results").html(html)
+            }
+        })
+    });
 
 })
 

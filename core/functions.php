@@ -53,7 +53,7 @@ function get__track(): bool|array
 }
 
 
-function get__path($where): bool|array
+function get__path($where="1"): bool|array
 {
     global $DB;
     return $DB->fetch("path",where:$where);
@@ -67,4 +67,9 @@ function get__course($where): bool|array
 {
     global $DB;
     return $DB->fetch("course",where:$where);
+}
+function get__question($where): bool|array
+{
+    global $DB;
+    return $DB->fetch("question",where:$where);
 }

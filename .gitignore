@@ -1,4 +1,5 @@
 .idea/
 dist/
 gulp/node_modules/
+db_info.php
 
