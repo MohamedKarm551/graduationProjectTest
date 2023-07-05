@@ -1,170 +1,63 @@
-// #wiz1{
-//     border: 1px solid #777;
-//     box-shadow: 2px 2px 2px 2px;
-//     border-radius: 5px;
-//     padding: 30px;
-// }
-.wizz-sty{
-    border: 1px solid #777;
-    box-shadow: 2px 2px 2px 2px;
-    border-radius: 5px;
-    padding: 30px;
-}
-.next{
-    margin: 10%;
-    
-    
-}
-.btn-color{
-    background: var(--main-color);
-}
-// .radio{
-//     display: inline-flex;
-//     align-items: center;
-//     cursor: pointer;
-//     margin-right: 10px;
-// }
-// .radio__input{
-//     display: none;
-// }
-// .radio__radio{
-//     width: 1.25em;
-//     height: 1.25em;
-//     border: 2px solid #dBe4e2;
-//     border-radius: 50%;
-//     margin-right: 10px;
-//     box-sizing: border-box;
-//     padding: 2px;
-// }
-// .radio__radio::after{
-//     content: "";
-//     width: 100%;
-//     height: 100%;
-//     display: block;
-//     background: #009879;
-//     border-radius: 50%;
 
-//     transform: scale(0);
-//     transition: 0.15s;
-// }
-// .radio__input:checked + .radio__radio::after{
-//     transform: scale(1);
-// }
-
-form{
-    margin-top: 20px;
-}
-
-input[type="radio"]{
-    display: none;
-}
-label{
-    display: block;
-    cursor: pointer;
-    font-weight: 500;
+// new Karam Style at  5-7-2023
+.quiz-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .wizz-sty {
+    background-color:var(--main-color);
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .wizz-sty h3 {
+    margin-top: 0;
     margin-bottom: 10px;
-}
-label span{
-    display: inline-flex;
-    align-items: center;
-    padding: 10px 20px 10px 10px;
-    border-radius: 31px;
-    transition: .25s ease;
-}
-// label span:hover,
-// input[type="radio"]:checked + span{
-//     background-color: #d6d6e5;
-// }
-label span::before{
+    font-size: 18px;
+  }
+  
+  .wizz-sty label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .wizz-sty input[type="radio"] {
+    display: none;
+  }
+  
+  .wizz-sty input[type="radio"] + span:before {
     content: "";
-    background-color: #fff;
-    width: 20px;
-    height: 20px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
     border-radius: 50%;
     margin-right: 10px;
-    margin-left: 10px;
-    transition: .25s ease;
-    box-shadow: inset 0 0 0 1px var(--main-color);
-}
-input[type="radio"]:checked + span::before{
-    box-shadow: inset 0 0 0 5px var(--main-color);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .center{
-//     position:absolute;
-//     width:20%;
-//     height:20%;
-//     left:50%;
-//     top:50%;
-//     margin-left:-390px;
-//     // margin-top:-325px;
-//     border: 2px solid #777;
-// }
-// .container {  
-//     display: block;  
-//     position: relative;  
-//     padding-left: 40px;  
-//     margin-bottom: 20px;  
-//     cursor: pointer;  
-//     font-size: 25px;  
-//   }  
-    
-//   /* Hide the default radio button */  
-//   .container input {  
-//     position: absolute;  
-//     opacity: 0;  
-//     cursor: pointer;  
-//   }  
-    
-//   /* custom radio button */  
-//   .check {  
-//     position: absolute;  
-//     top: 0;  
-//     left: 0;  
-//     height: 30px;  
-//     width: 30px;  
-//     background-color: lightgray;  
-//     border-radius: 50%;  
-//   }  
-    
-//   .container:hover input ~ .check {  
-//     background-color: gray;  
-//   }  
-    
-//   .container input:checked ~ .check {  
-//     background-color: blue;  
-//   }  
-    
-//   .check:after {  
-//     content: "";  
-//     position: absolute;  
-//     display: none;  
-//   }  
-    
-//   .container input:checked ~ .check:after {  
-//     display: block;
-//   }  
-    
-//   .container .check:after {  
-//       top: 8px;  
-//       left: 8px;  
-//       width: 15px;  
-//       height: 15px;  
-//       border-radius: 50%;  
-//       background: white;  
-//   }  
+    vertical-align: middle;
+  }
+  
+  .wizz-sty input[type="radio"]:checked + span:before {
+    // background-color: var(--second-color);
+    background-color: #fbff00;
+  }
+  
+  .wizz-sty input[type="radio"] + span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #quiz-result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    // color: var(--main-color);
+    background-color: #dc3545;
+    color: white;
+  }
