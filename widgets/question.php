@@ -4,21 +4,27 @@
  */
 $where = "path_id = '".$path_id."'";
 $questions = get__question($where);
-foreach ($questions as $question) { ?>
+// var_dump(count($questions));//total
+// $total=count($questions);
+// $result=0;
+ foreach ($questions as $question) { ?>
     <div id="wiz1" class="wizz-sty">
-        <h3><?=$question["body"];?></h3>
-        <form action="">
+        <h3><?= $question["body"]; ?></h3>
+        <form>
             <label>
-                <input type="radio" name="yes" id="radio">
-                <span>نعم</span>
+                <input type="radio" name="<?= $question["body"]; ?>" value="yes">
+                <span>Yes</span>
             </label>
             <label>
-                <input type="radio" name="yes" id="radio">
-                <span>لا</span>
+                <input type="radio" name="<?= $question["body"]; ?>" value="no">
+                <span>No</span>
             </label>
         </form>
-        <div class="d-flex align-items-center">
-            <span class="next"><button class="btn_ btn_1 " data-caller="open--tab" data-to-close="wiz1" data-to-open="wiz2">Next</button></span>
-        </div>
+        <div class="feedback"></div>
     </div>
 <?php } ?>
+
+<!-- Add a button element with onclick attribute -->
+<button type="button" class="btn btn-primary" onclick="calculateQuizResult()">Submit</button>
+
+

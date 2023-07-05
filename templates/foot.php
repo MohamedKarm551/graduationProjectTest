@@ -11,6 +11,7 @@ require_once(__ROOT__ . "/widgets/footer.php");
 <script src="//<?= f__r("js/video-list.js"); ?>"></script>
 <script src="//<?= f__r("js/accord2.js"); ?>"></script>
 <script src="//<?= f__r("js/MaterialDescription.js"); ?>"></script>
+<script src="//<?= f__r("js/questions.js"); ?>"></script>
 
 </body>
 
