@@ -18,10 +18,8 @@ function playMusic() {
   playlist.classList.add("active");
 }
 function loadMusic(indexNumb) {
-  mainVideo.src = `//${location.host}/dist/media/videos/${
-    allVideos[indexNumb - 1].src
-  }.mp4`;
-  videoTitle.innerHTML = `${indexNumb}. ${allVideos[indexNumb - 1].name}`;
+  mainVideo.src = `${
+    allVideos[indexNumb - 1].src}`;
 }
 
 for (let i = 0; i < allVideos.length; i++) {

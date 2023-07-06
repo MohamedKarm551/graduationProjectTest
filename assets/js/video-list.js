@@ -1,14 +1,15 @@
 let allVideos = [
   {
     name: "DR-Khaled",
-    src: "DR-KHALED",
+    src: "https://www.youtube.com/embed/h0yPK_A1b74",
     id: "vid_1",
   },
   {
     name: "DR-Khalil",
-    src: "DR-KHALIL",
+    src: "https://www.youtube.com/embed/65kW0OUNEPE",
     id: "vid_2",
   },
+  /*
   {
     name: "DR-ASHRAF",
     src: "DR-ASHRAF",
@@ -63,5 +64,5 @@ let allVideos = [
     name: "Vertical Navigation Bar",
     src: "Vertical Navigation Bar Using Html And CSS",
     id: "vid_13",
-  },
+  },*/
 ];

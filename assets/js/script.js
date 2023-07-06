@@ -64,6 +64,7 @@ $(()=>{
             },
             complete: () => {
                 let html = feed.html
+                $("#quiz-result").html("")
                 $("#questions--results").html(html)
             }
         })
@@ -143,10 +144,10 @@ function closePopupModal() {
 
 
 // Close modal when clicking on screen around it
-PopUpModal.addEventListener('click', function(event) {
+/*PopUpModal.addEventListener('click', function(event) {
     if (event.target === PopUpModal) {
       closePopupModal();
     }
-  });
+  });*/
 // end new editing 
 
