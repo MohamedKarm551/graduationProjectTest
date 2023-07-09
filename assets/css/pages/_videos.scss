@@ -22,7 +22,11 @@ body {
 // li {
 //   list-style: none;
 // }
+.videos{
+  margin-top: 6%;
+}
 section.videos {
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +55,7 @@ section.videos {
 .videos .container #main-Video {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 400px;
   overflow: hidden;
   outline: none;
 }
@@ -71,6 +75,7 @@ section.videos {
   height: 100%;
   margin: 0 10px 0 10px;
   /* border: 2px solid green; */
+  overflow-y: scroll;
 }
 .playlist {
   position: absolute;
@@ -155,7 +160,9 @@ ul li.playing .row span::before {
     overflow: hidden;
   }
   .videos .container #main-Video {
-    height: 100%;
+    // height: 100%;
+    height: 400px;
+
   }
   .playlistBx {
     height: 380px;

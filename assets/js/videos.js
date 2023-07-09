@@ -14,7 +14,7 @@ window.addEventListener("load", () => {
   playingNow();
 });
 function playMusic() {
-  mainVideo.play();
+  // mainVideo.play();
   playlist.classList.add("active");
 }
 function loadMusic(indexNumb) {
@@ -27,9 +27,7 @@ for (let i = 0; i < allVideos.length; i++) {
       <div class="row">
          <span>${i + 1}. ${allVideos[i].name}</span>
       </div>
-      <video class="${allVideos[i].id}" src="//${
-    location.host
-  }/dist/media/videos/${allVideos[i].src}.mp4" style="display: none;" title="${
+      <iframe class="${allVideos[i].id}" src="${allVideos[i].src}" style="display: none;" title="${
     allVideos[i].name
   }"></video>
       <span id="${allVideos[i].id}" class="duration"></span>
