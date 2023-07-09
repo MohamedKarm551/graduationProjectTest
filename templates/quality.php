@@ -4,8 +4,7 @@
         <div class="entry-header has-post-format">
             <span class="post-format"><i class="fa fa-thumb-tack"></i></span>
 
-            <!-- <h2 class="title-section" itemprop="name" style="direction: rtl;">
-                أعمال الجودة بالقسم </h2> -->
+ 
             <button class="btn-style">أعمال الجودة بالقسم </button>
         </div>
 
@@ -37,13 +36,11 @@
             <p style="direction: rtl;"><a href="#">التوصيف الداحلي والخارجي.</a></p>
             <p><a href="#">Academic Reference Standards(ARS).</a></p>
             <p>&nbsp;</p>
-            <!-- <p style="direction: rtl;"><span style="color: #800000;"><strong>
-                بعض الصور التوضيحية للجودة :</strong></span></p> -->
+
             <button class="btn-style">بعض الصور التوضيحية للجودة </button>
 
             <p>
 
-                <!-- JoomlaWorks "Simple Image Gallery Pro" Plugin (v3.6.7) starts here -->
 
             </p>
             <ul id="sigProId1e208786ec" class="sigProContainer sigProClassic">
@@ -118,17 +115,7 @@
             </ul>
 
 
-            <!-- <div class="sigProPrintMessage">
-            View the embedded image gallery online at:
-            <br>
-            <a title="أعمال الجودة بالقسم" href="http://engfac.mans.edu.eg/2020-07-14-08-56-49#sigProId1e208786ec">http://engfac.mans.edu.eg/2020-07-14-08-56-49#sigProId1e208786ec</a>
-        </div> -->
 
-            <!-- JoomlaWorks "Simple Image Gallery Pro" Plugin (v3.6.7) ends here -->
-
-
-            <!-- <p style="direction: rtl;"><strong><span style="color: #800000;">أنشطة
-                 القسم الخاصة بالجودة :</span></strong></p> -->
             <button class="btn-style"> أنشطة القسم الخاصة بالجودة </button>
 
             <p>
@@ -193,11 +180,7 @@
             </ul>
 
 
-            <!-- <div class="sigProPrintMessage">
-            View the embedded image gallery online at:
-            <br>
-            <a title="أعمال الجودة بالقسم" href="http://engfac.mans.edu.eg/2020-07-14-08-56-49#sigProId76b4c170b9">http://engfac.mans.edu.eg/2020-07-14-08-56-49#sigProId76b4c170b9</a>
-        </div> -->
+
 
             <!-- JoomlaWorks "Simple Image Gallery Pro" Plugin (v3.6.7) ends here -->
 
@@ -205,7 +188,6 @@
             <p style="direction: rtl;">&nbsp;</p>
             <h3>&nbsp;</h3>
 
-            <!-- <h4 dir="rtl"><strong><span style="color: #993300; font-size: 14pt;">استراتيجيات التعليم والتعلم</span></strong></h4> -->
             <button class="btn-style">استراتيجيات التعليم والتعلم </button>
 
 
