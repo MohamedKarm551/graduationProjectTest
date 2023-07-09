@@ -4,9 +4,13 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
-    padding: 20px;
+    // padding: 20px;
+    padding: 3rem;
   }
-  
+  select#paths{
+    width: 90%;
+    margin: auto;
+  }
   .wizz-sty {
     background-color:var(--main-color);
     padding: 20px;
@@ -61,3 +65,44 @@
     background-color: #dc3545;
     color: white;
   }
+  .next {
+    background-color: #000;
+    color: white;
+  }
+  .previous {
+    background-color: var(--main-color);
+    color: white;
+  }
+  .submit{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px;
+  }
+  // screens
+  @media (max-width: 768px) {
+    .quiz-grid {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .quiz-grid{
+      padding: 20px;
+    }
+    .wizz-sty {
+      padding: 10px;
+    }
+    
+    .wizz-sty h3 {
+      font-size: 15px;
+    }
+    .wizz-sty label{
+    font-size: 10px;
+    width: 30%;
+    margin: auto;
+    }
+  }
+  

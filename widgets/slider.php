@@ -242,14 +242,7 @@
     <!-- Modal content -->
     <div class="modal-content" style="text-align:left;
 direction:ltr">
-        <!-- <span class="close " onclick="closePopupModal()">&times;</span>
-        <span class="head-course">Course Title :
-            <ol>
-                <li><span class="name-course">Electronics (first year)</span></li>
-                <li><span class="name-course">Computer Architecture (fourth year)</span></li>
-                <li><span class="name-course">Embedded Systems (forth year)</span></li>
-            </ol>
-        </span> -->
+
 
     </div>
 </div>
