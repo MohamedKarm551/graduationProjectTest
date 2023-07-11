@@ -38,14 +38,14 @@ const l_self_study = "التعلم الذاتي";
 const l_Department_Names = "أسماء القسم";
 const l_Al_Azhar_University = " هندسة النظم والحاسبات - جامعة الأزهر";
 const l_Cairo_University = "هندسة الحاسبات - جامعة القاهرة";
-const l_Mansoura_University = "هندسة الحاسبات و نظم التحكم = جامعة المنصورة";
+const l_Mansoura_University = "هندسة الحاسبات و نظم التحكم - جامعة المنصورة";
 const l_Zagazig_University = "هندسة الحاسبات والمنظومات - جامعة الزقازيق";
-const l_Ean_shams_University ="هندسة الحاسبات والنظم جامعة عين شمس";
-const  l_ALEXANDRIA_University ="هندسة الحاسب والنظم جامعة الاسكندرية";
-const  l_Tanta_University =" هندسة الحاسبات والتحكم الآلي جامعة طنطا";
-const  l_Helwan_University ="هندسة الحاسبات والنظم جامعة حلوان ";
-const  l_Menoufia_University =" هندسة وعلوم الحاسب جامعة المنوفية";
-const  l_Minia_University ="هندسة الحاسبات والنظم جامعة المنيا";
+const l_Ean_shams_University ="هندسة الحاسبات والنظم - جامعة عين شمس";
+const  l_ALEXANDRIA_University ="هندسة الحاسب والنظم - جامعة الاسكندرية";
+const  l_Tanta_University =" هندسة الحاسبات والتحكم الآلي - جامعة طنطا";
+const  l_Helwan_University ="هندسة الحاسبات والنظم - جامعة حلوان ";
+const  l_Menoufia_University =" هندسة وعلوم الحاسب - جامعة المنوفية";
+const  l_Minia_University ="هندسة الحاسبات والنظم - جامعة المنيا";
 
 
 const l_job_tracks = "المسارات الوظيفية";
