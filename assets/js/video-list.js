@@ -26,9 +26,14 @@ let allVideos = [
     id: "vid_5",
   },
   {
+    name: "DR-Ali",
+    src: "https://www.youtube.com/embed/nShuRkhapdQ",
+    id: "vid_6",
+  },
+  {
     name: "Intro02",
     src: "https://www.youtube.com/embed/WF6ZmYsB1xs",
-    id: "vid_6",
+    id: "vid_7",
   },
 
 ];

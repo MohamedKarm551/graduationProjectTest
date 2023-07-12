@@ -80,8 +80,11 @@ section.videos {
 .playlist {
   position: absolute;
   width: 100%;
-  height: calc(100% - 40px);
-  overflow-y: scroll;
+   height: calc(100% - 40px);
+  //  height: 100%;//karam edit
+  // height: 1000px; //karam edit
+   overflow-y: scroll;
+  overflow-y: auto;
   border-top: 1px solid #dcdee1;
   padding-bottom: 42px; /* I forget to add this while I was recording this video please add this line if you don't add this property then the last li in the playlist will not show  */
 }
@@ -165,13 +168,15 @@ ul li.playing .row span::before {
 
   }
   .playlistBx {
-    height: 380px;
+     height: 380px;
+    // height: 500px; //karam edit
     margin-top: 10px;
   }
   .playlist {
     position: absolute;
     width: 100%;
     height: calc(100% - 40px);
-    overflow-y: scroll;
+    // height: 100%;
+    overflow-y: auto;
   }
 }
