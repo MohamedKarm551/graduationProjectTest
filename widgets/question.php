@@ -24,16 +24,18 @@ $questions = get__question($where);
         <div class="feedback"></div>
     </div>
     <div class="d-flex align-items-center justify-content-evenly m-2">
-    <?php 
-              if($i!=(count($questions)-1)){?>
-                <span  ><button class="btn_ next " data-caller="open--tab"  data-to-open="wiz<?=$i+1;?>">Next</button></span>
-                <?php } ?>
-              <?php 
-              if($i>0){?>
-  <span  ><button class="btn_ previous" data-caller="open--tab"  data-to-open="wiz<?=$i-1;?>">previous</button></span>
-              <?php } ?>
-            
-            </div>
+        <?php if($i>0){ ?>
+            <span>
+                  <button class="btn_ previous" data-caller="open--tab"  data-to-open="wiz<?=$i-1;?>"><?=l_previous;?></button>
+              </span>
+        <?php } ?>
+
+        <?php if($i!=(count($questions)-1)){?>
+            <span>
+                <button class="btn_ next " data-caller="open--tab"  data-to-open="wiz<?=$i+1;?>"><?=l_next;?></button>
+            </span>
+        <?php } ?>
+    </div>
             <?php 
               if($i==(count($questions)-1)){?>
 <!-- Add a button element with onclick attribute -->

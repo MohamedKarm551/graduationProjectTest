@@ -14,9 +14,7 @@ defined("__secret__Constant__") or die('No Such File!'); ?>
                 <?php } ?>
             </select>
         </div>
-        <div id="questions--results" class="quiz-grid">
-
-        </div>
+        <div id="questions--results" class="quiz-grid"></div>
 
         <div id="quiz-result"></div>
 

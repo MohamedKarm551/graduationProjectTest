@@ -213,6 +213,8 @@ const l_Elective_Course_two="Elective Course 2";
 const l_frontend = "Front-End Developer";
 
 //end courses page translation
+const l_next = "next";
+const l_previous = "previous";
 
 
 

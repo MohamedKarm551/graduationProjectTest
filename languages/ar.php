@@ -218,8 +218,6 @@ const l_Elective_Course_two="مقرر اختياري 2";
 const l_frontend = "مبرمج واجهة أماميه";
 
 
+const l_next = "التالي";
+const l_previous = "السابق";
 
-
-
-
-//end courses page translation
