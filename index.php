@@ -3,7 +3,7 @@ ob_start();
 require_once("inc.php");
 
 $url = $_GET["url"] ?? "";
-if ($url = h__u($url)) {
+if ($url = handle_url($url)) {
     $cat = $url[0] ?? "";
     $sub = $url[1] ?? "";
     if ($cat === "404") {
@@ -35,11 +35,11 @@ if ($url = h__u($url)) {
             require_once(__ROOT__ . "/controller/test-your-self.php");
             break;
         default:
-            if (h__v($cat)) r__("/404");
+            if (has_value($cat)) redirect("/404");
             require_once(__CONT__ . "/home.php");
             break;
     }
     require_once(__ROOT__ . "/templates/foot.php");
 } else {
-    r__("/404");
+    redirect("/404");
 }

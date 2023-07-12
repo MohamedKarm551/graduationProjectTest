@@ -5,8 +5,8 @@ require_once(__ROOT__ . "/widgets/footer.php");
 ?>
 
 </div>
-<script src="//<?= f__r("js/libraries/libs.js"); ?>"></script>
-<script src="//<?= f__r("js/script.js"); ?>"></script>
+<script src="//<?= force_reload("js/libraries/libs.js"); ?>"></script>
+<script src="//<?= force_reload("js/script.js"); ?>"></script>
 </body>
 
 </html>

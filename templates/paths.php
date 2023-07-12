@@ -16,7 +16,7 @@
                     $paths = get__path($where);
                     foreach ($paths as $path) { ?>
                         <div class="box">
-                            <img src="//<?= f__r("media/images/".$path["img_path"]); ?>" alt="" />
+                            <img src="//<?= force_reload("media/images/".$path["img_path"]); ?>" alt="" />
                             <h3><?=defined($path["title"]) ? constant($path["title"]) : $path["title"];?></h3>
                             <span class="card_btn">
                             <a href="/path/<?=$path['path_id'];?>"><?= l_VIEW_MORE; ?></a>

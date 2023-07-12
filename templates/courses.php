@@ -314,16 +314,16 @@
                  <section class="image-material">
 
   <div class="img-container">
-    <img src="//<?= f__r("media/images/one.png"); ?>" alt="Image 1">
+    <img src="//<?= force_reload("media/images/one.png"); ?>" alt="Image 1">
   </div>
   <div class="img-container">
-    <img src="//<?= f__r("media/images/two.png"); ?>" alt="Image 2">
+    <img src="//<?= force_reload("media/images/two.png"); ?>" alt="Image 2">
   </div>
   <div class="img-container">
-    <img src="//<?= f__r("media/images/three.png"); ?>" alt="Image 3">
+    <img src="//<?= force_reload("media/images/three.png"); ?>" alt="Image 3">
   </div>
   <div class="img-container">
-    <img src="//<?= f__r("media/images/four.png"); ?>" alt="Image 4">
+    <img src="//<?= force_reload("media/images/four.png"); ?>" alt="Image 4">
   </div>
 </section>
 <div class="popup">

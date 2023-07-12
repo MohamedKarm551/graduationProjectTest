@@ -8,7 +8,7 @@
             <div class="swiper-wrapper">
                 <div class="card swiper-slide">
                     <div class="card_image">
-                        <img src="//<?= f__r("media/images/home-slider/elsemary.jpg"); ?>" alt="">
+                        <img src="//<?= force_reload("media/images/home-slider/elsemary.jpg"); ?>" alt="">
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Ali Elsemary</span>
@@ -20,7 +20,7 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card_image">
-                        <img src="//<?= f__r("media/images/home-slider/Nasr.jpg"); ?>" alt="">
+                        <img src="//<?= force_reload("media/images/home-slider/Nasr.jpg"); ?>" alt="">
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Abdulrahman Nasr</span>
@@ -30,7 +30,7 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card_image">
-                        <img src="//<?= f__r("media/images/home-slider/khalil-2.jpg")?>" alt="">
+                        <img src="//<?= force_reload("media/images/home-slider/khalil-2.jpg")?>" alt="">
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Khalil Mohamed</span>
@@ -41,7 +41,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/ayousef.jpg"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/ayousef.jpg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Ahmed Yousef</span>
@@ -52,7 +52,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/marakby.jpg"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/marakby.jpg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Ashraf Elmarakby</span>
@@ -63,7 +63,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/madkour.jpeg"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/madkour.jpeg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Ashraf Madkour</span>
@@ -74,7 +74,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/rashed.png"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/rashed.png"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr. Ali Mahmoud Rashid</span>
@@ -85,7 +85,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/rohaim.jpg"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/rohaim.jpg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Mohamed Ali Rohaim</span>
@@ -96,7 +96,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/elshafey.jpeg"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/elshafey.jpeg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Khaled El Shafey</span>
@@ -107,7 +107,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/tharwat.jpg"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/tharwat.jpg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Gamal Tharwat</span>
@@ -118,7 +118,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/noah.jpg"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/noah.jpg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Sayed Noah</span>
@@ -129,7 +129,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/sharkawy.jpg"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/sharkawy.jpg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.AbdelFattah ElSharkawi</span>
@@ -140,7 +140,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/ali-halawa.jpg"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/ali-halawa.jpg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Ali Halawa</span>
@@ -151,7 +151,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/atef.png"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/atef.png"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Mohamed Atef</span>
@@ -162,7 +162,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/kolkila.jpg"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/kolkila.jpg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Ahmed Abdelaziz</span>
@@ -173,7 +173,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/nagdy.jpeg"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/nagdy.jpeg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Nagdy Mahmoud</span>
@@ -184,7 +184,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/refay.png"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/refay.png"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Dr.Fawzy Elrefaey</span>
@@ -195,7 +195,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/shokry.jpeg"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/shokry.jpeg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Eng.Ahmed Shokry</span>
@@ -206,7 +206,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/ryan.jpeg"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/ryan.jpeg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Eng.Mohamed Rayan</span>
@@ -217,7 +217,7 @@
                 <div class="card swiper-slide">
                     <div class="card_image">
 
-                        <img src="//<?= f__r("media/images/home-slider/abdulrahman-halawa.jpeg"); ?>" alt="" />
+                        <img src="//<?= force_reload("media/images/home-slider/abdulrahman-halawa.jpeg"); ?>" alt="" />
                     </div>
                     <div class="card_content">
                         <span class="card_title">Eng.Abdulrahman Halawa</span>

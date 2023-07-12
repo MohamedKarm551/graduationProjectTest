@@ -13,28 +13,28 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item  img-item active">
-                <img src="//<?= f__r("media/images/back.jpg"); ?>" class="d-block w-100" alt="...">
+                <img src="//<?= force_reload("media/images/back.jpg"); ?>" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item img-item">
-                <img src="//<?= f__r("media/images/landImg.jpg"); ?>" class="d-block w-100" alt="...">
+                <img src="//<?= force_reload("media/images/landImg.jpg"); ?>" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item img-item">
-                <img src="//<?= f__r("media/images/carousel-2.jpg"); ?>" class="d-block w-100" alt="...">
+                <img src="//<?= force_reload("media/images/carousel-2.jpg"); ?>" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item img-item">
-                <img src="//<?= f__r("media/images/landImg2.jpg"); ?>" class="d-block w-100" alt="...">
+                <img src="//<?= force_reload("media/images/landImg2.jpg"); ?>" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item img-item">
-                <img src="//<?= f__r("media/images/landImg3.jpg"); ?>" class="d-block w-100" alt="...">
+                <img src="//<?= force_reload("media/images/landImg3.jpg"); ?>" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item img-item">
-                <img src="//<?= f__r("media/images/landImg4.jpg"); ?>" class="d-block w-100" alt="...">
+                <img src="//<?= force_reload("media/images/landImg4.jpg"); ?>" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item img-item">
-                <img src="//<?= f__r("media/images/landImg5.jpg"); ?>" class="d-block w-100" alt="...">
+                <img src="//<?= force_reload("media/images/landImg5.jpg"); ?>" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item img-item">
-                <img src="//<?= f__r("media/images/landImg6.jpg"); ?>" class="d-block w-100" alt="...">
+                <img src="//<?= force_reload("media/images/landImg6.jpg"); ?>" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

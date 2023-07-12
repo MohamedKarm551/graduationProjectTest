@@ -8,7 +8,7 @@ defined('__secret__Constant__') or die('not found!');
 <header>
     <div class="container">
         <a href="/" class="logo">
-            <img src="//<?= f__r("media/images/azharlogo.png"); ?>" alt="logo">
+            <img src="//<?= force_reload("media/images/azharlogo.png"); ?>" alt="logo">
         </a>
         <nav>
             <label for="bar">
@@ -17,7 +17,7 @@ defined('__secret__Constant__') or die('not found!');
             </label>
             <input type="checkbox" name="check" id="bar">
             <ul>
-                <li><a class="<?= !h__v($cat) ? "active" : ""; ?>" href="/"><?=l_home;?></a></li>
+                <li><a class="<?= !has_value($cat) ? "active" : ""; ?>" href="/"><?=l_home;?></a></li>
                 <li><a class="<?= $cat === "courses" ? "active" : ""; ?>" href="/courses"><?=l_courses;?></a></li>
                 <li><a class="<?= $cat === "paths" ? "active" : ""; ?>" href="/paths"><?=l_paths;?></a></li>
                 <li><a class="<?= $cat === "videos" ? "active" : ""; ?>" href="/videos"><?=l_videos;?></a></li>

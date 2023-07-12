@@ -97,7 +97,7 @@ class DataBase
     public function fetch(string $table, string|array $columns="*", string $where="1", bool|array $all=true, string $clause="WHERE", string $external_where=""): false|array
     {
         $rows = [];
-        $where .= h__v($external_where)?" ".$external_where:"";
+        $where .= has_value($external_where)?" ".$external_where:"";
         $sql = "SELECT ".$this->prep_columns($columns)." FROM `".$table."` ".$clause." ".$where;
         if(is_array($all)){
             $sql .= " LIMIT " . $all["offset"] . "," . $all["length"];
@@ -117,48 +117,6 @@ class DataBase
             } else {
                 return mysqli_fetch_assoc($result_set);
             }
-        }
-        return false;
-    }
-
-
-    //fetch join data from D.B
-
-    /**
-     * @param array $inner_collection
-     * @param array|string $columns
-     * @param string $where
-     * @param bool|array $all
-     * @return false|array
-     */
-    public function fetch__join(array $inner_collection, array|string $columns="*", string $where="1", bool|array $all=true): false|array
-    {
-        $inner_sql = "";
-        foreach ($inner_collection as $i=> $table){
-            if($i == "0"){
-                $inner_sql .= "`".$table."`"; //primary column
-            } else {
-                $inner_sql .= " INNER JOIN ";
-                $inner_sql .= "`".array_keys($table)[0]."`"; //secondary column
-                $inner_sql .= " ON ".array_values($table)[0]; //on of column
-            }
-        }
-        $sql = "SELECT ".$this->prep_columns($columns)." FROM ".$inner_sql." WHERE ".$where;
-        if(is_array($all)){
-            $sql .= " LIMIT " . $all["offset"] . "," . $all["length"];
-        } else {
-            $sql .= $all ? "" : " LIMIT 1";
-        }
-        $this->last_query = $sql;
-        //die($sql);
-        $rows = [];
-        $result_set = $this->query($sql);
-        if(mysqli_num_rows($result_set) > 0){
-            while($row = mysqli_fetch_assoc($result_set)){
-                $rows[] = $row;
-            }
-            $this->num_rows = count($rows);
-            return $all ? $rows : $rows[0];
         }
         return false;
     }

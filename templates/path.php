@@ -20,7 +20,7 @@ $topics= get__topic("path_id='".$sub."'");
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img " data-aos="zoom-in" data-aos-delay="200">
-                <img src="//<?= f__r("media/images/".$path["img_path"]); ?>" class="img-fluid animated web-img rounded-circle" alt="">
+                <img src="//<?= force_reload("media/images/".$path["img_path"]); ?>" class="img-fluid animated web-img rounded-circle" alt="">
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@ $topics= get__topic("path_id='".$sub."'");
 
 <div class="roadmap-text" style="text-align:left;
 direction:ltr" >
-    <?=h__v($path["introduction"])?html_entity_decode(htmlspecialchars_decode($path["introduction"])):"<h2>set introduction to D.B</h2>";?>
+    <?=has_value($path["introduction"])?html_entity_decode(htmlspecialchars_decode($path["introduction"])):"<h2>set introduction to D.B</h2>";?>
     <?php
     if($topics) {
         foreach ($topics as $topic) {

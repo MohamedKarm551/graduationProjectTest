@@ -1,4 +1,3 @@
 <?php
-$the_hml_data = '';
-$html_code = htmlentities(htmlspecialchars($the_hml_data));
-echo $html_code;
+require "inc.php";
+print_r(handle_url("graduation-project.local/aa/a"));

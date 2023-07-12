@@ -1,7 +1,5 @@
 <?php
 
-use JetBrains\PhpStorm\NoReturn;
-
 defined("__secret__Constant__") or die("no :(");
 
 /**
@@ -9,7 +7,7 @@ defined("__secret__Constant__") or die("no :(");
  * @param string $dir
  * @return string
  */
-function f__r(string $file, string $dir="/dist/"):string
+function force_reload(string $file, string $dir="/dist/"):string
 {
     $f = new File;
     $f->directory = $dir;
@@ -18,26 +16,28 @@ function f__r(string $file, string $dir="/dist/"):string
     return $f->get__file();
 }
 
-#[NoReturn] function r__($location='/'): void
+function redirect($location='/'): void
 {
     header('Location: '.$location);
-    exit;
 }
 
 /**
  * @param string $cat
  * @return array|false
  */
-function h__u(string $cat): array|false
+function handle_url(string $cat): array|false
 {
-    return count(explode("/",$cat)) < 3 ? array_slice(explode("/",$cat), 0, 2) : false;
+    return
+        count(explode("/",$cat)) < 3 ?
+            array_slice(explode("/",$cat), 0, 2) :
+        false;
 }
 
 /**
  * @param $value
  * @return bool
  */
-function h__v($value): bool
+function has_value($value): bool
 {
     $value  = $value ?? "";
     if(is_array($value)) {
